@@ -1,0 +1,25 @@
+objectid_1,marregion,mrgid,iho_sea,iho_id,iho_mrgid,eez,eez_id,country,sovereign,sov_id,eez_mrgid,longitude,latitude,area_m2
+1,Irish part of the Inner Seas off the West Coast of Scotland,25177,Inner Seas off the West Coast of Scotland,18,4283,Irish Exclusive Economic Zone,181,Ireland,Ireland,181,5681,-7.502138528,55.50106212,5258240645
+2,United Kingdom part of the Inner Seas off the West Coast of Scotland,25178,Inner Seas off the West Coast of Scotland,18,4283,United Kingdom Exclusive Economic Zone,180,United Kingdom,United Kingdom,180,5696,-6.285809471,56.5239383,38531637040
+29,Irish part of the Irish Sea and St. George's Channel,25211,Irish Sea and St. George's Channel,19,2357,Irish Exclusive Economic Zone,181,Ireland,Ireland,181,5681,-5.812252518,53.03103294,10382061380
+30,United Kingdom part of the Irish Sea and St. George's Channel,25212,Irish Sea and St. George's Channel,19,2357,United Kingdom Exclusive Economic Zone,180,United Kingdom,United Kingdom,180,5696,-4.507087055,53.56451661,35431677510
+31,United Kingdom part of the Bristol Channel,25213,Bristol Channel,20,3141,United Kingdom Exclusive Economic Zone,180,United Kingdom,United Kingdom,180,5696,-4.023190324,51.39243642,5796461539
+32,Jersey part of the English Channel,25215,English Channel,21,2389,Jersey Exclusive Economic Zone,227,Jersey,United Kingdom,180,21789,-2.230278183,49.08880437,2956071790
+33,Guernsey part of the English Channel,25216,English Channel,21,2389,Guernsey Exclusive Economic Zone,228,Guernsey,United Kingdom,180,21788,-2.732397245,49.64777183,8666394700
+34,United Kingdom part of the English Channel,25217,English Channel,21,2389,United Kingdom Exclusive Economic Zone,180,United Kingdom,United Kingdom,180,5696,-2.405433832,50.24243748,34653791610
+35,French part of the English Channel,25214,English Channel,21,2389,French Exclusive Economic Zone,179,France,France,179,5677,-1.57456286,49.56611962,34700062370
+38,Irish part of the Celtic Sea,25221,Celtic Sea,21A,2351,Irish Exclusive Economic Zone,181,Ireland,Ireland,181,5681,-9.262192185,50.58942807,74372570700
+39,United Kingdom part of the Celtic Sea,25222,Celtic Sea,21A,2351,United Kingdom Exclusive Economic Zone,180,United Kingdom,United Kingdom,180,5696,-7.226242346,49.78520996,85982115190
+40,French part of the Celtic Sea,25220,Celtic Sea,21A,2351,French Exclusive Economic Zone,179,France,France,179,5677,-6.173143493,47.92377667,54829792780
+48,Belgian part of the North Sea,26567,North Sea,4,2350,Belgian Exclusive Economic Zone,59,Belgium,Belgium,59,3293,2.703577502,51.46579792,3444407475
+49,Danish part of the North Sea,25231,North Sea,4,2350,Danish Exclusive Economic Zone,175,Denmark,Denmark,175,5674,6.53974515,56.16930024,49820539270
+50,Dutch part of the North Sea,25232,North Sea,4,2350,Dutch Exclusive Economic Zone,177,Netherlands,Netherlands,177,5668,4.188581712,53.62370559,63727681920
+51,United Kingdom part of the North Sea,25235,North Sea,4,2350,United Kingdom Exclusive Economic Zone,180,United Kingdom,United Kingdom,180,5696,0.340059626,56.67095025,2.45287E+11
+52,Norwegian part of the North Sea,25233,North Sea,4,2350,Norwegian Exclusive Economic Zone,223,Norway,Norway,223,5686,4.058819158,58.5914063,1.19547E+11
+53,French part of the North Sea,25234,North Sea,4,2350,French Exclusive Economic Zone,179,France,France,179,5677,2.104363191,51.18798879,1927370450
+54,German part of the North Sea,22762,North Sea,4,2350,German Exclusive Economic Zone,176,Germany,Germany,176,5669,6.793483894,54.58836692,41350535760
+59,Faeroe Islands part of the Norwegian Sea,25240,Norwegian Sea,6,2353,Faeroe Islands Exclusive Economic Zone,141,Faeroe Islands,Denmark,175,8435,-4.844418082,63.78760913,1.25725E+11
+62,United Kingdom part of the Norwegian Sea,25244,Norwegian Sea,6,2353,United Kingdom Exclusive Economic Zone,180,United Kingdom,United Kingdom,180,5696,-0.610161707,62.0939189,50238018230
+155,Faeroe Islands part of the North Atlantic Ocean,25347,North Atlantic Ocean,23,1912,Faeroe Islands Exclusive Economic Zone,141,Faeroe Islands,Denmark,175,8435,-9.138800169,61.46185207,1.40066E+11
+166,Irish part of the North Atlantic Ocean,25361,North Atlantic Ocean,23,1912,Irish Exclusive Economic Zone,181,Ireland,Ireland,181,5681,-12.62914958,53.05008708,3.18595E+11
+169,United Kingdom part of the North Atlantic Ocean,25362,North Atlantic Ocean,23,1912,United Kingdom Exclusive Economic Zone,180,United Kingdom,United Kingdom,180,5696,-8.853981678,58.40031197,2.5794E+11
