@@ -29,27 +29,29 @@ Finally, for every species we determine whether or not it was present in all sam
 └── scripts/
 ```
 
-* **analysis** - Markdown or Jupyter notebooks
-* **data** - Raw and derived data
-* **docs** - Rendered reports
-* **product** - Output product files
-* **scripts** - Reusable code
+* **analysis** - Markdown notebook with the general workflow used in this product
+* **data** - Raw and derived data. Note that due to the data size, these directories do not contain the actual mass of data of the project. The directories are made to store data when the project is running. There are a few ancillary files in derived_data, needed for running the download and producing maps
+* **docs** - Rendered report of the Markdown document
+* **product** - Output product files. Note that this directory is also empty. Output is several Gbyte large and cannot be stored here
+* **scripts** - The code used for the project. The Markdown document sources these scripts, without actually reproducing them
 
 ## Data series
 
-{{data_series}}
-
-```
-{{data_wfs_request}}
-```
+This product is based on the compilation of a large number of data sets. Details of candidate datasets and datasets actually used are in the code and in the ancillary .csv files. The best summary is given in the file ./data/derived_data/allDatasets_selection.csv. It lists dataset ids, titles, abstracts, as well as fields describing whether the data set has been included and whether it is 'complete' in the sense of having sampled the entire macro-endobenthic community.
+The wfs calls can also be found in the code.
 
 ## Data product
 
-{{data_product_description}}
+The products are of two different kinds.
+Per species a .csv file is made that specifies for each sampling event (in total there are appr. 80000 sampling events) whether the species was present or not. These files are the basis for automated interpolation with DIVA afterwards.
+Per species, these presence/absence data are also rasterized in a relatively fine raster. For each raster cell, the proportion of observations with presence of the species is calculated. The map shows these proportions (between 0 and 1). An example for one species is shown in this document.
+
 
 ## More information:
 
 ### References
+
+
 
 ### Code and methodology
 
@@ -67,4 +69,4 @@ Available to download in:
 
 ### Authors
 
-{{product_authors}}
+Peter M.J. Herman, Willem Stolte, Luuk van der Heijden
