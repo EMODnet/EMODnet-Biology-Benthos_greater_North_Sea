@@ -46,6 +46,7 @@ The products are of two different kinds.
 Per species a .csv file is made that specifies for each sampling event (in total there are appr. 80000 sampling events) whether the species was present or not. These files are the basis for automated interpolation with DIVA afterwards.
 Per species, these presence/absence data are also rasterized in a relatively fine raster. For each raster cell, the proportion of observations with presence of the species is calculated. The map shows these proportions (between 0 and 1). An example for one species is shown in this document.
 
+!(https://github.com/pmjherman/Benthos_greater_North_Sea/blob/master/maps_species_131495_1.png)
 
 ## More information:
 
