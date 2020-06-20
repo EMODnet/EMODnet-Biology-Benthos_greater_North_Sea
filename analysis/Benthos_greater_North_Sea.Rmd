@@ -40,7 +40,7 @@ In this file we perform the (manual) selection of datasets to be used. We also q
 
 In this step, we download the part of all these useful datasets that occur in the region of interest. For practical reasons this region is subdivided in many subregions - in that way the downloaded files are not too big and there is less risk of interruptions of the process. After download, all these files are recombined into one big datafile. 
 
-```{r requestData_step2, echo=TRUE, eval=FALSE}
+```{r requestData_step3, echo=TRUE, eval=FALSE}
 source("./scripts/requestData_step3.R")
 ```
 
@@ -48,6 +48,6 @@ source("./scripts/requestData_step3.R")
 
 For the production of maps, we define 'sampling events' as the ensembles of records that share time and place. We consider such events as one sample. For the incomplete datasets, we inventory what species they have targeted. Finally, for every species we determine whether or not it was present in all sampling events of all relevant datasets. This presence/absence information is written to the output file, together with the spatial location and the sampling date. The intention is to use this information to produce interpolated maps covering also the non-sampled space. As a first step in visualisation, we rasterize this information and show it in a map per species. 
 
-```{r requestData_step2, echo=TRUE, eval=FALSE}
+```{r produce_maps, echo=TRUE, eval=FALSE}
 source("./scripts/produce_maps.R")
 ```
