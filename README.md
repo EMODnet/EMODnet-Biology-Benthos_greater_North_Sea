@@ -44,6 +44,7 @@ The wfs calls can also be found in the code.
 
 The products are of two different kinds.
 
+![example product Lanice conchilega](https://github.com/pmjherman/Benthos_greater_North_Sea/blob/master/maps_species_131495_1.png)
 
 Per species the presence or absence in each of the sampling events is recorded as a Boolean variable. Output is restricted to species that have been found more than 200 times in the entire dataset, but this can be changed in the code. This file is to be used as a basis for the production of interpolation maps, but can also be used as a basis for clustering and descriptive analyses.
 
