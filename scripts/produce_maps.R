@@ -94,18 +94,16 @@ spfr<- trec %>%
 	arrange(desc(n_events))
 nsptoplot<-length(which(spfr$n_events>200))
 
-############ end of the generic part. What follows is specific for the species #######################
+############ end of the generic part. What follows is a loop over the species #######################
 
 spmin<-1
 spmax<-nsptoplot
-
+pdf("./product/species_maps.pdf",width=7,height=9)
   
 for(ss in spmin:spmax){
   spAphId<-spfr$aphiaID[ss]
   specname<-spfr$scientificName[ss]
-  filpdf<-paste0("./data/output/maps_species_",spAphId,".pdf")
-  filspe<-paste0("dats_species_",spAphId,".csv")
-  pdf(filpdf,width=7,height=9)
+  spcolumn<-paste0("pa",spAphId)
   progress(value=ss,max.value=spmax,init=(ss=spmin))
 
     # from the list of incomplete datasets, check if they have our species. Only keep these, drop the others
@@ -116,10 +114,15 @@ for(ss in spmin:spmax){
     spe<- trec %>% filter(datasetid %in% tt_ds$datasetid) %>%
 	               group_by(eventNummer) %>%
 				   summarize(pres_abs= as.numeric(any(aphiaID==spAphId)))  %>%
-				   left_join(events,by='eventNummer')
-    
-    write_delim(spe,file.path(outputDir,filspe), delim = ",")
-    
+				   left_join(events,by='eventNummer') 
+    spesh <- spe %>% 
+      mutate (spcolumn=(pres_abs==1)) %>% 
+      select (- pres_abs)
+    names(spesh)[5]<-spcolumn
+    if(ss==spmin) allspe <- spesh else {
+      spesh  <- spesh  %>% dplyr::select('eventNummer',spcolumn)
+      allspe <- allspe %>% full_join(spesh,by='eventNummer')
+    }
     coordinates(spe)<- ~decimalLongitude+decimalLatitude
     projection(spe)<-proWG
     r1<-rasterize(spe,r,field="pres_abs",fun=mean)
@@ -134,9 +137,11 @@ for(ss in spmin:spmax){
     plot(rs,add=T,col=lcol,legend=FALSE)
     legend("bottomright",col=yor[1:6],pch=15,legend=c("0",">0-0.2",">0.2-0.4",">0.4-0.6",">0.6-0.8",">0.8-1"),
            bg=lcol)
-    dev.off()
 }
 par(bg="white")
+dev.off()
 
-
+spe<-allspe
+save(spe,file="./product/spe.Rdata")
+write_delim(spfr,path="./product/specieslist.csv",delim=",")
 

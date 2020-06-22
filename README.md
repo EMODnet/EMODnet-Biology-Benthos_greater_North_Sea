@@ -19,7 +19,7 @@ Finally, for every species we determine whether or not it was present in all sam
 ## Directory structure
 
 ```
-{{directory_name}}/
+Benthos_greater_North_Sea/
 ├── analysis
 ├── data/
 │   ├── derived_data/
@@ -32,7 +32,7 @@ Finally, for every species we determine whether or not it was present in all sam
 * **analysis** - Markdown notebook with the general workflow used in this product
 * **data** - Raw and derived data. Note that due to the data size, these directories do not contain the actual mass of data of the project. The directories are made to store data when the project is running. There are a few ancillary files in derived_data, needed for running the download and producing maps
 * **docs** - Rendered report of the Markdown document
-* **product** - Output product files. Note that this directory is also empty. Output is several Gbyte large and cannot be stored here
+* **product** - Output product files. A pdf file with maps of the species distributions, and a binary Rdata file with the species presences by event, as well as the characteristics of the events (date and place).
 * **scripts** - The code used for the project. The Markdown document sources these scripts, without actually reproducing them
 
 ## Data series
@@ -43,25 +43,21 @@ The wfs calls can also be found in the code.
 ## Data product
 
 The products are of two different kinds.
-Per species a .csv file is made that specifies for each sampling event (in total there are appr. 80000 sampling events) whether the species was present or not. These files are the basis for automated interpolation with DIVA afterwards.
-Per species, these presence/absence data are also rasterized in a relatively fine raster. For each raster cell, the proportion of observations with presence of the species is calculated. The map shows these proportions (between 0 and 1). An example for one species is shown in this document.
+
+
+Per species the presence or absence in each of the sampling events is recorded as a Boolean variable. Output is restricted to species that have been found more than 200 times in the entire dataset, but this can be changed in the code. This file is to be used as a basis for the production of interpolation maps, but can also be used as a basis for clustering and descriptive analyses.
+
+Per species, the presence/absence data are also rasterized in a relatively fine raster. For each raster cell, the proportion of observations with presence of the species is calculated. The map shows these proportions (between 0 and 1). A pdf file with these maps is included in the directory "product"
 
 
 ## More information:
 
-### References
-
-
-
-### Code and methodology
-
-{{link_code}}
 
 ### Citation and download link
 
 This product should be cited as:
 
-{{product_citation}}
+Herman, P.M.J., Stolte, W., van der Heijden, L. 2020. Summary presence/absence maps of macro-endobenthos in the greater North Sea, based on nearly 100,000 samples from 65 assembled monitoring data sets. EMODNET Biology data product.
 
 Available to download in:
 
