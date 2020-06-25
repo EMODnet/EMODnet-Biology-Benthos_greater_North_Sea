@@ -1,39 +1,28 @@
 aphiaID,scientificName,n_events
-152391,Nemertea,33483
 131187,Spiophanes bombyx,23923
-130537,Scoloplos armiger,23569
 130359,Nephtys hombergii,20960
 141433,Abra alba,20027
 345281,Kurtiella bidentata,19775
 129370,Nephtys,15875
-799,Nematoda,15816
 130357,Nephtys cirrosa,15639
 131495,Lanice conchilega,13795
-129892,Mediomastus fragilis,12877
 138333,Ensis,12870
 131107,Aonides paucibranchiata,12666
 607402,Hilbigneris gracilis,12363
-129884,Heteromastus filiformis,12173
 146907,Fabulina fabula,12125
 130123,Glycera lapidum,12082
-130544,Owenia fusiformis,11942
 880017,Limecola balthica,11744
 124913,Ophiura albida,11648
 124929,Ophiura ophiura,11283
 129710,Polycirrus,11247
 124273,Echinocyamus pusillus,11204
 1360,Actiniaria,10783
-2036,Oligochaeta,10677
 152367,Lagis koreni,10274
-129898,Notomastus latericeus,9956
-130980,Scalibregma inflatum,9884
 152302,Hediste diversicolor,9860
 123776,Asterias rubens,9823
 130599,Pholoe baltica,9681
 139410,Corbula gibba,9604
-129220,Notomastus,9536
 107388,Liocarcinus holsatus,9534
-128545,Phoronis,9527
 140302,Spisula subtruncata,9296
 130616,Eteone longa,9232
 131170,Pygospio elegans,9136
@@ -46,12 +35,8 @@ aphiaID,scientificName,n_events
 151894,Euspira nitida,8204
 129943,Caulleriella alata,8183
 124392,Echinocardium cordatum,8072
-146950,Galathowenia oculata,7867
 103058,Bathyporeia elegans,7762
-123084,Ophiuroidea,7446
-130867,Sabellaria spinulosa,7390
 140430,Mya arenaria,7241
-129876,Capitella capitata,7238
 555935,Spirobranchus triqueter,7235
 129781,Ampharete lindstroemi,7186
 141908,Chamelea striatula,7119
@@ -65,17 +50,13 @@ aphiaID,scientificName,n_events
 140589,Nucula nitidosa,6443
 107150,Galathea intermedia,6370
 129680,Syllis,6367
-130269,Magelona johnstoni,6283
 138998,Cerastoderma edule,6262
-558,Porifera,6206
 140737,Phaxas pellucidus,6150
 141929,Timoclea ovata,6118
 130375,Eunereis longissima,6115
-130491,Ophelia borealis,6092
 130644,Eumida sanguinea,6079
 130100,Diplocirrus glaucus,6044
 131188,Spiophanes kroyeri,6017
-129211,Capitella,6012
 139604,Donax vittatus,6000
 131573,Terebellides stroemii,5779
 111355,Electra pilosa,5723
@@ -100,16 +81,12 @@ aphiaID,scientificName,n_events
 129240,Aphelochaeta,4757
 102915,Perioculodes longimanus,4753
 103235,Urothoe poseidonis,4743
-130271,Magelona mirabilis,4743
 117890,Hydrallmania falcata,4715
 130631,Eulalia mustela,4700
 131117,Dipolydora coeca,4688
-130268,Magelona filiformis,4685
 103060,Bathyporeia guilliamsoniana,4661
 111484,Escharella immersa,4647
-130585,Paradoneis lyra,4632
 107552,Crangon crangon,4619
-146142,Bryozoa,4547
 107199,Diogenes pugilator,4533
 137571,Tubificoides benedii,4517
 111367,Flustra foliacea,4475
@@ -127,11 +104,7 @@ aphiaID,scientificName,n_events
 129659,Myrianida,4196
 102960,Harpinia antennaria,4186
 876821,Tritia reticulata,4148
-143691,Corallinaceae,4133
-1337,Hydrozoa,4110
 101857,Pariambus typicus,4100
-130322,Praxillella affinis,4061
-105,Bivalvia,4041
 152217,Chaetozone christiei,4031
 120020,Gastrosaccus spinifer,3979
 152314,Spio decorata,3973
@@ -139,19 +112,14 @@ aphiaID,scientificName,n_events
 139476,Cylichna cylindracea,3949
 131157,Prionospio fallax,3922
 131077,Sthenelais limicola,3912
-128549,Phoronis muelleri,3908
-129868,Arenicola marina,3872
 141436,Abra prismatica,3859
-130266,Magelona alleni,3767
 140025,Glycymeris glycymeris,3726
 131143,Polydora cornuta,3693
 131185,Spio martinensis,3681
 130126,Glycera oxycephala,3671
 988,Serpulidae,3655
-1080,Copepoda,3652
 939,Polynoidae,3627
 327985,Exogone naidina,3583
-122637,Tubulanus polymorphus,3562
 179538,Nototropis vedlomensis,3549
 130136,Glycinde nordmanni,3543
 117234,Sertularia,3518
@@ -164,16 +132,12 @@ aphiaID,scientificName,n_events
 757970,Parexogone hebes,3443
 129808,Melinna palmata,3423
 101891,Ampelisca brevicornis,3400
-130979,Scalibregma celticum,3380
 111597,Alcyonidium diaphanum,3337
 103226,Urothoe brevicornis,3309
 123206,Amphiuridae,3304
 130363,Nephtys kersivalensis,3276
 101742,Bathyporeia,3252
-129346,Clymenura,3248
 107277,Corystes cassivelaunus,3236
-144296,Ulva,3230
-1839,Ascidiacea,3222
 140590,Nucula nucleus,3193
 130649,Hesionura elongata,3191
 1130,Decapoda,3182
@@ -185,13 +149,11 @@ aphiaID,scientificName,n_events
 141799,Gibbula tumida,3077
 334506,Phyllodoce groenlandica,3075
 131153,Prionospio cirrifera,3071
-152378,Thracia phaseolina,3059
 111351,Conopeum reticulum,3051
 106738,Paguridae,2993
 111730,Disporella hispida,2984
 110829,Schizomavella,2974
 110472,Diastylis bradyi,2917
-130294,Euclymene oerstedii,2899
 125073,Amphiura chiajei,2887
 234850,Alitta succinea,2858
 878470,Macomangulus tenuis,2858
@@ -213,20 +175,16 @@ aphiaID,scientificName,n_events
 129837,Paramphinome jeffreysii,2648
 102057,Unciola crenatipalma,2637
 110445,Bodotria scorpioides,2609
-1268,Sipuncula,2605
 130240,Lumbrineris cingulata,2595
 745846,Polititapes rhomboides,2592
 140295,Lutraria lutraria,2586
 131135,Marenzelleria viridis,2582
-1292,Anthozoa,2577
 152448,Amphictene auricoma,2563
-130578,Levinsenia gracilis,2546
 102460,Leucothoe incisa,2527
 129443,Eteone,2514
 130749,Gattyana cirrhosa,2499
 710680,Oxydromus flexuosus,2492
 130641,Eumida bahusiensis,2488
-923,Maldanidae,2486
 140283,Lucinoma borealis,2475
 130067,Eunice vittata,2464
 110535,Eudorella truncatula,2461
@@ -237,17 +195,13 @@ aphiaID,scientificName,n_events
 1606,Campanulariidae,2421
 101669,Cheirocratus,2418
 102788,Abludomelita obtusata,2414
-129472,Polygordius,2413
 107393,Liocarcinus pusillus,2399
-883,Polychaeta,2397
 131415,Syllis armillaris,2383
 138474,Abra,2380
 111268,Cellepora pumicosa,2377
 102036,Leptocheirus hirsutimanus,2376
 140103,Hiatella arctica,2361
-138549,Thracia,2360
 138159,Spisula,2352
-104906,Branchiostoma lanceolatum,2350
 140873,Gari tellinella,2350
 131193,Streblospio shrubsolii,2345
 134723,Anoplodactylus petiolatus,2342
@@ -271,7 +225,6 @@ aphiaID,scientificName,n_events
 140262,Littorina littorea,2175
 131394,Sphaerosyllis taylori,2174
 102383,Photis longicaudata,2171
-123080,Asteroidea,2167
 140201,Leptochiton cancellatus,2167
 101864,Phtisica marina,2166
 140687,Aequipecten opercularis,2166
@@ -279,7 +232,6 @@ aphiaID,scientificName,n_events
 130235,Lumbrineriopsis paradoxa,2161
 131180,Spio armata,2144
 334514,Phyllodoce rosea,2125
-730747,Aricidea (Aricidea) minuta,2100
 131009,Hydroides norvegica,2099
 131531,Polycirrus medusa,2086
 129964,Cirriformia tentaculata,2082
@@ -299,9 +251,7 @@ aphiaID,scientificName,n_events
 101445,Ampelisca,1962
 146469,Abyssoninoe hibernica,1957
 141912,Dosinia lupinus,1941
-123082,Echinoidea,1940
 140299,Mactra stultorum,1905
-852,Rhodophyta,1903
 102916,Pontocrates altamarinus,1898
 150520,Nymphon brevirostre,1898
 107387,Liocarcinus depurator,1897
@@ -315,14 +265,10 @@ aphiaID,scientificName,n_events
 131131,Malacoceros fuliginosus,1861
 131490,Eupolymnia nesidensis,1858
 211,Mytilidae,1857
-130500,Ophelina acuminata,1854
 111496,Escharella ventricosa,1829
-130982,Sclerocheilus minutus,1828
 138802,Arctica islandica,1828
 136458,Tanaopsis graciloides,1822
-137142,Larus fuscus,1809
 138636,Dosinia,1809
-124287,Echinus esculentus,1808
 131328,Odontosyllis gibba,1804
 111125,Porella concinna,1796
 101933,Ampelisca typica,1783
@@ -343,8 +289,6 @@ aphiaID,scientificName,n_events
 117870,Abietinaria abietina,1690
 131141,Polydora ciliata,1687
 130353,Nephtys assimilis,1684
-130866,Sabellaria alveolata,1673
-2,Animalia,1671
 102377,Megamphopus cornutus,1660
 103068,Bathyporeia pilosa,1660
 131575,Trichobranchus roseus,1659
@@ -356,8 +300,6 @@ aphiaID,scientificName,n_events
 152276,Malmgrenia arenicolae,1641
 131191,Streblospio benedicti,1639
 123200,Ophiuridae,1638
-333034,Aricidea (Acmira) catherinae,1620
-130974,Asclerocheilus intermedius,1612
 141907,Chamelea gallina,1603
 1039839,Steromphala cineraria,1600
 140431,Mya truncata,1599
@@ -365,7 +307,6 @@ aphiaID,scientificName,n_events
 101489,Corophium,1596
 100665,Edwardsiidae,1589
 103233,Urothoe marina,1584
-130494,Ophelia limacina,1582
 130131,Glycera unicornis,1572
 111061,Reptadeonella violacea,1570
 103166,Stenothoe marina,1569
@@ -373,26 +314,19 @@ aphiaID,scientificName,n_events
 117809,Nemertesia antennina,1565
 118995,Gnathia oxyuraea,1547
 110462,Iphinoe trispinosa,1546
-1078,Ostracoda,1543
 131458,Syllis variegata,1541
 488966,Nototropis swammerdamei,1536
 154127,Schistomeringos rudolphi,1532
 107276,Cancer pagurus,1520
 107400,Portumnus latipes,1520
-101,Gastropoda,1515
 102798,Cheirocratus sundevallii,1514
-137133,Uria aalge,1514
 876640,Ensis leei,1508
 107647,Pandalina brevirostris,1506
 129840,Aphrodita aculeata,1503
-111878,Lagotia viridis,1499
 136050,Golfingia (Golfingia) vulgaris,1499
 129337,Lumbrineris,1493
-127986,Cyprideis torosa,1490
-525497,Aricidea (Acmira) cerrutii,1488
 117913,Sertularia cupressina,1485
 140733,Ensis ensis,1470
-126792,Callionymus lyra,1464
 155194,Malmgrenia lunulata,1462
 130452,Aponuphis bilineata,1453
 129619,Polydora,1451
@@ -407,7 +341,6 @@ aphiaID,scientificName,n_events
 129290,Diplocirrus,1411
 100834,Urticina felina,1404
 102918,Pontocrates arenarius,1404
-129906,Peresiella clymenoides,1384
 129778,Ampharete finmarchica,1379
 123106,Spatangoida,1374
 948,Syllidae,1373
@@ -418,8 +351,6 @@ aphiaID,scientificName,n_events
 118852,Eurydice pulchra,1347
 130248,Lumbrineris latreilli,1347
 571832,Harmothoe glabra,1346
-1820,Enteropneusta,1331
-1082,Cirripedia,1330
 125195,Amphiura (Ophiopeltis) securigera,1329
 130921,Jasmineira elegans,1327
 111547,Parasmittina trispinosa,1325
@@ -429,9 +360,6 @@ aphiaID,scientificName,n_events
 111464,Rhynchozoon bispinosum,1279
 130769,Harmothoe imbricata,1279
 130920,Jasmineira caudata,1278
-145548,Fucus vesiculosus,1268
-145625,Chondrus crispus,1262
-921,Capitellidae,1257
 102380,Microprotopus maculatus,1250
 107418,Pilumnus hirtellus,1244
 913,Spionidae,1237
@@ -440,16 +368,12 @@ aphiaID,scientificName,n_events
 129777,Ampharete falcata,1234
 130071,Lysidice ninetta,1229
 981,Ampharetidae,1227
-145367,Dictyota dichotoma,1225
 103066,Bathyporeia pelagica,1222
-129430,Aricidea,1219
 982,Terebellidae,1212
 141911,Dosinia exoleta,1203
 130417,Platynereis dumerilii,1201
 141767,Calliostoma zizyphinum,1192
-137156,Rissa tridactyla,1185
 111196,Callopora dumerilii,1182
-145546,Fucus serratus,1180
 111354,Electra monostachys,1179
 131388,Sphaerosyllis hystrix,1173
 130624,Eulalia bilineata,1168
@@ -462,17 +386,12 @@ aphiaID,scientificName,n_events
 131129,Laonice sarsi,1151
 234161,Axinulus croulinensis,1151
 890057,Tritia nitida,1149
-129218,Mediomastus,1148
-129555,Scalibregma,1142
 130198,Syllidia armata,1142
 137570,Tubificoides amplivasatus,1140
-130512,Travisia forbesii,1130
-145108,Corallina officinalis,1130
 103439,Didemnidae,1128
 140870,Gari fervensis,1127
 129792,Eclysippe vanelli,1120
 123426,Echinocardium,1119
-129341,Magelona,1117
 531364,Animoceradocus semiserratus,1110
 129455,Phyllodoce,1100
 129769,Alkmaria romijni,1092
@@ -493,14 +412,10 @@ aphiaID,scientificName,n_events
 107273,Atelecyclus rotundatus,1057
 131334,Palposyllis prosostoma,1055
 111032,Crisia,1054
-140685,Patella vulgata,1054
 117804,Phialella quadrata,1050
 147021,Moerella donacina,1050
-234483,Saccharina latissima,1050
-111796,Pedicellina,1049
 130145,Goniadella gracilis,1049
 130967,Sabella pavonina,1045
-145782,Plocamium cartilagineum,1043
 156961,Petricolaria pholadiformis,1042
 101025,Epizoanthus couchii,1037
 118437,Gnathia,1037
@@ -508,9 +423,6 @@ aphiaID,scientificName,n_events
 107398,Necora puber,1029
 107079,Upogebia,1028
 130613,Eteone flava,1028
-127143,Pleuronectes platessa,1027
-141651,Thracia villosiuscula,1026
-130579,Paradoneis armata,1020
 102048,Microdeutopus gryllotalpa,1013
 117233,Sertularella,1013
 138339,Philine,1011
@@ -525,26 +437,22 @@ aphiaID,scientificName,n_events
 110481,Diastylis laevis,992
 1135,Amphipoda,989
 2039,Naididae,988
-127139,Limanda limanda,988
 110536,Eudorellopsis deformis,986
 124394,Echinocardium flavescens,983
 100991,Sagartia elegans,979
 111186,Amphiblestrum auritum,978
 101871,Pseudoprotella phasma,976
-146932,Paraonis fulgens,970
 131431,Syllis garciai,958
 147026,Mysta picta,958
 138992,Acanthocardia echinata,954
 334510,Phyllodoce maculata,953
 136021,Golfingia,950
 129654,Exogone,949
-130272,Magelona papillicornis,949
 130044,Schistomeringos neglecta,947
 884702,Kirkegaardia dorsobranchialis,945
 506128,Musculus subpictus,942
 152905,Mendicula ferruginosa,940
 140129,Hyala vitrea,939
-793,Platyhelminthes,938
 131174,Scolelepis korsuni,932
 117402,Calycella syringa,930
 107302,Ebalia tumefacta,929
@@ -556,25 +464,15 @@ aphiaID,scientificName,n_events
 107217,Anapagurus hyndmanni,916
 131507,Nicolea venustula,915
 1133,Tanaidacea,914
-145725,Laminaria hyperborea,913
-1789,Phoronida,908
-1066,Crustacea,906
 103862,Botryllus schlosseri,905
-129347,Euclymene,905
 130926,Manayunkia aestuarina,905
 107160,Munida rugosa,903
-122388,Tubulanus,901
 107239,Pagurus prideaux,898
-130523,Orbinia sertulata,897
 141134,Retusa obtusa,896
 118278,Gnathiidae,895
 140264,Littorina saxatilis,888
-144743,Cryptopleura ramosa,887
-145771,Palmaria palmata,882
 141909,Clausinella fasciata,881
-148776,Morus bassanus,876
 102831,Maerella tenuimana,874
-127160,Solea solea,870
 129266,Ophryotrocha,869
 138262,Nucula,867
 130360,Nephtys hystricis,866
@@ -620,39 +518,30 @@ aphiaID,scientificName,n_events
 129944,Caulleriella bioculata,800
 230,Mactridae,799
 129677,Sphaerosyllis,796
-129914,Chaetopterus variopedatus,794
 110444,Bodotria pulchella,789
 130604,Pholoe pallida,789
-145650,Mastocarpus stellatus,789
 100706,Urticina,788
 102408,Ericthonius punctatus,784
-105814,Scyliorhinus canicula,782
-129413,Ophelia,776
 954693,Parathyasira equalis,776
 111391,Hagiosynodos latus,768
-127190,Agonus cataphractus,768
 124670,Thyone fusus,766
 2032,Golfingiidae,763
 147032,Nebalia bipes,763
 111604,Alcyonidium parasiticum,760
-181373,Cochlodesma praetenue,759
 125027,Ophiocomina nigra,753
 129623,Scolelepis,753
 117994,Tubularia indivisa,748
 131436,Syllis hyalina,748
-137128,Alca torda,747
 107327,Inachus dorsettensis,745
 100982,Metridium senile,744
 118842,Conilera cylindracea,741
 111706,Crisidia cornuta,740
 246148,Hemilepton nitidum,738
 23091,Pharidae,737
-137141,Larus canus,737
 110487,Diastylis rathkei,736
 130025,Ophryotrocha hartmanni,734
 107507,Eualus pusiolus,733
 138211,Mya,733
-144847,Osmundea pinnatifida,731
 129851,Apistobranchus tullbergi,728
 336908,Glycera fallax,728
 129249,Tharyx,726
@@ -664,67 +553,50 @@ aphiaID,scientificName,n_events
 110618,Leucon (Leucon) nasica,715
 103719,Ascidiella scabra,714
 111745,Oncousoecia dilatans,714
-143996,Cladophora,713
 130888,Chone duneri,707
-126438,Merlangius merlangus,704
 124455,Labidoplax buskii,703
-127153,Buglossidium luteum,703
-144732,Heterosiphonia plumosa,703
 834039,Crisularia plumosa,703
 103073,Bathyporeia sarsi,702
 129959,Cirratulus cirratus,698
-145199,Phymatolithon calcareum,691
 111358,Pyripora catenularia,690
 118401,Eurydice,688
-129426,Myriochele,686
-144744,Delesseria sanguinea,684
 138223,Modiolus,682
 124635,Leptopentacta elongata,681
 237004,Crassicorophium bonellii,681
 106674,Caridea,679
 131504,Neoamphitrite figulus,679
-221095,Leiochone johnstoni,676
 129620,Prionospio,674
 129445,Eulalia,673
 111418,Fenestrulina malusii,672
-340355,Aricidea (Aricidea) fragilis,669
 111082,Pentapora fascialis,668
 1039850,Steromphala umbilicalis,667
 130464,Hyalinoecia tubicola,665
 102012,Aora gracilis,662
 102061,Unciola planipes,662
 117034,Obelia,662
-130540,Myriochele danielsseni,658
-123083,Holothuroidea,657
 147008,Malmgrenia andreapolis,657
 148637,Eurydice spinigera,656
 103902,Polycarpa fibrosa,650
 106673,Brachyura,650
 134643,Callipallene brevirostris,648
-127126,Arnoglossus laterna,647
 130639,Eulalia viridis,647
 152250,Hypereteone foliosa,647
 110398,Diastylis,643
 195980,Prosphaerosyllis tetralix,643
 111719,Plagioecia patina,639
 422916,Monopseudocuma gilsoni,639
-150630,Echiichthys vipera,638
 117386,Obelia dichotoma,636
 106854,Pagurus,633
 130662,Paranaitis kosteriensis,633
 140577,Nuculana minuta,633
 130176,Microphthalmus similis,632
 110488,Diastylis rugosa,631
-559007,Leiochone leiopygos,631
 129785,Amphicteis midas,630
 129595,Sthenelais,628
-495082,Zostera noltei,623
 102807,Eriopisa elongata,620
 111400,Hippothoa flagellum,620
 124462,Leptosynapta bergensis,619
-334725,Scalibregma stenocerum,619
 129784,Amphicteis gunneri,618
-147758,Verrucaria maura,615
 110524,Eudorella emarginata,613
 160539,Ensis magnus,609
 107323,Hyas coarctatus,607
@@ -733,26 +605,20 @@ aphiaID,scientificName,n_events
 140712,Pecten maximus,606
 130686,Pterocirrus macroceros,605
 139112,Falcidens crossotus,604
-126446,Trisopterus minutus,603
-137146,Larus marinus,602
 141668,Thyasira obsoleta,601
 117736,Lovenella clausa,600
 130878,Branchiomma bombyx,597
 101789,Urothoe,596
 132324,Dysidea fragilis,596
 124373,Brissopsis lyrifera,595
-126752,Ammodytes tobianus,593
 130590,Pectinaria (Amphictene) auricoma,593
 141365,Rissoa parva,591
 236719,Mimachlamys varia,591
 101908,Ampelisca macrocephala,590
 120203,Schistomysis kervillei,590
 152774,Lepidochitona cinerea,590
-145547,Fucus spiralis,588
-146991,Leiochone,587
 110814,Tubuliporidae,585
 140528,Euspira catena,579
-145724,Laminaria digitata,579
 139004,Laevicardium crassum,578
 102497,Acidostoma obesum,573
 110965,Escharella,573
@@ -760,27 +626,19 @@ aphiaID,scientificName,n_events
 103909,Polycarpa pomaria,572
 238104,Ecrobia ventrosa,572
 152272,Ampharete grubei,569
-326605,Aricidea (Aricidea) wassi,569
 221566,Prenantia cheilostoma,568
 867492,Hermania scabra,568
-138691,Acteon tornatilis,567
 110483,Diastylis lucifera,566
 130673,Phyllodoce longipes,566
-145541,Ascophyllum nodosum,566
-129911,Pseudonotomastus southerni,565
 141320,Onoba semicostata,565
 131501,Lysilla nivea,564
 231751,Halecium halecinum,561
-882,Annelida,559
 956,Nephtyidae,559
 107350,Maja squinado,559
-145795,Zostera subg. Zostera marina,559
 102795,Cheirocratus intermedius,558
 131190,Spiophanes wigleyi,558
 129679,Syllides,556
-2081,Chaetognatha,554
 107518,Hippolyte varians,554
-209899,Euclymene lombricoides,554
 130113,Pherusa plumosa,553
 150225,Amphilectus fucorum,553
 946,Hesionidae,552
@@ -788,27 +646,17 @@ aphiaID,scientificName,n_events
 107072,Callianassa,551
 103788,Molgula manhattensis,548
 138952,Caecum glabrum,547
-140291,Lyonsia norwegica,547
 247077,Apseudopsis latreillii,546
 107651,Pandalus montagui,545
 117093,Eudendrium,545
 129854,Arabella iricolor,545
-145712,Hildenbrandia rubra,543
 397383,Crassicorophium crassicorne,542
-129358,Notoproctus,541
 140513,Nassarius reticulatus,541
 145,Naticidae,540
 131500,Lysilla loveni,540
 334811,Sosane wahrbergi,540
-148378,Phoronidae,539
 510534,Echinidea,537
-236458,Diplecogaster bimaculata bimaculata,532
-138312,Patella,530
-145821,Lomentaria articulata,528
 134581,Callipallene,527
-567449,Hydrocoloeus minutus,527
-130542,Myriochele heeri,526
-130330,Rhodine gracilior,525
 467577,Einhornia crustulenta,525
 102779,Tryphosites longipes,521
 102742,Tmetonyx similis,520
@@ -819,12 +667,8 @@ aphiaID,scientificName,n_events
 238200,Myrianida prolifera,513
 863197,Malmgrenia darbouxi,513
 129528,Euchone,509
-143834,Ceramium,509
 100808,Anemonia viridis,508
-55,Polyplacophora,507
 117228,Diphasia,507
-137138,Larus argentatus,506
-10194,Actinopterygii,504
 106213,Balanus balanus,503
 111498,Escharoides coccinea,503
 139959,Emarginula fissura,503
@@ -851,20 +695,10 @@ aphiaID,scientificName,n_events
 967,Lumbrineridae,485
 131121,Dipolydora quadrilobata,485
 128539,Virgularia mirabilis,484
-129433,Paradoneis,484
-631828,Vertebrata byssoides,482
 102021,Autonoe longipes,481
-11676,Pisces,480
-145722,Chorda filum,480
-145660,Phyllophora crispa,477
 594957,Nematonereis unicornis,476
-125537,Gobiidae,475
-126756,Hyperoplus lanceolatus,475
 334508,Phyllodoce lineata,474
-125999,Pomatoschistus,473
-130837,Protodriloides chaetifer,473
 138749,Heteranomia squamula,473
-145064,Cladophora rupestris,473
 333954,Malacoceros tetracerus,470
 111721,Plagioecia sarniensis,467
 140736,Pharus legumen,466
@@ -884,24 +718,17 @@ aphiaID,scientificName,n_events
 131155,Prionospio dubia,456
 110806,Crisiidae,453
 129614,Malacoceros,453
-146951,Galathowenia fragilis,453
 141916,Gouldia minima,452
-127259,Chelidonichthys cuculus,451
-145550,Pelvetia canaliculata,451
-2104,Myodocopida,449
 102039,Leptocheirus pectinatus,447
-126928,Pomatoschistus minutus,447
 181343,Parvicardium pinnulatum,447
 103710,Ascidia mentula,446
 111397,Celleporella hyalina,446
 130137,Goniada emerita,445
 138533,Tellina,444
 129775,Ampharete acutifrons,443
-1806,Echinodermata,440
 111280,Lagenipora lepralioides,440
 140461,Modiolula phaseolina,440
 100994,Sagartia troglodytes,439
-130507,Ophelina modesta,439
 148698,Haplostylus normani,437
 152424,Mendicula pygmaea,435
 131480,Amphitritides gracilis,434
@@ -912,30 +739,21 @@ aphiaID,scientificName,n_events
 101471,Microdeutopus,429
 489646,Dyopedos monacanthus,429
 152274,Nucula turgida,428
-137080,Halichoerus grypus,427
 129615,Marenzelleria,425
 238207,Streptodonta pterochaeta,425
 175,Onchidorididae,424
 111022,Amathia,423
 123920,Luidia ciliaris,422
-130309,Microclymene tricirrata,422
 122314,Lineidae,421
-150637,Eutrigla gurnardus,421
 196003,Syllis pontxioi,421
 111427,Micropora normani,420
 124201,Antedon bifida,420
-130503,Ophelina cylindricaudata,420
 130833,Subadyte pellucida,420
-101160,Priapulus caudatus,419
-145540,Halidrys siliquosa,418
 107557,Philocheras bispinosus,416
 138388,Gari,416
 130598,Pholoe assimilis,415
-126445,Trisopterus luscus,413
 131715,Leucosolenia,413
-145888,Cladostephus spongiosus,413
 111257,Cellaria fistulosa,411
-112299,Astrorhiza,411
 131124,Dipolydora socialis,411
 102736,Tmetonyx cicada,410
 102748,Tryphosa nana,408
@@ -955,16 +773,12 @@ aphiaID,scientificName,n_events
 152260,Scoletoma magnidentata,401
 119000,Gnathia vorax,400
 129594,Sigalion,399
-145613,Calliblepharis ciliata,397
 851788,Lumbrineris futilis,397
 129669,Pionosyllis,396
-256,Thraciidae,395
 110724,Cyclostomatida,395
 140640,Onchidoris muricata,395
 332932,Ampharete octocirrata,395
 101567,Ericthonius,394
-145222,Dilsea carnosa,393
-144758,Membranoptera alata,392
 131534,Polycirrus plumosus,391
 106122,Balanus,389
 130987,Ditrupa arietina,388
@@ -975,34 +789,24 @@ aphiaID,scientificName,n_events
 137349,Grania,385
 131435,Syllis gracilis,383
 103008,Parapleustes bicuspis,382
-143717,Ectocarpaceae,382
 333615,Hesiospina aurantiaca,379
-1311357,Metacallophyllis laciniata,378
 110819,Aetea,377
 140377,Montacuta substriata,377
 137732,Acanthocardia,372
 101558,Gammaropsis,370
-130576,Cirrophorus branchiatus,370
 129671,Proceraea,369
 129821,Sosane sulcata,369
 131452,Syllis prolifera,369
 229,Cardiidae,368
 131399,Streptosyllis bidentata,367
-147760,Verrucaria mucosa,366
-830,Phaeophyceae,365
 106905,Inachus,365
 111411,Membranipora membranacea,365
-51,Mollusca,364
 107688,Processa modica,364
 129525,Chone,364
-145228,Dumontia contorta,364
 131574,Trichobranchus glacialis,363
 138645,Tapes,363
 101397,Melitidae,361
-145202,Phymatolithon lenormandii,360
 106777,Hippolytidae,359
-274304,Microchirus variegatus,359
-130531,Phylo norvegicus,358
 131494,Lanassa venusta,358
 478336,Atherospio guillei,358
 148560,Socarnes erythrophthalmus,357
@@ -1010,9 +814,7 @@ aphiaID,scientificName,n_events
 129246,Dodecaceria,356
 129819,Samytha sexcirrata,356
 129856,Drilonereis filum,356
-145165,Lithothamnion corallioides,356
 147006,Malmgrenia,356
-126795,Callionymus reticulatus,353
 101383,Gammaridae,352
 102281,Gammarus locusta,352
 110866,Scrupocellaria,352
@@ -1029,18 +831,13 @@ aphiaID,scientificName,n_events
 140869,Gari depressa,348
 111473,Schizotheca fissa,347
 118218,Ione thoracica,346
-129551,Asclerocheilus,346
 111518,Escharina johnstoni,345
 131138,Microspio mecznikowianus,345
-128551,Phoronis pallida,344
 129533,Jasmineira,344
-1410,Foraminifera,343
 102141,Tritaeta gibbosa,343
 107318,Eurynome aspera,341
-129420,Orbinia,341
 139903,Vitreolina philippi,341
 110975,Schizoporella,340
-153552,Tectura virginea,340
 129746,Macrochaeta helgolandica,337
 204,Nuculidae,336
 1594,Bougainvilliidae,336
@@ -1048,31 +845,24 @@ aphiaID,scientificName,n_events
 120072,Mesopodopsis slabberi,336
 834002,Bugulina flabellata,336
 117674,Kirchenpaueria pinnata,335
-113843,Astrorhiza limicola,333
-130492,Ophelia celtica,333
 140161,Kellia suborbicularis,333
 532139,Diplocirrus stopbowitzi,333
-1100,Calanoida,330
-130311,Nicomache lumbricalis,330
 332672,Chaetozone vivipara,330
 111539,Scruparia ambigua,328
 136037,Aspidosiphon (Aspidosiphon) muelleri,328
 102137,Guernea (Guernea) coalita,327
 130642,Eumida ockelmanni,327
 410724,Golfingia (Golfingia) vulgaris vulgaris,326
-127262,Chelidonichthys lucerna,325
 134057,Pachymatisma johnstonia,324
 492034,Rullierinereis ancornunezi,324
 876854,Tritia pygmaea,324
 128517,Pennatula phosphorea,323
 107294,Ebalia cranchii,321
 130083,Euphrosine foliosa,321
-144440,Bonnemaisonia asparagoides,321
 152547,Oestergrenia digitata,321
 131512,Parathelepus collaris,320
 738997,Cradoscrupocellaria reptans,320
 140592,Nucula sulcata,319
-127140,Microstomus kitt,318
 130426,Websterinereis glauca,318
 130632,Eulalia ornata,318
 111011,Nolella,317
@@ -1090,10 +880,8 @@ aphiaID,scientificName,n_events
 102665,Orchomene humilis,313
 130036,Parougia caeca,313
 140533,Euspira montagui,313
-145777,Rhodothamniella floridula,313
 102351,Iphimedia spatula,312
 107346,Macropodia tenuirostris,312
-129206,Arenicola,312
 107473,Pinnotheres pisum,311
 445590,Adamsia palliata,311
 111528,Schizoporella hesperia,310
@@ -1108,13 +896,8 @@ aphiaID,scientificName,n_events
 141934,Venus casina,304
 138760,Aporrhais pespelecani,303
 106834,Galathea,302
-130291,Euclymene droebachiensis,302
-144773,Phycodrys rubens,302
 110851,Callopora,301
 119950,Anchialina agilis,301
-125930,Callionymus,301
-145267,Kallymenia reniformis,301
-731235,Aricidea (Acmira) simonae,301
 131538,Streblosoma bairdi,300
 141454,Sepiola atlantica,300
 900,Terebellida,299
@@ -1132,34 +915,26 @@ aphiaID,scientificName,n_events
 102369,Gammaropsis palmata,291
 125125,Ophiopholis aculeata,291
 138313,Aequipecten,291
-144595,Halurus flosculosus,291
 101388,Isaeidae,290
 111521,Phaeostachys spinifera,290
 136486,Tanaissus lilljeborgi,289
 138288,Onchidoris,289
-145796,Zostera subg. Zosterella noltei,289
-126996,Pholis gunnellus,287
-1267,Cnidaria,286
 129245,Cirriformia,286
 131038,Salmacina dysteri,286
 130143,Goniadella bobrezkii,285
 129805,Melinna elisabethae,283
-145605,Catenella caespitosa,283
 102599,Lepidepecreum longicornis,282
 943,Sigalionidae,281
 1614,Sertulariidae,281
-129359,Petaloproctus,281
 137590,Saccoglossus,281
 106230,Chthamalus montagui,280
 111202,Cauloramphus spiniferum,280
 131405,Syllides benedicti,280
 106057,Balanidae,279
-137117,Phocoena phocoena,279
 938,Aphroditidae,278
 102345,Iphimedia minuta,278
 103538,Polycarpa,278
 107742,Upogebia stellata,278
-145984,Ulva lactuca,278
 13552,Leptothecata,277
 332710,Claviramus candelus,277
 334741,Scolelepis (Scolelepis) foliosa,277
@@ -1167,29 +942,20 @@ aphiaID,scientificName,n_events
 138961,Calyptraea chinensis,276
 102981,Metaphoxus fultoni,274
 129141,Macrochaeta,274
-130281,Clymenura borealis,274
-130514,Leitoscoloplos mammosus,274
 130948,Perkinsiana rubra,273
-326587,Aricidea (Acmira) laubieri,273
-994,Protodrilidae,272
-130529,Phylo grubei,272
 136457,Pseudoparatanais batei,272
 100986,Actinothoe sphyrodeta,271
 110440,Bodotria arenosa,270
 111695,Crisia denticulata,270
-130712,Polygordius appendiculatus,270
-146978,Heteroclymene robusta,270
 101016,Corynactis viridis,269
 102611,Lysianassa plumosa,269
 102771,Tryphosella sarsi,269
 110516,Lamprops fasciatus,269
 132181,Grantia compressa,269
 107254,Nephrops norvegicus,268
-130326,Praxillella praetermissa,268
 138543,Cuthona,268
 131081,Ephesiella abyssorum,267
 102924,Synchelidium haplocheles,266
-130331,Rhodine loveni,266
 325958,Parasabella,266
 130636,Eulalia tripunctata,265
 141700,Tricolia pullus,264
@@ -1198,77 +964,51 @@ aphiaID,scientificName,n_events
 100987,Cereus pedunculatus,261
 340203,Oxydromus pallidus,261
 933783,Ensis directus,261
-924,Opheliidae,260
-141644,Thracia convexa,260
-145855,Rhodymenia pseudopalmata,260
 111374,Securiflustra securifrons,259
 129714,Thelepus,259
-145360,Dictyopteris polypodioides,259
 103570,Didemnum maculosum,258
 125340,Sarcodictyon roseum,258
-144749,Erythroglossum laciniatum,258
-152232,Euclymeninae,258
-140560,Neomenia carinata,257
 139951,Diodora graeca,256
 530920,Parasabella cambrensis,256
 103064,Bathyporeia nana,254
 117702,Lafoea dumosa,253
 129850,Apistobranchus tenuis,253
 133150,Raspailia (Raspailia) ramosa,253
-137166,Sterna sandvicensis,253
 135209,Madrepora oculata,252
 238198,Myrianida langerhansi,252
 322588,Terebellinae,252
 111621,Flustrellidra hispida,251
-105883,Raja clavata,250
 138675,Acanthochitona crinita,250
 103759,Perophora listeri,248
-145590,Gelidium pusillum,248
 882442,Dialychone collaris,248
-137162,Sterna hirundo,247
-144842,Osmundea hybrida,246
 547074,Kroyera carinata,246
-902,Orbiniidae,245
-143808,Porphyra,245
-145735,Saccorhiza polyschides,245
 130909,Euchone rubrocincta,244
 1245747,Desmophyllum pertusum,244
 102989,Phoxocephalus holbolli,243
 118936,Cymodoce truncata,243
 129937,Aphelochaeta filiformis,243
-1107,Thoracica,241
 111281,Omalosecosa ramulosa,241
 129458,Pterocirrus,241
 130830,Polynoe scolopendrina,241
 131285,Dioplosyllis cirrosa,241
 235,Tellinidae,240
 118859,Natatolana borealis,240
-129520,Sabellaria,240
 247,Myidae,239
-1102,Harpacticoida,239
 111509,Neolagenipora collaris,239
 130735,Bylgides sarsi,239
 131321,Haplosyllis spongicola,236
 107154,Galathea squamifera,235
-127204,Taurulus bubalis,234
-329882,Owenia borealis,234
 101395,Lysianassidae,233
 107319,Eurynome spinosa,233
 111260,Cellaria sinuosa,233
-129557,Sclerocheilus,233
-144854,Rhodomela confervoides,233
 148714,Morchellium argus,233
 102292,Gammarus salinus,232
 137739,Parvicardium,232
 141543,Solecurtus scopula,232
 106763,Portunidae,231
 140266,Melarhaphe neritoides,231
-903,Paraonidae,230
 106760,Majidae,230
-129213,Dasybranchus,230
 129697,Lanice,230
-129879,Capitella minima,230
-147144,Sarsinebalia typhlops,230
 154918,Fabriciidae,230
 1137,Cumacea,229
 13551,Anthoathecata,229
@@ -1278,59 +1018,40 @@ aphiaID,scientificName,n_events
 101571,Jassa,228
 107054,Processa,228
 135085,Caryophyllia,228
-145307,Desmarestia aculeata,228
-151365,Caudofoveata,228
 131508,Nicolea zostericola,227
 100653,Actiniidae,226
 131499,Loimia medusa,226
 131519,Pista mediterranea,226
 153131,Alloteuthis subulata,226
-475211,Vertebrata lanosa,226
 103443,Ascidiidae,225
-144603,Plumaria plumosa,225
-637672,Vertebrata fucoides,225
 100776,Sagartia,224
 101497,Atylus,224
 101898,Ampelisca gibba,224
 138228,Mytilus,224
 141444,Sepia officinalis,224
-144756,Hypoglossum hypoglossoides,224
-145551,Himanthalia elongata,224
 488957,Nototropis guttatus,224
-1340378,Carradoriella elongata,224
 106231,Chthamalus stellatus,223
-126964,Ctenolabrus rupestris,223
 131071,Pelogenia arenosa,223
 241154,Monodaeus couchii,223
 102691,Orchomenella nana,222
 130141,Goniada norvegica,222
 146895,Aora typica,222
-347056,Delavalia,222
 130367,Ceratocephale loveni,221
 138456,Rissoa,221
-145716,Alaria esculenta,221
-146420,Tunicata,221
 994123,Acromegalomma vesiculosum,221
 124685,Neopentadactyla mixta,220
 423507,Medicorophium affine,220
 129861,Notocirrus scoticus,219
-292684,Acari,219
-10331,Pleuronectiformes,218
-138413,Odostomia,218
-145620,Furcellaria lumbricalis,218
 138135,Littorina,217
 138920,Neptunea antiqua,217
-130327,Praxillura longissima,216
 107561,Philocheras sculptus,215
 100730,Edwardsia,213
 130206,Lacydonia miranda,213
 101958,Haploops tubicola,212
 111079,Hippoporina pertusa,212
 142005,Yoldiella philippiana,212
-145617,Rhodophyllis divaricata,212
 139217,Bela nebula,211
 103702,Ascidia conchilega,210
-111958,Astrorhizidae,210
 130263,Scoletoma impatiens,210
 131166,Pseudopolydora antennata,210
 132480,Axinella infundibuliformis,210
@@ -1340,16 +1061,12 @@ aphiaID,scientificName,n_events
 140658,Ostrea edulis,209
 195972,Paraehlersia ferrugina,209
 117258,Tubularia,208
-136987,Alcidae,208
 264171,Jaera (Jaera) albifrons,208
-295874,Acrosorium ciliolatum,208
 129681,Trypanosyllis,207
 131362,Proceraea cornuta,207
-145594,Gelidium spinosum,207
 103674,Polyclinum aurantium,206
 111187,Amphiblestrum flemingii,206
 138157,Lutraria,206
-416218,Ruppia cirrhosa,206
 102485,Liljeborgia pallida,205
 138899,Colus gracilis,205
 141690,Tornus subcarinatus,205
@@ -1365,7 +1082,6 @@ aphiaID,scientificName,n_events
 129496,Lepidonotus,203
 110464,Cumopsis fagei,202
 110567,Cumella (Cumella) pygmaea,202
-145668,Polyides rotunda,202
 596189,Spio symphyta,202
 130610,Chaetoparia nilssoni,201
 140767,Barnea candida,201
@@ -1376,23 +1092,15 @@ aphiaID,scientificName,n_events
 138580,Tritonia,198
 295579,Astacilla dilatata,198
 111683,Entalophoroecia deflexa,197
-118139,Anurida maritima,197
 130763,Harmothoe fragilis,197
 140033,Goniodoris nodosa,197
-147701,Verrucaria,197
 876825,Tritia incrassata,197
-126436,Gadus morhua,196
-130508,Ophelina norvegica,196
 138590,Gibbula,196
-145310,Desmarestia viridis,196
 155091,Polynoinae,196
 131292,Eusyllis lamelligera,195
-146345,Halurus equisetifolius,195
 952,Glyceridae,194
-1821,Chordata,194
 110993,Alcyonidium,194
 111653,Triticella flava,194
-125469,Gadidae,194
 129331,Abyssoninoe,194
 133543,Hemimycale columella,194
 1398927,Gilvossius tyrrhenus,194
@@ -1404,30 +1112,20 @@ aphiaID,scientificName,n_events
 111644,Penetrantia concharum,192
 138068,Hiatella,192
 868065,Pista maculata,192
-1818,Hemichordata,191
 111060,Reptadeonella insidiosa,190
 129301,Goniadella,190
 111760,Tubulipora liliacea,189
 169466,Myxilla (Myxilla) incrustans,189
-1271,Entoprocta,188
-146949,Galathowenia,188
-1302,Pycnogonida,187
 107322,Hyas araneus,187
-129357,Nicomache,187
-145808,Chylocladia verticillata,187
 100916,Halcampa chrysanthellum,186
 103764,Eugyra arenosa,185
 106204,Scalpellum scalpellum,185
-126965,Labrus bergylta,185
 111197,Callopora lineata,184
 120136,Neomysis integer,184
 129437,Pectinaria,184
 689176,Phorcus lineatus,184
 149,Buccinidae,183
 103717,Ascidia virginea,183
-126930,Pomatoschistus pictus,183
-144422,Ahnfeltia plicata,183
-145615,Cystoclonium purpureum,183
 1341823,Amphisbetia distans,183
 101822,Caprella acanthifera,182
 103929,Styela clava,182
@@ -1452,19 +1150,14 @@ aphiaID,scientificName,n_events
 117452,Corymorpha nutans,178
 129661,Opisthodonta,178
 130097,Brada inhabilis,178
-145621,Halarachnion ligulatum,178
 107616,Palaemon serratus,177
 129270,Parougia,177
-129414,Ophelina,177
 130754,Harmothoe antilopes,177
 103662,Aplidium punctum,176
-234462,Ulva compressa,175
 416573,Byblis gaimardii,175
 119822,Mysidae,174
-126986,Mullus surmuletus,174
 140366,Epilepton clarkiae,174
 225814,Monocorophium acherusicum,174
-734530,Aricidea (Strelzovia) roberti,174
 110465,Cumopsis goodsir,173
 130265,Scoletoma tetraura,173
 124661,Pseudothyone raphanus,172
@@ -1473,58 +1166,36 @@ aphiaID,scientificName,n_events
 107333,Inachus phalangium,171
 107722,Axius stirhynchus,171
 141638,Embletonia pulchra,171
-144437,Porphyra umbilicalis,171
 154972,Pista lornensis,171
 181228,Doris pseudoargus,171
 510518,Camarodonta,171
 129200,Drilonereis,170
-144799,Chondria dasyphylla,170
 742228,Lysidice hebes,170
 14634,Mactroidea,169
 103059,Bathyporeia gracilis,169
 107341,Macropodia linaresi,169
-145309,Desmarestia ligulata,169
 103441,Polyclinidae,168
 103851,Pyura microcosmus,168
 129653,Eusyllis,168
-144442,Bonnemaisonia hamifera,168
-126751,Ammodytes marinus,167
-126925,Pomatoschistus lozanoi,167
 134285,Suberites ficus,167
 141334,Pusillina inconspicua,167
-1340,Hexacorallia,166
-2078,Gastrotricha,166
 103743,Corella parallelogramma,166
-125988,Gobius,166
-293496,Teleostei,166
 884676,Kirkegaardia,166
 101376,Corophiidae,165
-126822,Trachurus trachurus,165
 130989,Filograna implexa,165
 834020,Bugulina turbinata,165
 11723,Sepiidae,164
 103450,Styelidae,164
 106782,Crangonidae,164
-130522,Orbinia latreillii,164
 139718,Epitonium clathratulum,164
 140170,Lacuna vincta,164
 140600,Eledone cirrhosa,164
 141790,Gibbula magus,164
-141052,Turbonilla acuta,163
-144683,Pterothamnion plumula,163
-151501,Labrus mixtus,163
 254745,Laonome kroyeri,163
-105887,Raja montagui,162
-128722,Sapphirina,162
 130625,Eulalia expusilla,162
-144233,Zostera,162
 875219,Thyasira polygona,162
 117901,Sertularella gaudichaudi,161
 102431,Jassa falcata,159
-126425,Sprattus sprattus,159
-126555,Lophius piscatorius,159
-145612,Cruoria pellita,158
-145906,Halopteris filicina,158
 1131,Isopoda,157
 102815,Maera grossimana,157
 107155,Galathea strigosa,157
@@ -1532,13 +1203,9 @@ aphiaID,scientificName,n_events
 106903,Hyas,156
 107690,Processa parva,156
 134311,Tethya aurantium,156
-130584,Paradoneis ilvana,155
 141744,Trivia monacha,155
-129360,Praxillella,154
-130977,Polyphysia crassa,154
 131511,Paramphitrite tetrabranchia,154
 100681,Sagartiidae,153
-127156,Pegusa lascaris,153
 129281,Marphysa,153
 131325,Odontosyllis ctenostoma,153
 132219,Leucosolenia complicata,153
@@ -1546,12 +1213,8 @@ aphiaID,scientificName,n_events
 107215,Anapagurus chiroacanthus,152
 138761,Aporrhais serresiana,152
 117883,Diphasia rosacea,151
-126440,Pollachius pollachius,151
-130278,Clymenella cincta,151
-130859,Psammodrilus balanoglossoides,151
 239867,Pycnogonum litorale,151
 110377,Echiurus echiurus,150
-19494,Hydroidolina,149
 102119,Cressa dubia,149
 102299,Gammarus zaddachi,149
 106033,Sessilia,149
@@ -1562,26 +1225,18 @@ aphiaID,scientificName,n_events
 1195,Bopyridae,148
 111184,Alderina imbellis,148
 111601,Alcyonidium hirsutum,148
-127203,Myoxocephalus scorpius,148
 129300,Goniada,148
 129549,Sabella,148
 129602,Sphaerodorum,148
-144129,Fucus,148
-147459,Patella pellucida,148
 102253,Gammarellus homari,147
 102439,Microjassa cumbrensis,147
 103579,Diplosoma listerianum,147
 117902,Sertularella gayi,147
-145152,Lithophyllum incrustans,147
 102347,Iphimedia obesa,146
 103524,Pyura,146
 111062,Aetea anguina,146
-129434,Paraonides,146
-130555,Aricidea cerrutii,146
-234471,Ulva intestinalis,146
 416648,Tritonia hombergii,146
 101430,Caprella,145
-111806,Pedicellina cernua,145
 117364,Campanularia hincksii,145
 117631,Halopteris catharina,145
 130365,Nephtys paradoxa,145
@@ -1589,21 +1244,14 @@ aphiaID,scientificName,n_events
 123985,Anseropoda placenta,144
 134312,Tethya citrina,144
 147154,Similipecten similis,144
-148899,Bacillariophyceae,144
 834041,Crisularia purpurotincta,144
-836211,Pyrgiscus crenatus,144
 106671,Anomura,143
 136431,Leptognathia breviremis,143
-137195,Fulmarus glacialis,143
-127387,Syngnathus acus,142
 574582,Philine quadripartita,142
 101053,Isozoanthus sulcatus,141
 102820,Maera loveni,141
 103791,Molgula occulta,141
-127141,Platichthys flesus,141
 129967,Dodecaceria concharum,141
-130577,Cirrophorus furcatus,141
-339492,Thoracophelia flabellifera,141
 102367,Gammaropsis nitida,140
 102470,Leucothoe spinicarpa,140
 102720,Scopelocheirus hopei,140
@@ -1614,13 +1262,9 @@ aphiaID,scientificName,n_events
 833984,Bugulina angustiloba,140
 130374,Eunereis elitoralis,139
 138748,Anomia ephippium,139
-145623,Chondracanthus acicularis,139
 851584,Amathia citrina,139
 101927,Ampelisca spinimana,138
-127896,Eusarsiella zostericola,138
-139442,Cuspidaria cuspidata,138
 140365,Devonia perrieri,138
-144770,Nitophyllum punctatum,138
 153952,Limaria loscombi,138
 1059649,Centraloecetes striatus,138
 110387,Bodotria,137
@@ -1629,11 +1273,7 @@ aphiaID,scientificName,n_events
 129712,Streblosoma,137
 136284,Apseudes spinosus,137
 142002,Yoldiella lucida,137
-144188,Gracilaria,137
 146803,Chironomus salinarius,137
-147720,Lichina pygmaea,137
-127150,Scophthalmus rhombus,136
-129984,Cossura longocirrata,136
 139488,Scaphander lignarius,136
 175027,Golfingia (Golfingia) margaritacea,136
 478746,Typhlotanais aequiremis,136
@@ -1643,7 +1283,6 @@ aphiaID,scientificName,n_events
 119024,Astacilla longicornis,135
 134275,Suberites carnosus,135
 141753,Calliostoma granulatum,135
-1296,Sipunculidea,134
 129804,Melinna cristata,134
 140627,Acanthodoris pilosa,134
 152233,Eusyllinae,134
@@ -1661,8 +1300,6 @@ aphiaID,scientificName,n_events
 131723,Sycon,131
 139054,Bittium reticulatum,131
 140271,Loligo vulgaris,131
-144191,Hildenbrandia,131
-145271,Meredithia microphylla,131
 181576,Cladotanytarsus,131
 101702,Pontocrates,130
 103029,Stenopleustes nodifera,130
@@ -1673,36 +1310,24 @@ aphiaID,scientificName,n_events
 111249,Scrupocellaria scrupea,129
 130156,Gyptis propinqua,129
 140108,Saxicavella jeffreysi,129
-144457,Bryopsis plumosa,129
 1258721,Amblyosyllis spectabilis,129
 124224,Leptometra celtica,128
-1091,Podocopida,127
 118849,Eurydice inermis,127
-130714,Polygordius lacteus,127
 140735,Ensis siliqua,127
-147724,Caloplaca marina,127
 101002,Sagartiogeton undatus,126
-126898,Gobiusculus flavescens,126
-126903,Lebetus scorpioides,126
 128506,Funiculina quadrangularis,126
 152396,Kelliella miliaris,126
-126793,Callionymus maculatus,125
 130119,Glycera celtica,125
 132277,Clathrina coriacea,125
-137149,Larus ridibundus,125
 235385,Novocrania anomala,125
 103585,Lissoclinum perforatum,124
-105410,Sagitta,124
 130745,Eunoe nodosa,124
 131467,Trypanosyllis zebra,124
 100913,Protanthea simplex,123
-105885,Raja microocellata,123
 107240,Pagurus pubescens,123
 123349,Antedon,123
-127147,Phrynorhombus norvegicus,123
 129642,Spirorbis,123
 131410,Syllides japonicus,123
-147709,Xanthoria parietina,123
 124501,Holothuria (Panningothuria) forskali,122
 130172,Microphthalmus listensis,122
 138432,Retusa,122
@@ -1710,67 +1335,45 @@ aphiaID,scientificName,n_events
 140250,Scutopus ventrolineatus,122
 147109,Polinices,122
 181512,Polycirrinae,122
-1356570,Symphyocladiella parasitica,122
-104,Scaphopoda,121
 102346,Iphimedia nexa,121
 111631,Anguinella palmata,121
 139008,Parvicardium exiguum,121
 146905,Epitonium clathrus,121
-732248,Ellisolandia elongata,121
-734532,Aricidea (Strelzovia) suecica,121
-145847,Cordylecladia erecta,120
 148703,Haplostylus lobatus,120
 1424275,Stelligera montagui,120
 102986,Paraphoxus oculatus,119
-129514,Protodrilus,119
 129660,Odontosyllis,119
 130037,Parougia eliasoni,119
 131474,Amphitrite cirrata,119
 141439,Abra tenuis,119
-145614,Calliblepharis jubata,119
-178915,Ceramium virgatum,119
 130174,Microphthalmus sczelkowii,118
 130480,Paradiopatra quadricuspis,118
 138297,Crassostrea,118
-152259,Thracia gracilis,118
 196380,Antalis vulgaris,118
 102811,Gammarella fucicola,117
 129678,Streptosyllis,117
 152397,Tellimya tenella,117
 103852,Pyura squamulosa,116
 123987,Asterina gibbosa,116
-129363,Rhodine,116
 130654,Mystides caeca,116
 141676,Thyasira succisa,116
-145656,Gymnogongrus crenulatus,116
 152454,Paramphitrite birulai,116
 862807,Schizomavella (Schizomavella) teresae,116
 107253,Homarus gammarus,115
 108344,Processa nouveli holthuisi,115
 117285,Aglaophenia tubulifera,115
 120019,Gastrosaccus sanctus,115
-125909,Ammodytes,115
 129274,Schistomeringos,115
-145825,Lomentaria clavellosa,115
-145853,Rhodymenia holmesii,115
-179052,Lamprothamnium,115
 875379,Loripes orbiculatus,115
-126892,Gobius niger,114
 131502,Neoamphitrite affinis,114
 131834,Haliclona,114
 140261,Littorina fabalis,114
-234208,Testudinalia testudinalis,114
-382318,Thracioidea,114
-144737,Apoglossum ruscifolium,113
 155127,Sphaerodoridium minutum,113
-234031,Ruppia maritima,113
 102443,Protomedeia fasciata,112
 117877,Diphasia attenuata,112
 140868,Gari costulata,112
 111343,Cryptosula pallasiana,111
 125057,Amphilepis norvegica,111
-125516,Ammodytidae,111
-129233,Spiochaetopterus,111
 138158,Mactra,111
 157933,Ectopleura larynx,111
 157947,Halecium beanii,111
@@ -1781,10 +1384,8 @@ aphiaID,scientificName,n_events
 117015,Bougainvillia,110
 117399,Rhizocaulus verticillatus,110
 119859,Gastrosaccus,110
-127427,Zeus faber,110
 129627,Streblospio,110
 130738,Enipo kinbergi,110
-144682,Pterothamnion crispum,110
 152252,Ampharetinae,110
 101977,Gitana sarsi,109
 103169,Stenothoe monoculoides,109
@@ -1804,197 +1405,127 @@ aphiaID,scientificName,n_events
 140440,Crenella decussata,107
 141434,Abra longicallus,107
 107564,Pontophilus spinosus,106
-126437,Melanogrammus aeglefinus,106
-126768,Lipophrys pholis,106
-127137,Hippoglossoides platessoides,106
 129702,Neoamphitrite,106
-130518,Orbinia armandi,106
 130984,Apomatus similis,106
 131527,Polycirrus denticulatus,106
-137182,Podiceps cristatus,106
 1648,Sipunculidae,105
 118454,Idotea,105
 129096,Siboglinidae,105
 129548,Pseudopotamilla,105
 133679,Phorbas fictitius,105
-2094,Solenogastres,104
 138186,Mysella,104
 138235,Nassarius,104
-329801,Nicomache (Loxochona) trispinata,104
 596997,Scolelepis (Parascolelepis) gilchristi,104
-922,Arenicolidae,103
 130777,Harmothoe pagenstecheri,103
 131525,Polycirrus aurantiacus,103
 137886,Dentalium,103
-145542,Fucus ceranoides,103
 1599,Corynidae,102
 101580,Leucothoe,102
 134741,Phoxichilidium femoratum,102
-144434,Porphyra purpurea,102
-145065,Cladophora sericea,102
 235864,Haliclona (Rhizoniera) viscosa,102
 118100,Chironomidae,101
 129717,Terebellides,101
-130490,Ophelia bicornis,101
 130684,Pseudomystides spinachia,101
 139486,Roxania utriculus,101
 141291,Manzonia crassa,101
-144937,Elachista fucicola,101
-145908,Sphaerococcus coronopifolius,101
-273571,Symphodus melops,101
 103837,Microcosmus claudicans,100
 130008,Dorvillea rubrovittata,100
 131065,Fimbriosthenelais minor,100
-137188,Gavia stellata,100
 146821,Herentia hyndmanni,100
 150648,Campanulina pumila,100
 107148,Galathea dispersa,99
 117880,Diphasia margareta,99
 118445,Astacilla,99
-127124,Arnoglossus imperialis,99
 130225,Augeneria tentaculata,99
-140684,Patella ulyssiponensis,99
 117930,Tamarisca tamarisca,98
 139825,Haliella stenostoma,98
-144672,Polysiphonia stricta,98
-766122,Cephalotrichidae,98
 107344,Macropodia parva,97
 110492,Diastylis tumida,97
 130238,Lumbrineris aniara,97
-145027,Chaetomorpha linum,97
 148701,Heteromysis (Heteromysis) formosa,97
 752125,Luidia sarsii sarsii,97
 101411,Talitridae,96
-129229,Chaetopterus,96
 131807,Halichondria,96
 141936,Venus verrucosa,96
-143995,Chaetomorpha,96
-145667,Stenogramma interruptum,96
 111632,Nolella dilatata,95
 130891,Chone infundibuliformis,95
 138758,Aplysia punctata,95
-145664,Phyllophora pseudoceranoïdes,95
-836020,Spiralinella spiralis,95
 101679,Melita,94
 110368,Maxmuelleria lankesteri,94
 123182,Synaptidae,94
-127149,Scophthalmus maximus,94
-144546,Ceramium diaphanum,94
-145393,Taonia atomaria,94
-975,Oweniidae,93
 1774,Ostreida,93
 117367,Clytia gracilis,93
 118681,Pseudarachna hirsuta,93
-144032,Dudresnaya,93
 101509,Apherusa,92
 129138,Acrocirrus,92
 138799,Bathyarca pectunculoides,92
 139272,Mangelia costata,92
-144777,Polyneura bonnemaisonii,92
 532035,Gracilechinus elegans,92
 102944,Nicippe tumida,91
 119039,Idotea balthica,91
 131522,Pistella lornensis,91
 134614,Ammothella longipes,91
 134674,Endeis spinosa,91
-141072,Turbonilla lactea,91
-144404,Rhodochorton purpureum,91
 1389226,Cyrillia linearis,91
 966,Eunicidae,90
 100833,Urticina eques,90
 102495,Acidostoma neglectum,90
-130324,Praxillella gracilis,90
 130889,Chone fauveli,90
 130964,Sabella discifera,90
 140082,Hanleya hanleyi,90
-145869,Scytosiphon lomentaria,90
-491650,Brachystomia eulimoides,90
 120177,Praunus flexuosus,89
 129703,Nicolea,89
 130722,Alentia gelatinosa,89
-137174,Stercorarius skua,89
 141308,Onoba aculeus,89
-144705,Sphondylothamnion multifidum,89
-145666,Schottera nicaeensis,89
-326599,Aricidea (Aricidea) albatrossae,89
 102136,Dexamine thea,88
 118374,Munna,88
 124210,Antedon petasus,88
 125401,Swiftia pallida,88
-126417,Clupea harengus,88
-129985,Cossura pygodactylata,88
 130643,Eumida punctifera,88
 131035,Protula tubularia,88
 137916,Doto,88
-144054,Cutleria,88
-147712,Ramalina,88
 195991,Salvatoria swedmarki,88
-238068,Tragula fenestrata,88
 738976,Cradoscrupocellaria ellisii,88
 1600,Eudendriidae,87
 107330,Inachus leptochirus,87
 111210,Crassimarginatella solidula,87
-144839,Odonthalia dentata,87
-145915,Sporochnus pedunculatus,87
 146524,Atrina fragilis,87
 101054,Parazoanthus anguicomus,86
 102387,Photis reinhardi,86
 118235,Pseudione borealis,86
 130168,Microphthalmus aberrans,86
-130486,Armandia polyophthalma,86
 598841,Streptodonta exsulis,86
-1484,Halacaridae,85
 107278,Pirimela denticulata,85
 118990,Gnathia dentata,85
 122817,Oerstedia dorsalis,85
 129686,Amphitrite,85
-129924,Spiochaetopterus typicus,85
 130404,Nereis pelagica,85
 133621,Hymedesmia (Hymedesmia) paupertas,85
-140976,Odostomia acuta,85
-145810,Gastroclonium ovatum,85
-126484,Merluccius merluccius,84
 139691,Entalina tetragona,84
 140830,Limacia clavigera,84
-144018,Lithothamnion,84
-494791,Sargassum muticum,84
 882941,Laona quadrata,84
 117373,Clytia paulensis,83
-126448,Ciliata mustela,83
 130408,Perinereis cultrifera,83
 131114,Boccardiella ligerica,83
 138647,Venerupis,83
-145700,Gracilaria gracilis,83
-146869,Cylindroleberis,83
 157570,Sphaerodoridium claparedii,83
-162555,Melobesioideae,83
-234468,Ulva flexuosa,83
-2853,Polycladida,82
 123612,Amphipholis,82
 124653,Pawsonia saxicola,82
 125161,Echinaster (Echinaster) sepositus,82
-125579,Pleuronectidae,82
 134591,Nymphon,82
 140237,Limatula gwyni,82
-144706,Spyridia filamentosa,82
 107152,Galathea nexa,81
 107506,Eualus occultus,81
 110555,Campylaspis rubicunda,81
 124463,Leptosynapta decaria,81
 130081,Euphrosine borealis,81
 132072,Suberites,81
-139433,Cardiomya costellata,81
 140512,Nassarius pygmaeus,81
-145130,Jania rubens,81
-145297,Cutleria multifida,81
-146793,Chaetomorpha mediterranea,81
 421139,Amphibalanus improvisus,81
 129700,Loimia,80
 131366,Proceraea prismatica,80
 131676,Suberitidae,80
 138821,Astarte elliptica,80
-333044,Aricidea (Aricidea) pseudoarticulata,80
-801,Chlorophyta,79
 102041,Leptocheirus tricristatus,79
 111195,Callopora discreta,79
 140571,Striarca lactea,79
@@ -2014,38 +1545,27 @@ aphiaID,scientificName,n_events
 152254,Pista bansei,78
 165801,Halichondria (Halichondria) bowerbanki,78
 181500,Nothria hyperborea,78
-333843,Lipobranchius jeffreysii,78
 410742,Onchnesoma steenstrupii steenstrupii,78
-494940,Leathesia marina,78
-802,Chlorophyceae,77
-1307,Insecta,77
 101450,Amphilochus,77
 110976,Scruparia,77
-130310,Micromaldane ornithochaeta,77
 130387,Neanthes fucata,77
 132046,Polymastia,77
 139800,Eulima bilineata,77
 141672,Thyasira sarsii,77
-144573,Compsothamnion thuioides,77
 146999,Ligia oceanica,77
 181510,Therochaeta flabellata,77
 607414,Pronucula tenuis,77
-5,Protozoa,76
 110542,Campylaspis costata,76
-126770,Parablennius gattorugine,76
 130913,Fabricia stellaris,76
 140593,Nucula tumidula,76
-143800,Audouinella,76
 334417,Pectinaria belgica,76
 110574,Nannastacus unguiculatus,75
 132159,Alcyonium glomeratum,75
 141251,Alvania testae,75
 141905,Velutina velutina,75
-143832,Callithamnion,75
 532031,Gracilechinus acutus,75
 215,Ostreidae,74
 110956,Reteporella,74
-126929,Pomatoschistus norvegicus,74
 131087,Sphaerodoridium fauchaldi,74
 123,Rissoidae,73
 102710,Perrierella audouiniana,73
@@ -2054,15 +1574,11 @@ aphiaID,scientificName,n_events
 130875,Bispira volutacornis,73
 132473,Axinella dissimilis,73
 137578,Tubificoides insularis,73
-145830,Lomentaria orcadensis,73
 173457,Oxydromus,73
 135,Eulimidae,72
-1341,Octocorallia,72
 103656,Aplidium nordmanni,72
-130530,Phylo kupfferi,72
 132077,Tethya,72
 138984,Capulus ungaricus,72
-139449,Cuspidaria lamellosa,72
 124457,Labidoplax media,71
 129168,Melinna,71
 129737,Panthalis oerstedi,71
@@ -2070,7 +1586,6 @@ aphiaID,scientificName,n_events
 131051,Serpula vermicularis,71
 131570,Octobranchus floriceps,71
 138035,Glycymeris,71
-147723,Caloplaca,71
 150531,Antalis,71
 327423,Chaetozone jubata,71
 192,Aeolidiidae,70
@@ -2078,62 +1593,39 @@ aphiaID,scientificName,n_events
 102002,Ampithoe rubricata,70
 106800,Callianassidae,70
 107689,Processa nouveli,70
-129425,Scoloplos,70
 131123,Dipolydora saintjosephi,70
-145170,Lithothamnion glaciale,70
 146968,Hediste,70
-271509,Bathyraja brachyurops,70
 386411,Boreochiton ruber,70
 852322,Spatangoidea,70
 102264,Echinogammarus incertae sedis planicrurus,69
 102483,Liljeborgia kinahani,69
 110391,Iphinoe,69
 118088,Diptera,69
-126761,Blennius ocellaris,69
-127146,Lepidorhombus whiffiagonis,69
 130127,Glycera rouxii,69
 130764,Harmothoe fraserthomsoni,69
-141025,Odostomia unidentata,69
 142004,Yoldiella nana,69
 851589,Amathia gracilis,69
-101060,Kinorhyncha,68
 103471,Aplidium,68
 118843,Eurydice affinis,68
 123177,Spatangidae,68
-145001,Ralfsia verrucosa,68
-5953,Sagittidae,67
 101704,Synchelidium,67
 102873,Bathymedon longimanus,67
 106126,Chthamalus,67
 111365,Chartella papyracea,67
-111799,Loxosomella,67
 117033,Laomedea,67
 123922,Luidia sarsii,67
 124043,Hippasteria phrygiana,67
-129034,Melinnacheres steenstrupi,67
 134568,Achelia,67
-144067,Dictyosiphon,67
-144438,Asparagopsis armata,67
 152358,Pomatoceros lamarcki,67
-152817,Pandora albida,67
-156451,Themisto compressa,67
 976,Flabelligeridae,66
 101658,Tmetonyx,66
 102840,Melita hergensis,66
 106849,Anapagurus,66
 130128,Glycera tesselata,66
-130301,Macroclymene santanderensis,66
-130305,Maldane sarsi,66
 136135,Rissoides desmaresti,66
 138584,Calliostoma,66
 141230,Alvania punctura,66
 141664,Thyasira granulosa,66
-144221,Rhodothamniella,66
-144272,Sphacelaria,66
-144563,Ceramium shuttleworthianum,66
-144747,Drachiella spectabilis,66
-145606,Caulacanthus ustulatus,66
-147038,Planaria,66
 332927,Ampharete borealis,66
 408266,Fenestrulina delicia,66
 530937,Parasabella torulis,66
@@ -2141,30 +1633,21 @@ aphiaID,scientificName,n_events
 154,Cephalaspidea,65
 965,Onuphidae,65
 102385,Photis pollex,65
-105821,Mustelus asterias,65
 118798,Pleurogonium inerme,65
-127524,Philomedes,65
 129198,Apistobranchus,65
 130197,Podarkeopsis helgolandicus,65
 132079,Timea,65
 138239,Euspira,65
-143968,Elachista,65
-101417,Hyperiidae,64
 101459,Ampithoe,64
 111500,Escharoides mamillata,64
-111844,Loxosomella varians,64
 118759,Munna minuta,64
-122596,Cephalothrix linearis,64
-127261,Chelidonichthys lastoviza,64
 157545,Proclea graffii,64
-1276,Tardigrada,63
 100782,Cerianthus,63
 102758,Tryphosella horingi,63
 107479,Alpheus macrocheles,63
 111320,Membraniporella nitida,63
 117690,Filellum serpens,63
 123384,Echinocyamus,63
-126937,Thorogobius ephippiatus,63
 129248,Protocirrineris,63
 131172,Scolelepis (Scolelepis) cantabra,63
 136285,Apseudes talpa,63
@@ -2179,14 +1662,11 @@ aphiaID,scientificName,n_events
 106837,Pisidia,62
 110733,Calloporidae,62
 117230,Hydrallmania,62
-128550,Phoronis ovalis,62
 129194,Aphrodita,62
 129693,Eupolymnia,62
 130114,Piromis eruca,62
-130292,Euclymene lindrothi,62
 137954,Eubranchus,62
 147031,Nebalia,62
-415154,Candona,62
 971,Dorvilleidae,61
 102860,Melphidippella macra,61
 110749,Flustridae,61
@@ -2196,7 +1676,6 @@ aphiaID,scientificName,n_events
 136253,Tanais,61
 138089,Lepidochitona,61
 231750,Ruditapes philippinarum,61
-234037,Spartina,61
 11782,Octopodidae,60
 100790,Epizoanthus,60
 101037,Epizoanthus papillosus,60
@@ -2210,9 +1689,7 @@ aphiaID,scientificName,n_events
 139965,Emarginula rosea,60
 140464,Modiolus barbatus,60
 140768,Barnea parva,60
-236488,Zeugopterus regius,60
 246140,Tritia,60
-605961,Parthenina decussata,60
 102970,Harpinia mucronata,59
 105468,Spadella cephaloptera,59
 110375,Thalassema thalassema,59
@@ -2220,29 +1697,21 @@ aphiaID,scientificName,n_events
 110897,Puellina,59
 111540,Scruparia chelata,59
 118793,Paramunna bilobata,59
-143723,Fucaceae,59
-152414,Notoplana atomata,59
 100930,Actinauge richardi,58
 101982,Paramphilochoides odontonyx,58
 108207,Philocheras bispinosus bispinosus,58
 111761,Tubulipora lobifera,58
-115394,Leptastacus,58
 131201,Circeis spirillum,58
-137179,Phalacrocorax carbo,58
 137997,Facelina,58
-140942,Eulimella acicula,58
 164273,Leucandra ananas,58
 100815,Aulactinia verrucosa,57
 104872,Eurytemora affinis,57
-105876,Leucoraja naevus,57
 106835,Munida,57
 107163,Munida sarsi,57
 111573,Smittoidea reticulata,57
 117260,Acaulis primarius,57
 130656,Nereiphylla lutea,57
 139265,Mangelia attenuata,57
-142820,Prostheceraeus vittatus,57
-145769,Naccaria wiggii,57
 103582,Diplosoma spongiforme,56
 118510,Paranthura nigropunctata,56
 118958,Lekanesphaera rugicauda,56
@@ -2251,49 +1720,27 @@ aphiaID,scientificName,n_events
 129588,Fimbriosthenelais,56
 129616,Microspio,56
 138323,Pecten,56
-141650,Thracia pubescens,56
-143999,Codium,56
-145728,Laminaria ochroleuca,56
-145800,Prasiola stipitata,56
-1027775,Vertebrata nigra,56
-1311360,Lychaete pellucida,56
-162,Pyramidellidae,55
 103792,Molgula oculata,55
 110722,Cheilostomatida,55
 138633,Chamelea,55
 140235,Limaria hians,55
 140253,Limopsis cristata,55
 335294,Astacilla damnoniensis,55
-438957,Tephromela atra var. atra,55
-559,Calcarea,54
-1128,Euphausiacea,54
 101563,Photis,54
 102168,Apherusa jurinei,54
-105440,Parasagitta elegans,54
-113756,Trifarina angulosa,54
 116999,Aglaophenia,54
 118216,Gyge branchialis,54
 118559,Eugerda tenuimana,54
-127082,Trachinus draco,54
 129402,Nothria,54
-129431,Cirrophorus,54
 130352,Nephtys pente,54
 137388,Limnodrilus,54
-138401,Chrysallida,54
-138421,Turbonilla,54
-144545,Ceramium deslongchampsii,54
-147480,Bryophyta,54
 851599,Amathia pustulosa,54
 100695,Anemonia,53
 111543,Setosella vulnerata,53
-130972,Saccocirrus papillocercus,53
 140474,Musculus niger,53
-145856,Colpomenia peregrina,53
 555677,Dercitus (Dercitus) bucklandi,53
 1047602,Edmundsella pedata,53
-1086,Eumalacostraca,52
 101403,Phoxocephalidae,52
-105815,Scyliorhinus stellaris,52
 107313,Achaeus cranchii,52
 107386,Liocarcinus corrugatus,52
 107397,Macropipus tuberculatus,52
@@ -2304,27 +1751,19 @@ aphiaID,scientificName,n_events
 132201,Leuconia nivea,52
 136443,Leptognathia paramanca,52
 137613,Acanthochitona,52
-140973,Noemiamea dolioliformis,52
-817982,Parthenina interstincta,52
 100999,Sagartiogeton laceratus,51
 102342,Iphimedia eblanae,51
 102764,Tryphosella nanoides,51
-103251,Hyperia galba,51
 111594,Alcyonidium albidum,51
 111679,Annectocyma major,51
 124467,Leptosynapta minuta,51
-127136,Glyptocephalus cynoglossus,51
-128548,Phoronis hippocrepia,51
 129838,Pareurythoe borealis,51
 131629,Axinellidae,51
 134600,Achelia laevis,51
-141031,Ondina diaphana,51
 141531,Skenea serpuloides,51
 141541,Azorinus chamasolen,51
 141675,Thyasira subovata,51
 141774,Clelandella miliaris,51
-143853,Polysiphonia,51
-156078,Ulva clathrata,51
 179650,Idunella picta,51
 236715,Talochlamys pusio,51
 1317687,Cribrilaria venusta,51
@@ -2332,15 +1771,10 @@ aphiaID,scientificName,n_events
 102605,Lysianassa ceratina,50
 106788,Palaemonidae,50
 110797,Penetrantiidae,50
-118086,Collembola,50
-144582,Griffithsia corallinoides,50
-145188,Mesophyllum lichenoides,50
-925,Scalibregmatidae,49
 111066,Aetea sica,49
 111488,Escharella labiosa,49
 118250,Desmosomatidae,49
 124160,Solaster endeca,49
-127151,Zeugopterus punctatus,49
 130659,Nereiphylla rubiginosa,49
 130737,Enipo elisabethae,49
 131152,Prionospio caspersi,49
@@ -2349,7 +1783,6 @@ aphiaID,scientificName,n_events
 238192,Myrianida brachycephala,49
 238263,Syllis licheri,49
 247773,Stenosemus albus,49
-293624,Liparis liparis liparis,49
 1059487,Cribrilina (Cribrilina) cryptooecium,49
 100854,Stomphia coccinea,48
 100927,Peachia cylindrica,48
@@ -2357,14 +1790,10 @@ aphiaID,scientificName,n_events
 103118,Metopa borealis,48
 103548,Archidistoma aggregatum,48
 110593,Petalosarsia declivis,48
-113082,Cassidulina obtusa,48
 117070,Sarsia,48
-122624,Tubulanus albocapitatus,48
 129705,Paramphitrite,48
 136065,Onchnesoma squamatum,48
 137392,Tubifex,48
-144555,Ceramium pallidum,48
-145743,Scinaia furcellata,48
 147020,Moerella,48
 147027,Mysta barbata,48
 238196,Myrianida inermis,48
@@ -2379,48 +1808,27 @@ aphiaID,scientificName,n_events
 107347,Maja brachydactyla,47
 110412,Eudorella,47
 119050,Idotea pelagica,47
-129432,Levinsenia,47
 131289,Eusyllis assimilis,47
 152370,Trophonopsis muricata,47
 597722,Prosphaerosyllis chauseyensis,47
-836896,Dasysiphonia japonica,47
-102,Prosobranchia,46
-105729,Scyliorhinus,46
 106734,Porcellanidae,46
 107683,Processa edulis,46
 119048,Idotea neglecta,46
-129251,Cossura,46
 129961,Cirratulus incertus,46
 131738,Aplysilla,46
 138040,Goniodoris,46
 138127,Limatula,46
-144062,Asperococcus,46
-144099,Ectocarpus,46
-145503,Bifurcaria bifurcata,46
-145655,Erythrodermis traillii,46
-145850,Rhodymenia ardissonei,46
-147060,Nemertes,46
 156,Retusidae,45
 102033,Lembos websteri,45
-106386,Pleurobrachia pileus,45
 118839,Cirolana cranchii,45
-130496,Ophelia rathkei,45
 140820,Pleurobranchus membranaceus,45
-144530,Callithamnion tetricum,45
-144547,Ceramium echionotum,45
-491631,Brachystomia,45
 1608,Haleciidae,44
 103670,Aplidium turbinatum,44
 117377,Gonothyraea loveni,44
 118225,Pleurocrypta galateae,44
 123430,Spatangus,44
-126160,Liparis,44
-126458,Gaidropsarus vulgaris,44
-129870,Arenicolides ecaudata,44
 131134,Malacoceros vulgaris,44
-139450,Cuspidaria obesa,44
 140128,Ceratia proxima,44
-144520,Antithamnionella floccosa,44
 146768,Caprella mutica,44
 166605,Haliclona (Reniera) cinerea,44
 238248,Streptosyllis campoyi,44
@@ -2440,14 +1848,9 @@ aphiaID,scientificName,n_events
 110449,Eocuma dollfusi,43
 111323,Puellina bifida,43
 111676,Walkeria uva,43
-113077,Cassidulina laevigata,43
-125598,Triglidae,43
 129383,Rullierinereis,43
-129903,Notoproctus oculatus,43
 131080,Commensodorum commensalis,43
 138990,Acanthocardia aculeata,43
-144686,Ptilota gunneri,43
-146368,Pterosiphonia complanata,43
 593521,Pleurocrypta porcellanaelongicornis,43
 189,Aeolidioidea,42
 1567,Pycnogonidae,42
@@ -2458,7 +1861,6 @@ aphiaID,scientificName,n_events
 107643,Dichelopandalus bonnieri,42
 111040,Plagioecia,42
 111310,Collarina balzaci,42
-130581,Paradoneis eliasoni,42
 137485,Paranais litoralis,42
 101013,Pachycerianthus multiplicatus,41
 101365,Amphilochidae,41
@@ -2466,20 +1868,15 @@ aphiaID,scientificName,n_events
 110550,Campylaspis legendrei,41
 130476,Paradiopatra fiordica,41
 131411,Syllides longocirratus,41
-140864,Eleutheromenia sierra,41
-144918,Eudesme virescens,41
 146733,Boreotrophon truncatus,41
 150268,Clathrina primordialis,41
-151374,Patella depressa,41
 152234,Aphelochaeta multibranchis,41
 181574,Cryptochironomus,41
 246150,Polititapes aureus,41
 334102,Neanthes nubila,41
-410734,Nephasoma (Nephasoma) diaphanes diaphanes,41
 416615,Alvania beanii,41
 459311,Nebalia reboredae,41
 127,Turritellidae,40
-15308,Corallinales,40
 102276,Gammarus duebeni,40
 103921,Stolonica socialis,40
 107338,Macropodia deflexa,40
@@ -2487,84 +1884,56 @@ aphiaID,scientificName,n_events
 111158,Bugula neritina,40
 117903,Sertularella mediterranea,40
 118766,Uromunna petiti,40
-126872,Buenia jeffreysii,40
 129319,Podarkeopsis,40
 129600,Sphaerodoridium,40
 130072,Marphysa bellii,40
-130497,Ophelia roscoffensis,40
 130992,Filogranula gracilis,40
 132648,Hymeniacidon fallax,40
 140892,Pulsellum affine,40
-145029,Chaetomorpha melagonium,40
-146873,Cyprididae,40
-146960,Gracilariopsis longissima,40
 147068,Ougia,40
-148410,Ilyocryptus sordidus,40
 150894,Polypedilum (Polypedilum) nubeculosum,40
 152365,Lagis,40
 155046,Antinoe finmarchica,40
 256988,Dynamene bidentata,40
-491633,Brachystomia scalaris,40
 530926,Parasabella langerhansi,40
-11707,Cephalopoda,39
 101409,Stenothoidae,39
 103609,Distaplia rosea,39
 120204,Schistomysis ornata,39
 124598,Aslia lefevrei,39
-129344,Clymenella,39
 131367,Procerastea halleziana,39
 133688,Phorbas plumosus,39
-135789,Cancerilla tubulata,39
 140471,Musculus costulatus,39
 140484,Rhomboidella prideauxi,39
 140629,Adalaria proxima,39
 140834,Polycera faeroensis,39
-141143,Rhopalomenia aglaopheniae,39
-144156,Haemescharia,39
-144562,Ceramium secundatum,39
 150457,Onchidoris bilamellata,39
 221538,Celleporina caliciformis,39
 345287,Kurtiella tumidula,39
-347109,Emertonia,39
-369702,Grania,39
 1296684,Pseudotanais denticulatus,39
 101447,Haploops,38
 101694,Monoculodes,38
 101851,Caprella septentrionalis,38
 104055,Terebratulina retusa,38
 107007,Crangon,38
-111793,Pedicellinidae,38
-111798,Loxosoma,38
-116346,Paraleptastacus espinulatus,38
 117636,Schizotricha frutescens,38
 117909,Sertularella tenella,38
 119044,Idotea granulosa,38
-127066,Spondyliosoma cantharus,38
 131025,Placostegus tridentatus,38
 136546,Tanais dulongii,38
 140840,Thecacera pennigera,38
 141539,Skeneopsis planorbis,38
-144051,Peyssonnelia,38
-144501,Aglaothamnion tenuissimum,38
-144755,Haraldiophyllum bonnemaisonii,38
-144844,Osmundea osmunda,38
 147143,Sarsinebalia,38
 236541,Deflexilodes subnudus,38
 333952,Malacoceros fuliginosa,38
 367570,Propebela rufa,38
 1053398,Epimeria (Epimeria) cornigera,38
-1311368,Gaillona hookeri,38
-845,Laminariales,37
 101983,Peltocoxa brevirostris,37
 103449,Pyuridae,37
 110736,Celleporidae,37
 111602,Alcyonidium mamillatum,37
-113118,Lobatula lobatula,37
 120037,Heteromysis (Heteromysis) microps,37
 123148,Antedonidae,37
 124647,Ocnus planci,37
-125477,Gobiesocidae,37
-126927,Pomatoschistus microps,37
 129575,Protula,37
 131970,Myxilla,37
 134592,Anoplodactylus,37
@@ -2574,18 +1943,13 @@ aphiaID,scientificName,n_events
 140282,Lucinella divaricata,37
 154965,Leaena ebranchiata,37
 156066,Dikoleps nitens,37
-182742,Halopteris scoparia,37
 237848,Coracuta obliquata,37
 851593,Amathia imbricata,37
 1607,Campanulinidae,36
 100684,Cerianthidae,36
-101063,Priapulida,36
 102433,Jassa marmorata,36
 103926,Styela canopus,36
 111448,Reteporella beaniana,36
-111834,Loxosomella murmanica,36
-116337,Leptastacus laticaudatus,36
-122321,Tubulanidae,36
 123245,Astropecten,36
 130697,Litocorsa stremma,36
 130700,Pilargis verrucosa,36
@@ -2594,43 +1958,27 @@ aphiaID,scientificName,n_events
 135217,Sphenotrochus (Sphenotrochus) andrewianus,36
 137701,Buccinum,36
 140010,Cadulus subfusiformis,36
-144600,Pleonosporium borreri,36
-145580,Gelidium crinale,36
 153024,Anomioidea,36
 179882,Ampelisca pectenata,36
 181587,Stictochironomus,36
-918,Chaetopteridae,35
 101764,Metopa,35
-105822,Mustelus mustelus,35
 106987,Hippolyte,35
 110543,Campylaspis glabra,35
 111148,Bicellarina alderi,35
 111748,Stomatoporina incurvata,35
-113143,Discorbinella bertheloti,35
 117383,Laomedea neglecta,35
 118801,Pleurogonium rubicundum,35
 124934,Ophiura sarsii,35
-125541,Labridae,35
-126975,Dicentrarchus labrax,35
-129214,Heteromastus,35
 129471,Poecilochaetus,35
 136344,Araphura brevimanus,35
-137858,Cuspidaria,35
 138686,Aclis walleri,35
 139975,Puncturella noachina,35
 140294,Lutraria angustior,35
 141358,Rissoa lilacina,35
-144252,Rhodymenia,35
-147748,Caloplaca thallincola,35
-147752,Pyrenocollema halodytes,35
-842,Ectocarpales,34
 901,Sabellida,34
-1361,Ceriantharia,34
 102437,Jassa pusilla,34
 107032,Palaemon,34
 111273,Celleporina decipiens,34
-111839,Loxosomella phascolosomata,34
-113042,Bulimina marginata,34
 117030,Clytia,34
 117302,Lytocarpia myriophyllum,34
 118751,Munna acanthifera,34
@@ -2642,40 +1990,27 @@ aphiaID,scientificName,n_events
 131882,Eurypon,34
 140529,Euspira fusca,34
 140702,Delectopecten vitreus,34
-141033,Ondina divisa,34
 141443,Sepia elegans,34
-145579,Gelidium corneum,34
 146474,Acholoe squamosa,34
-163275,Antithamnionella ternifolia,34
-254316,Nyctiphanes couchii,34
 1302153,Apolochus spencebatei,34
-993,Polygordiidae,33
 102285,Gammarus oceanicus,33
 107358,Pisa tetraodon,33
 107531,Spirontocaris liljeborgii,33
-113936,Eggerelloides medius,33
 118757,Munna kroyeri,33
 118953,Lekanesphaera hookeri,33
 119898,Praunus,33
 123389,Psammechinus,33
 123448,Labidoplax,33
-126444,Trisopterus esmarkii,33
-126450,Enchelyopus cimbrius,33
 129990,Raricirrus beryli,33
-130320,Petaloproctus tenuis,33
 132296,Aplysilla rosea,33
 138101,Lamellaria,33
 138240,Natica,33
 140709,Palliolum striatum,33
 146830,Oshurkovia littoralis,33
-147713,Ramalina siliquosa,33
 150563,Callipallene emaciata,33
 155424,Phyllodocinae,33
-156279,Osmundea truncata,33
 162687,Antiopella cristata,33
-417607,Adercotryma glomeratum,33
 587704,Palaemon varians,33
-1269,Echiura,32
 1566,Nymphonidae,32
 101572,Microjassa,32
 101883,Ampelisca aequicornis,32
@@ -2686,27 +2021,19 @@ aphiaID,scientificName,n_events
 110616,Leucon (Leucon) fulvus,32
 117125,Kirchenpaueria,32
 124676,Thyone roscovita,32
-127379,Entelurus aequoreus,32
 129280,Lysidice,32
 129488,Gattyana,32
 134632,Paranymphon spinosum,32
 138734,Akera bullata,32
-143897,Polyneura,32
-144079,Punctaria,32
-144535,Ceramium botryocarpum,32
-146959,Gracilariopsis,32
 147000,Limnodriloides scandinavicus,32
 206190,Ptychodera,32
 221521,Schizomavella cornuta,32
-234476,Ulva prolifera,32
 330759,Pista elongata,32
 410717,Aspidosiphon (Aspidosiphon) muelleri muelleri,32
-605957,Parthenina indistincta,32
 884193,Janua heterostropha,32
 994098,Acromegalomma,32
 1601,Hydractiniidae,31
 103050,Paradulichia typica,31
-105865,Amblyraja radiata,31
 106207,Chirona hameri,31
 107120,Solenocera membranacea,31
 107558,Philocheras echinulatus,31
@@ -2717,33 +2044,18 @@ aphiaID,scientificName,n_events
 123143,Solasteridae,31
 123593,Ophiocomina,31
 125134,Ophiothrix luetkeni,31
-126285,Conger conger,31
 129156,Amphicteis,31
-129877,Capitella giardi,31
 130931,Myxicola aesthetica,31
 132216,Leucosolenia botryoides,31
 138531,Macoma,31
 138957,Caecum trachea,31
-144234,Prasiola,31
-144505,Anotrichium furcellatum,31
-144599,Monosporus pedicellatus,31
-144791,Bostrychia scorpioides,31
-145306,Arthrocladia villosa,31
 152,Turridae,30
-2041,Hirudinea,30
-104496,Centropages hamatus,30
 110545,Campylaspis horrida,30
 111020,Triticella,30
 111220,Ramphonotus minax,30
 111538,Schizoporella unicornis,30
-113091,Globocassidulina subglobosa,30
-113772,Uvigerina mediterranea,30
-114035,Cribrostomoides jeffreysii,30
-116333,Arenocaris bifida,30
 117379,Laomedea angulata,30
 124593,Echinocucumis hispida,30
-126449,Ciliata septentrionalis,30
-129361,Praxillura,30
 130915,Fabriciola baltica,30
 134204,Polymastia mamillaris,30
 136256,Typhlotanais,30
@@ -2752,17 +2064,11 @@ aphiaID,scientificName,n_events
 139896,Vitreolina antiflexa,30
 140169,Lacuna parva,30
 141864,Haedropleura septangularis,30
-144303,Vaucheria,30
-144537,Ceramium ciliatum,30
-145313,Asperococcus fistulosus,30
-145588,Gelidium pulchellum,30
-147721,Lichina confinis,30
 148436,Inachinae,30
 151929,Trophonopsis barvicensis,30
 152229,Eteoninae,30
 167617,Clathria (Microciona) atrasanguinea,30
 181501,Ougia subaequalis,30
-480247,Beggiatoa,30
 1355594,Bradabyssa villosa,30
 14638,Veneroidea,29
 101401,Pardaliscidae,29
@@ -2770,47 +2076,33 @@ aphiaID,scientificName,n_events
 102496,Acidostoma nodiferum,29
 103930,Styela coriacea,29
 104062,Macandrevia cranium,29
-106488,Ascidicola rosea,29
 107353,Pisa armata,29
 107741,Upogebia pusilla,29
-113840,Astrorhiza arenaria,29
 118258,Janiridae,29
 125158,Leptasterias (Leptasterias) muelleri,29
-126554,Lophius budegassa,29
-126755,Hyperoplus immaculatus,29
 129340,Scoletoma,29
-129350,Lumbriclymene,29
-129881,Dasybranchus caducus,29
 132069,Pseudosuberites,29
 132511,Phakellia ventilabrum,29
 134697,Nymphon macronyx,29
-140675,Pandora pinna,29
 141807,Jujubinus exasperatus,29
 146984,Hypereteone lactea,29
 195989,Salvatoria limbata,29
 196160,Thalassinidae,29
-234030,Ruppia,29
 236678,Pettibonesia furcosetosa,29
 381057,Acanthocardia tuberculata,29
 388224,Sarsinebalia urgorrii,29
-626059,Pyropia leucosticta,29
 798770,Tanaididae,29
-1311358,Gaillona seposita,29
 895,Eunicida,28
 1564,Callipallenidae,28
 100805,Actinia fragacea,28
-101170,Myxine glutinosa,28
 102059,Unciola leucopis,28
 102403,Ericthonius difformis,28
 102432,Jassa herdmani,28
 103457,Diplosoma,28
-104060,Gwynia capsula,28
 107298,Ebalia granulosa,28
-118128,Petrobius maritimus,28
 124321,Strongylocentrotus droebachiensis,28
 129456,Protomystides,28
 130171,Microphthalmus fragilis,28
-130300,Lumbriclymene minor,28
 131459,Syllis vittata,28
 131523,Polycirrus arcticus,28
 136051,Nephasoma (Nephasoma) abyssorum,28
@@ -2818,22 +2110,16 @@ aphiaID,scientificName,n_events
 137653,Pododesmus,28
 138903,Colus jeffreysianus,28
 140770,Pholas dactylus,28
-144135,Gelidium,28
-144538,Ceramium cimbricum,28
 170654,Polymastia penicillus,28
 333891,Lumbrineris japonica,28
-415940,Rubus,28
 547398,Aglaophamus pulcher,28
 846027,Palposyllis propeweismanni,28
 849065,Bosemprella incarnata,28
-11014,Perciformes,27
 102888,Monoculodes latimanus,27
 103776,Molgula complanata,27
 106877,Corystes,27
-110671,Euphausiidae,27
 111259,Cellaria salicornioides,27
 111337,Puellina praecox,27
-113636,Hyalinea balthica,27
 117039,Calycella,27
 117225,Abietinaria,27
 117628,Antennella secundaria,27
@@ -2848,21 +2134,14 @@ aphiaID,scientificName,n_events
 138818,Astarte borealis,27
 140449,Dacrydium vitreum,27
 140585,Nucula atacellana,27
-141010,Odostomia plicata,27
 141815,Jujubinus striatus,27
-143874,Heterosiphonia,27
-144257,Petalonia,27
-144745,Drachiella heterocarpa,27
 146418,Archiannelida,27
 151910,Malletia obtusa,27
 181511,Thelepodinae,27
 182796,Ledella pustulosa,27
 195986,Salvatoria clavata,27
-234474,Ulva linza,27
-466323,Guttulina austriaca,27
 731113,Brevicirrosyllis weismanni,27
 834010,Bugulina fulva,27
-882559,Aricidea (Acmira) philbinae,27
 14355,Stomatopoda,26
 101405,Podoceridae,26
 101469,Lembos,26
@@ -2870,10 +2149,8 @@ aphiaID,scientificName,n_events
 102164,Apherusa clevei,26
 103179,Austrosyrrhoe fimbriatus,26
 106227,Megatrema anglicum,26
-112373,Saccammina,26
 117907,Sertularella rugosa,26
 118735,Microjaera anisopoda,26
-128389,Pterygocythereis jonesii,26
 129718,Trichobranchus,26
 130158,Hesione splendida,26
 130478,Paradiopatra hispanica,26
@@ -2889,12 +2166,10 @@ aphiaID,scientificName,n_events
 182737,Ulosa digitata,26
 225468,Tellininae,26
 334808,Sosane bathyalis,26
-466011,Trochammina nana,26
 488719,Desmeplagioecia amphorae,26
 1296689,Pseudotanais jonesi,26
 957,Sphaerodoridae,25
 1778,Limidae,25
-1788,Cuspidariidae,25
 9904,Dorididae,25
 100817,Bolocera tuediae,25
 102805,Elasmopus rapax,25
@@ -2902,23 +2177,18 @@ aphiaID,scientificName,n_events
 107044,Pandalus,25
 118994,Gnathia maxillaris,25
 122528,Lineus longissimus,25
-126441,Pollachius virens,25
 130229,Lumbrinerides amoureuxi,25
 137656,Aporrhais,25
 138341,Barnea,25
 138582,Trivia,25
 138819,Astarte crebricostata,25
 139190,Amphissa acutecostata,25
-146401,Scinaia interrupta,25
 146491,Angulus,25
 151320,Pectinoidea,25
 152223,Syllinae,25
 160446,Propebela turricula,25
-330500,Petaloproctus terricolus,25
 416481,Mesacmaea mitchellii,25
 549079,Parametaphoxus tulearensis,25
-814775,Astrononion hamadaense,25
-914,Magelonidae,24
 16352,Filifera,24
 101736,Dyopedos,24
 101915,Ampelisca provincialis,24
@@ -2926,7 +2196,6 @@ aphiaID,scientificName,n_events
 107394,Liocarcinus vernalis,24
 110723,Ctenostomatida,24
 111067,Aetea truncata,24
-115220,Arenopontia,24
 125049,Ophiopsila aranea,24
 125230,Leptasterias (Leptasterias) muelleri muelleri,24
 125366,Eunicella verrucosa,24
@@ -2939,31 +2208,23 @@ aphiaID,scientificName,n_events
 136084,Sipunculus (Sipunculus) nudus,24
 137820,Mangelia,24
 137993,Vitreolina,24
-144149,Rhodophyllis,24
-145033,Cladophora albida,24
 146525,Atylidae,24
-157188,Pylaiella littoralis,24
 238194,Myrianida edwarsi,24
 264177,Jaera (Jaera) ischiosetosa,24
-403903,Salicornia,24
 754208,Idunella mollis,24
 876588,Phascoliophila phascolionis,24
 883967,Thoridae,24
 960,Amphinomidae,23
 1358,Pantopoda,23
-1803,Brachiopoda,23
 14633,Cardioidea,23
 101498,Dexamine,23
 101582,Liljeborgia,23
 106769,Xanthidae,23
 110466,Cumopsis longipes,23
-110690,Meganyctiphanes norvegica,23
 111352,Conopeum seurati,23
-116076,Halectinosoma herdmani,23
 118244,Anthuridae,23
 118273,Cirolanidae,23
 119038,Cleantis prismatica,23
-123081,Crinoidea,23
 123260,Luidia,23
 124710,Psolus phantapus,23
 125109,Ophiactis abyssicola,23
@@ -2979,19 +2240,14 @@ aphiaID,scientificName,n_events
 140708,Palliolum incomparabile,23
 140812,Berthella plumula,23
 142000,Yoldiella jeffreysi,23
-144529,Callithamnion tetragonum,23
-145599,Pterocladiella capillacea,23
 148638,Prodajus ostendensis,23
 167614,Clathria (Microciona) armata,23
-224401,Megastomia conoidea,23
 234162,Axinulus eumyarius,23
 247599,Paratyphlotanais microcheles,23
 334839,Spirorbis (Spirorbis) corallinae,23
 410805,Capnea sanguinea,23
 578334,Harmothoe mariannae,23
-615414,Chrysotila stipitata,23
 174,Goniodorididae,22
-14165,Clitellata,22
 101464,Aora,22
 102975,Harpinia serrata,22
 103119,Metopa bruzelii,22
@@ -3004,20 +2260,12 @@ aphiaID,scientificName,n_events
 111432,Steraechmella buski,22
 111535,Schizoporella patula,22
 111569,Smittoidea marmorea,22
-112330,Haplophragmoides,22
-114003,Reophax fusiformis,22
-115336,Halectinosoma,22
 117117,Hydractinia,22
 122478,Cerebratulus marginatus,22
 122798,Tetrastemma robertianae,22
-126227,Syngnathus,22
-127389,Syngnathus rostellatus,22
-129232,Phyllochaetopterus,22
-129410,Armandia,22
 129561,Ditrupa,22
 129607,Atherospio,22
 129771,Amage auricula,22
-130495,Ophelia neglecta,22
 131368,Procerastea nematodes,22
 131642,Raspailiidae,22
 134260,Pseudosuberites sulphureus,22
@@ -3027,11 +2275,6 @@ aphiaID,scientificName,n_events
 138315,Chlamys,22
 141655,Thyasira biplicata,22
 141961,Vesicomya atlantica,22
-144197,Chorda,22
-144572,Compsothamnion gracillimum,22
-145311,Asperococcus bullosus,22
-146628,Hyella caespitosa,22
-147708,Xanthoria,22
 152248,Psamathe,22
 238648,Syllis krohnii,22
 332976,Anobothrus laubieri,22
@@ -3045,38 +2288,19 @@ aphiaID,scientificName,n_events
 106791,Processidae,21
 106929,Portumnus,21
 107226,Cestopagurus timidus,21
-111795,Barentsia,21
-112754,Triloculina frigida,21
-113083,Cassidulina reniforme,21
-113567,Melonis zaandami,21
-115195,Leptomesochra,21
-115972,Paramphiascopsis longirostris,21
-115980,Psammotopa phyllosetosa,21
 117365,Campanularia volubilis,21
 117413,Opercularella lacerata,21
-126893,Gobius paganellus,21
 129293,Pherusa,21
 129855,Drilonereis brattstroemi,21
-130499,Ophelina abranchiata,21
 131360,Plakosyllis brevipes,21
 135193,Leptopsammia pruvoti,21
-138059,Hedylopsis,21
 138139,Loligo,21
 139379,Raphitoma purpurea,21
-140953,Eulimella scillae,21
-141647,Thracia distorta,21
-142963,Fecampia erythrocephala,21
-143921,Osmundea,21
-144016,Lithophyllum,21
-145681,Solieria chordalis,21
 146844,Patinella radiata,21
 156232,Malacoceros jirkovi,21
 157010,Yoldiella inconspicua,21
 169488,Myxilla (Myxilla) rosacea,21
 182350,Leucon (Leucon) profundus,21
-196139,Cylindroleberididae,21
-238708,Cylindroleberis mariae,21
-558758,Candona neglecta,21
 836033,Magallana gigas,21
 845528,Knoutsodonta depressa,21
 101972,Amphilochus tenuimanus,20
@@ -3084,14 +2308,11 @@ aphiaID,scientificName,n_events
 102401,Ericthonius brasiliensis,20
 103528,Botrylloides,20
 103557,Pycnoclavella aurilucens,20
-104878,Temora longicornis,20
 110471,Diastylis boecki,20
 111263,Buffonellaria divergens,20
 111472,Schizotheca divisa,20
-115815,Evansula pygmaea,20
 117970,Modeeria rotunda,20
 118623,Eurycope producta,20
-122318,Carinomidae,20
 122358,Lineus,20
 123336,Crossaster,20
 130166,Leocrates atlanticus,20
@@ -3099,42 +2320,20 @@ aphiaID,scientificName,n_events
 134113,Thymosia guernei,20
 136054,Nephasoma (Nephasoma) constricticervix,20
 138018,Coryphella,20
-138142,Tectura,20
 138789,Arca tetragona,20
-139610,Nematomenia banyulensis,20
 139859,Melanella polita,20
 140243,Limatula subovata,20
 141139,Volvulella acuminata,20
-144697,Seirospora interrupta,20
-144719,Dasya hutchinsiae,20
-145654,Coccotylus truncatus,20
 156202,Leptosynapta cruenta,20
 175030,Golfingia (Golfingia) muricaudata,20
-183242,Lumbriclymene cylindricauda,20
-254680,Cribroelphidium excavatum,20
-468875,Jania squamata,20
-491656,Jordaniella nivosa,20
-607950,Heteroscleromorpha,20
-113,Patellidae,19
-1205,Hyperiidea,19
 101661,Tryphosella,19
 102870,Arrhis phyllonyx,19
 103145,Parametopa kervillei,19
-113159,Gavelinopsis praegeri,19
-113294,Haynesina germanica,19
-113694,Robertinoides pumilum,19
-115427,Alteutha,19
-115798,Stylicletodes longicaudatus,19
-122626,Tubulanus annulatus,19
 123291,Ceramaster,19
 123320,Porania,19
 123626,Ophiothrix,19
 124470,Rhabdomolgus ruber,19
 124925,Ophiura ljungmani,19
-125522,Callionymidae,19
-126461,Molva molva,19
-127599,Sarsicytheridea,19
-127637,Leptocythere,19
 129652,Eurysyllis,19
 130023,Ophryotrocha gracilis,19
 130242,Lumbrineris coccinea,19
@@ -3144,23 +2343,13 @@ aphiaID,scientificName,n_events
 131617,Sycettidae,19
 134607,Ammothea hilgendorfi,19
 136319,Pseudosphyrapus anomalus,19
-137043,Larus,19
 137779,Chiton,19
 139650,Doto pinnatifida,19
 140249,Scutopus robustus,19
-140674,Pandora inaequivalvis,19
-143825,Aglaothamnion,19
-144007,Corallina,19
-144204,Scinaia,19
-145051,Cladophora laetevirens,19
-145498,Porphyropsis coccinea,19
-145910,Carpomitra costata,19
-147715,Lecanora,19
 148594,Apocorophium lacustre,19
 152301,Escharellidae,19
 181824,Bathycuma brevirostre,19
 226375,Siriella clausii,19
-416745,Rhodophyllis divaricata var. werneri,19
 852864,Parexogone longicirris,19
 862785,Schizomavella (Schizomavella) cornuta,19
 1305584,Paucibranchia kinbergi,19
@@ -3170,7 +2359,6 @@ aphiaID,scientificName,n_events
 101610,Hippomedon,18
 101665,Abludomelita,18
 102725,Socarnes filicornis,18
-104464,Calanus finmarchicus,18
 106669,Dendrobranchiata,18
 106803,Upogebiidae,18
 106875,Atelecyclus,18
@@ -3178,38 +2366,20 @@ aphiaID,scientificName,n_events
 110601,Makrokylindrus (Adiastylis) josephinae,18
 110880,Turbicellepora,18
 111582,Trypostega venusta,18
-113257,Elphidium articulatum,18
-114361,Trochamminopsis pusilla,18
-116359,Leptopontia curvicauda,18
 118182,Pleurocrypta,18
 125056,Amphilepis ingolfiana,18
-125581,Soleidae,18
-125736,Pollachius,18
-129867,Arenicola defodiens,18
 130101,Diplocirrus hirsutus,18
-130279,Clymenella torquata,18
-130284,Clymenura lankesteri,18
 131098,Sphaerodoropsis philippi,18
-131104,Spinther arcticus,18
 131414,Syllis amica,18
 131503,Neoamphitrite edwardsi,18
 131677,Tethyidae,18
 131729,Clathrina,18
-137172,Stercorarius parasiticus,18
 138369,Polycera,18
 138483,Sepiola,18
 139771,Eubranchus tricolor,18
 140173,Lamellaria perspicua,18
 140717,Pseudamussium peslutrae,18
-141147,Rissoella diaphana,18
 141821,Margarites helicinus,18
-143812,Bryopsis,18
-144879,Pseudendoclonium submarinum,18
-145226,Dudresnaya verticillata,18
-145248,Grateloupia filicina,18
-145507,Cystoseira baccata,18
-145624,Chondracanthus teedei,18
-149755,Acartia (Acartiura) clausi,18
 151718,Podocoryna carnea,18
 152333,Polydora (Polydora),18
 178911,Lasaea adansoni,18
@@ -3217,15 +2387,9 @@ aphiaID,scientificName,n_events
 248051,Nudisyllis pulligera,18
 334946,Tomopteris (Johnstonella) helgolandica,18
 344255,Heteroschismoides subterfissus,18
-381180,Dictyota dichotoma var. intricata,18
 416570,Nannonyx goesii,18
 491766,Mytiloidea,18
-637756,Vertebrata furcellata,18
 862791,Schizomavella (Schizomavella) hastata,18
-1339221,Leptosiphonia fibrillosa,18
-1346675,Carradoriella denudata,18
-4,Fungi,17
-860,Ceramiales,17
 100740,Halcampa,17
 101412,Urothoidae,17
 102579,Hippomedon propinqvus,17
@@ -3235,48 +2399,23 @@ aphiaID,scientificName,n_events
 110873,Cellepora,17
 111230,Caberea ellisii,17
 111520,Escharina vulgaris,17
-112290,Ammodiscus,17
-114282,Textularia pseudogramen,17
-115280,Stenocaris,17
-115769,Cletodes longicaudatus,17
-116018,Typhlamphiascus confusus,17
-116858,Arenosetella germanica germanica,17
 118714,Ianiropsis breviremis,17
 122305,Heteronemertea,17
-122639,Tubulanus superbus,17
-127214,Cyclopterus lumpus,17
 129123,Siboglinum norvegicum,17
 129299,Glycinde,17
 129534,Laonome,17
 129601,Sphaerodoropsis,17
 130005,Dorvillea erucaeformis,17
-130319,Petaloproctus borealis,17
 130666,Phyllodoce citrina,17
 131907,Mycale,17
-139452,Cuspidaria parva,17
-140191,Tegulaherpia myodoryata,17
 140509,Nassarius nitidus,17
 140854,Spathoderma clenchi,17
 140893,Pulsellum lofotense,17
-143890,Hypoglossum,17
-143957,Eudesme,17
-144128,Ascophyllum,17
-144199,Laminaria,17
-144245,Lomentaria,17
-144521,Antithamnionella spirographidis,17
-144924,Mesogloia vermiculata,17
-145665,Phyllophora sicula,17
-146899,Nemertea incertae sedis,17
 148427,Inachidae,17
-150105,Halectinosoma sarsii,17
 155163,Demonax brachychona,17
 182418,Campylaspis mansa,17
 245559,Ophiomusa lymani,17
-352826,Leptomesochra eulitoralis,17
-377234,Gayliella flaccida,17
 478763,Typhlotanais plebejus,17
-668195,Vertebrata thuyoides,17
-729901,Wellsopsyllus (Wellsopsyllus) gigas,17
 1062549,Adyte hyalina,17
 111,Fissurellidae,16
 132,Epitoniidae,16
@@ -3288,33 +2427,18 @@ aphiaID,scientificName,n_events
 101957,Haploops tenuis,16
 102040,Leptocheirus pilosus,16
 103456,Didemnum,16
-105891,Raja undulata,16
-106414,Cyclopinidae,16
 107649,Pandalus borealis,16
 110378,Bodotriidae,16
 110479,Diastylis goodsiri,16
 110612,Leucon (Crymoleucon) tener,16
 110942,Microporella,16
 111262,Euginoma vermiformis,16
-112154,Fissurina,16
-112972,Bolivina difformis,16
-113085,Cassidulina teretis,16
-114064,Miliammina fusca,16
-114298,Ammoglobigerina globigeriniformis,16
-115330,Arenosetella,16
-115482,Tachidiella,16
-115485,Zosime,16
-115597,Pseudameira crassicornis,16
-116347,Paraleptastacus holsaticus,16
-116806,Scottopsyllus (Intermediopsyllus) intermedius,16
 117881,Diphasia nigra,16
 118280,Arcturidae,16
 118973,Sphaeroma serratum,16
 124535,Parastichopus tremulus,16
-126961,Centrolabrus exoletus,16
 129285,Euphrosine,16
 129373,Eunereis,16
-129427,Owenia,16
 129451,Nereiphylla,16
 129748,Macrochaeta polyonyx,16
 130903,Euchone analis,16
@@ -3326,39 +2450,22 @@ aphiaID,scientificName,n_events
 136019,Aspidosiphon,16
 136246,Pseudotanais,16
 136381,Paranarthrura insignis,16
-138310,Pandora,16
 138930,Troschelia berniciensis,16
-140085,Hedylopsis spiculifera,16
 141247,Alvania subsoluta,16
-144012,Jania,16
-144060,Arthrocladia,16
-144549,Ceramium gaditanum,16
-144571,Compsothamnion decompositum,16
-145457,Pilinia rimosa,16
 146738,Brania pusilla,16
 152220,Donax variegatus,16
 157381,Euphrosine cirrata,16
-180823,Acanthomenia arcuata,16
 181259,Ennucula corbuloides,16
 183124,Diastylis hastata,16
-326063,Tubularia,16
 488965,Nototropis smitti,16
-500421,Wildemania miniata,16
-527968,Rectoglandulina,16
 535458,Adna anglica,16
-724242,Halectinosoma chrystali,16
-1333554,Leptosiphonia fibrata,16
-1,NA,15
 59,Leptochitonidae,15
 889,Spionida,15
-1071,Malacostraca,15
 1609,Lafoeidae,15
 100667,Halcampidae,15
 101981,Paramphilochoides intermedius,15
 102261,Echinogammarus marinus,15
 102607,Lysianassa insperata,15
-105766,Raja,15
-106437,Cyclopina,15
 106876,Cancer,15
 107205,Lithodes maja,15
 107469,Nepinnotheres pinnotheres,15
@@ -3366,13 +2473,6 @@ aphiaID,scientificName,n_events
 111362,Carbasea carbasea,15
 111516,Escharina dutertrei,15
 111578,Tessaradoma boreale,15
-113070,Stainforthia fusiformis,15
-113869,Halyphysema tumanowiczii,15
-114021,Scherochorella moniliformis,15
-114899,Arhodeoporus gracilipes,15
-115930,Bulbamphiascus imus,15
-115978,Protopsammotopa norvegica,15
-116861,Pseudobradya beduina beduina,15
 117299,Gymnangium montagui,15
 117381,Laomedea exigua,15
 117426,Clava multicornis,15
@@ -3380,15 +2480,12 @@ aphiaID,scientificName,n_events
 117874,Amphisbetia operculata,15
 118917,Limnoria lignorum,15
 122419,Tetrastemma,15
-126224,Hippocampus,15
 129483,Bylgides,15
 129648,Brania,15
 129782,Ampharete petersenae,15
 129800,Lysippe labiata,15
-129920,Phyllochaetopterus socialis,15
 129951,Chaetozone caputesocis,15
 130142,Goniada pallida,15
-130297,Isocirrus planiceps,15
 130800,Lepidonotus clava,15
 131002,Hydroides elegans,15
 131470,Xenosyllis scabra,15
@@ -3402,14 +2499,10 @@ aphiaID,scientificName,n_events
 138646,Timoclea,15
 138804,Armina loveni,15
 139134,Cadlina laevis,15
-139163,Graphis albida,15
 139908,Facelina bostoniensis,15
 140168,Lacuna pallidula,15
 140700,Cyclopecten hoskynsi,15
 141735,Tritonia lineata,15
-144827,Laurencia obtusa,15
-144990,Pseudolithoderma extensum,15
-145020,Chaetomorpha aerea,15
 148604,Apocorophium acutum,15
 150256,Haliclona (Haliclona) urceolus,15
 152389,Hauchiella tribullata,15
@@ -3418,12 +2511,8 @@ aphiaID,scientificName,n_events
 182805,Palio,15
 256154,Microcharon harrisi,15
 331959,Sosane wireni,15
-341077,Chirimia biceps biceps,15
-349407,Bradya scotti,15
-574337,Leiochonini,15
 1307786,Platytyphlops semiornatus,15
 119,Littorinidae,14
-1076,Cladocera,14
 11725,Sepiolidae,14
 100950,Hormathia coronata,14
 101705,Westwoodilla,14
@@ -3431,29 +2520,15 @@ aphiaID,scientificName,n_events
 101897,Ampelisca eschrichtii,14
 102280,Gammarus insensibilis,14
 106039,Balanomorpha,14
-106544,Metacyclopina brevisetosa,14
 106926,Macropipus,14
 107258,Dromia personata,14
 110510,Hemilamprops assimilis,14
 110941,Fenestrulina,14
 111558,Smittina landsborovii,14
-111807,Pedicellina hispida,14
-113110,Pullenia bulloides,14
-115263,Cletodes,14
-115264,Enhydrosoma,14
-115345,Pseudobradya,14
-115397,Paraleptastacus,14
-115422,Paramesochra,14
-115763,Acrenhydrosoma perplexum,14
 117544,Eudendrium capillare,14
 118954,Lekanesphaera levii,14
-125606,Syngnathidae,14
-126904,Lesueurigobius friesii,14
-127419,Capros aper,14
-129435,Paraonis,14
 129475,Adyte,14
 130344,Aglaophamus malmgreni,14
-130506,Ophelina minima,14
 130657,Nereiphylla paretti,14
 130815,Malmgreniella ljungmani,14
 130969,Sabella spallanzanii,14
@@ -3469,23 +2544,13 @@ aphiaID,scientificName,n_events
 138529,Arcopagia,14
 138752,Pododesmus squama,14
 138791,Asperarca nodulosa,14
-139453,Cuspidaria rostrata,14
 139805,Eulima glabra,14
 140270,Loligo forbesii,14
 140306,Katadesmia cuneata,14
-140561,Neomenia dalyelli,14
 140669,Simnia patula,14
 140894,Pulsellum teres,14
-140918,Chrysallida interstincta,14
 141738,Tritonia plebeia,14
-144048,Kallymenia,14
-144293,Blidingia,14
-145076,Rhizoclonium tortuosum,14
-145657,Gymnogongrus griffithsiae,14
-145852,Rhodymenia delicatula,14
 146743,Caecum imperforatum,14
-149916,Sarsameira exilis,14
-150088,Zosimeidae,14
 150239,Clathrina lacunosa,14
 152312,Altenaeum dawsoni,14
 152336,Scolelepis (Parascolelepis),14
@@ -3498,8 +2563,6 @@ aphiaID,scientificName,n_events
 467497,Ennucula granulosa,14
 478773,Typhlotanais trispinosus,14
 578333,Harmothoe fernandi,14
-729904,Wellsopsyllus (Scottopsyllus),14
-1027787,Melanothamnus harveyi,14
 1264229,Aplysilla rubra,14
 191,Facelinidae,13
 14629,Galeommatoidea,13
@@ -3508,7 +2571,6 @@ aphiaID,scientificName,n_events
 102251,Gammarellus angulosus,13
 102371,Gammaropsis sophiae,13
 103131,Metopa propinqua,13
-103367,Oikopleura,13
 103911,Polycarpa pseudoalbatrossi,13
 110349,Echiuridae,13
 110447,Cyclaspoides sarsi,13
@@ -3520,14 +2582,7 @@ aphiaID,scientificName,n_events
 111341,Puellina setosa,13
 111380,Haplopoma impressum,13
 111486,Escharella klugei,13
-112890,Cibicidoides wuellerstorfi,13
-113201,Fissurina danica,13
-113207,Fissurina marginata,13
-115420,Leptopsyllus,13
-115530,Ameiropsis brevicornis,13
-115820,Stenocaris kliei,13
 116371,Longipedia minor,13
-116650,Tachidiopsis cyclopoides,13
 118277,Sphaeromatidae,13
 119870,Leptomysis,13
 120214,Siriella jaltensis,13
@@ -3539,7 +2594,6 @@ aphiaID,scientificName,n_events
 130228,Lumbrinerides acuta,13
 130633,Eulalia parva,13
 130794,Lepidasthenia argus,13
-131102,Spinther oniscoides,13
 132037,Stelligera,13
 134324,Timea fasciata,13
 135205,Fungiacyathus (Bathyactis) marenzelleri,13
@@ -3554,32 +2608,17 @@ aphiaID,scientificName,n_events
 138042,Okenia,13
 138140,Lomanotus,13
 140105,Panomya norvegica,13
-140186,Iothia fulva,13
 140447,Dacrydium ockelmanni,13
-140958,Eulimella ventricosa,13
 141165,Alvania cancellata,13
-142062,Leptoplanidae,13
-143661,Acrochaetiaceae,13
-144102,Hincksia,13
-144431,Porphyra linearis,13
-144690,Ptilothamnion sphaericum,13
-144702,Spermothamnion repens,13
-145950,Blidingia minima,13
-147470,Spongomorpha arcta,13
 154917,Sabellinae,13
 169461,Myxilla (Myxilla) fimbriata,13
-179053,Lamprothamnium papulosum,13
 182641,Schizocuma spinoculatum,13
-232052,Larus michahellis,13
 234163,Axinulus brevis,13
 333778,Laubieriopsis cabiochi,13
-371035,Rhodymenia coespitosella,13
 444382,Lophozozymus incisus,13
-724247,Emertonia holsatica holsatica,13
 222,Lasaeidae,12
 226,Galeommatidae,12
 1781,Semelidae,12
-10193,Elasmobranchii,12
 22610,Oenonidae,12
 101378,Dexaminidae,12
 101581,Idunella,12
@@ -3600,11 +2639,6 @@ aphiaID,scientificName,n_events
 111190,Amphiblestrum solidum,12
 111332,Puellina modica,12
 111522,Schizobrachiella sanguinea,12
-112162,Elphidium,12
-113363,Ioanella tumidula,12
-114165,Lagenammina difflugiformis,12
-115984,Pseudamphiascopsis herdmani,12
-116438,Paramesochra mielkei,12
 117059,Corymorpha,12
 117237,Thuiaria,12
 117393,Orthopyxis integra,12
@@ -3617,10 +2651,6 @@ aphiaID,scientificName,n_events
 120144,Paramysis arenosa,12
 124612,Cucumaria frondosa,12
 124933,Ophiura robusta,12
-126505,Gasterosteus aculeatus,12
-126754,Gymnammodytes semisquamatus,12
-129417,Travisia,12
-129550,Saccocirrus,12
 129598,Ephesiella,12
 129989,Ctenodrilus serratus,12
 130252,Lumbrineris pseudofragilis,12
@@ -3631,10 +2661,8 @@ aphiaID,scientificName,n_events
 131340,Parapionosyllis minuta,12
 131655,Hymedesmiidae,12
 134714,Anoplodactylus angulatus,12
-137057,Gavia,12
 137829,Raphitoma,12
 137871,Scaphander,12
-138438,Rissoella,12
 138451,Onoba,12
 138800,Bathyarca philippiana,12
 139229,Comarmondia gracilis,12
@@ -3643,28 +2671,18 @@ aphiaID,scientificName,n_events
 140002,Cadulus cylindratus,12
 140255,Limopsis minuta,12
 140750,Philine denticulata,12
-140843,Poromya granulata,12
 140847,Pristigloma nitens,12
 141546,Solen marginatus,12
-145765,Nemalion elminthoides,12
 147110,Polygireulima,12
 156073,Echinozone arctica,12
-164811,Demospongiae,12
 176043,Naidinae,12
 178811,Oestergrenia thomsonii,12
 181604,Atlantocuma (Atlantocuma) tenue,12
-182769,Armeria maritima,12
 231749,Ruditapes decussatus,12
-334518,Phylo nudus,12
 473658,Paranarthrurella voeringi,12
 478765,Typhlotanais proctagon,12
-534160,Emertonia paraholsatica,12
-549166,Glabrotelson,12
 723366,Paranarthrurella arctophylax,12
-979,Sabellariidae,11
-1248,Ctenophora,11
 1605,Aglaopheniidae,11
-10329,Scorpaeniformes,11
 15009,Pilargidae,11
 100906,Nematostella vectensis,11
 101436,Phtisica,11
@@ -3682,21 +2700,6 @@ aphiaID,scientificName,n_events
 111652,Farrella repens,11
 111703,Crisia ramosa,11
 111744,Oncousoecia diastoporides,11
-111800,Barentsia benedeni,11
-111808,Pedicellina nutans,11
-112668,Quinqueloculina pygmaea,11
-112877,Cibicides refulgens,11
-112999,Bolivinellina pseudopunctata,11
-113195,Favulina melo,11
-113334,Epistominella exigua,11
-115401,Leptopontia,11
-115589,Proameira hiddensoensis,11
-116140,Pseudobradya minor,11
-116146,Pseudobradya pulchella,11
-116322,Pseudonychocamptus proximus,11
-116364,Syrticola flandricus,11
-116633,Idyanthe pusilla,11
-116638,Idyellopsis typica,11
 117029,Campanularia,11
 118264,Munnopsidae,11
 118385,Paramunna,11
@@ -3708,17 +2711,10 @@ aphiaID,scientificName,n_events
 124672,Thyone inermis,11
 124860,Ophiocten sericeum,11
 124978,Ophiacantha bidentata,11
-126281,Anguilla anguilla,11
-126426,Engraulis encrasicolus,11
-127719,Philomedes globosus,11
 129124,Siboglinum pholidotum,11
 129236,Dysponetus,11
 129261,Dorvillea,11
-129513,Protodriloides,11
 129524,Branchiomma,11
-129986,Cossura soyeri,11
-130329,Proclymene muelleri,11
-130517,Naineris quadricuspida,11
 130719,Acanthicolepis asperrima,11
 130923,Jasmineira schaudinni,11
 131058,Vermiliopsis infundibulum,11
@@ -3727,19 +2723,10 @@ aphiaID,scientificName,n_events
 132796,Haliclona (Gellius) fibulata,11
 134331,Timea stellifasciata,11
 134687,Nymphon gracile,11
-135220,Scyphozoa,11
 136359,Leptognathioides polita,11
 138259,Nuculana,11
 140029,Ancula gibbosa,11
 140104,Hiatella rugosa,11
-143856,Pterothamnion,11
-144426,Porphyra dioica,11
-144462,Derbesia marina,11
-144494,Aglaothamnion feldmanniae,11
-145075,Rhizoclonium riparium,11
-145092,Codium tomentosum,11
-145626,Gigartina pistillata,11
-146316,Hildenbrandiales,11
 150521,Achelia hispida,11
 157019,Graneledone verrucosa,11
 166637,Haliclona (Rhizoniera) rosea,11
@@ -3747,24 +2734,16 @@ aphiaID,scientificName,n_events
 182283,Eudorella aequiremis,11
 182495,Cumella (Cumella) divisa,11
 237596,Leptognathiidae,11
-254690,Oridorsalis umbonatus,11
 327919,Eusthenelais hibernica,11
 334841,Spirorbis (Spirorbis) rupestris,11
-359891,Paraleptastacus spinicaudus,11
-365663,Emertonia coelebs,11
 388029,Grania vikinga,11
 411040,Athenaria,11
-582554,Cancris auricula,11
 712175,Syllis mercedesae,11
 747456,Spirorbis (Spirorbis) cuneatus,11
 820118,Typhlotanais pulcher,11
-849860,Karrerotextularia flintii,11
 880865,Chondrochelia dubia,11
 880874,Chondrochelia savignyi,11
-1039525,Recurvoides trochamminiformis,11
 1318022,Kirkegaardia serrata,11
-1346682,Carradoriella elongella,11
-3,Plantae,10
 148,Muricidae,10
 172,Aplysiidae,10
 187,Dotidae,10
@@ -3777,7 +2756,6 @@ aphiaID,scientificName,n_events
 101554,Iphimedia,10
 101569,Ischyrocerus,10
 101734,Dulichia,10
-101796,Hyperia,10
 101884,Ampelisca amblyops,10
 102009,Sunamphitoe pelagica,10
 102513,Anonyx lilljeborgi,10
@@ -3800,27 +2778,14 @@ aphiaID,scientificName,n_events
 111514,Escharina alderi,10
 111616,Pseudalcyonidium bobinae,10
 111636,Nolella stipata,10
-112078,Ammonia,10
-113234,Parafissurina lateralis,10
-115807,Boreopontia heipi,10
-115821,Stenocaris minor,10
-116041,Ectinosoma melaniceps,10
-116695,Zosime major,10
-116887,Kliopsyllus constrictus constrictus,10
 117401,Calycella gracilis,10
 117842,Protohydra leuckarti,10
-118085,Coleoptera,10
 118266,Paramunnidae,10
 118340,Eurycope,10
 118956,Lekanesphaera monodi,10
 122860,Punnettia splendida,10
-125781,Lepadogaster,10
-126021,Labrus,10
-128460,Philomedes (Philomedes) lilljeborgi,10
 128503,Virgularia,10
 129329,Pelagobia,10
-129352,Maldane,10
-129517,Questa,10
 129685,Amaeana,10
 129927,Chrysopetalum debile,10
 129975,Protocirrineris chrysoderma,10
@@ -3828,11 +2793,9 @@ aphiaID,scientificName,n_events
 130056,Eunice floridana,10
 130207,Heterospio longissima,10
 130254,Ninoe armoricana,10
-130586,Paraonides myriamae,10
 131361,Proceraea aurantiaca,10
 132558,Tethyspira spinosa,10
 134638,Pantopipetta armoricana,10
-135666,Artotrogus orbicularis,10
 136382,Paranarthrura intermedia,10
 136495,Cryptocopoides arcticus,10
 136496,Mystriocentrus serratus,10
@@ -3841,28 +2804,16 @@ aphiaID,scientificName,n_events
 138621,Diplodonta,10
 139085,Cerithiopsis tubercularis,10
 139384,Taranis moerchii,10
-139470,Tropidomya abbreviata,10
 139640,Doto fragilis,10
 139853,Melanella monterosatoi,10
 140001,Cadulus artatus,10
 140166,Jorunna tomentosa,10
-140188,Propilidium exiguum,10
 140407,Ocinebrina aciculata,10
 140747,Philine catena,10
-141022,Odostomia turrita,10
 141203,Alvania lactea,10
 141820,Margarites groenlandicus,10
 141906,Callista chione,10
 141997,Yoldiella frigida,10
-142838,Cryptocelides loveni,10
-144130,Pelvetia,10
-144704,Spermothamnion strictum,10
-145490,Erythrotrichia carnea,10
-145603,Schmitzia hiscockiana,10
-145704,Gracilaria multipartita,10
-145804,Champia parvula,10
-145892,Sphacelaria cirrosa,10
-147735,Ochrolechia parella,10
 150672,Pentapora foliacea,10
 150874,Cricotopus,10
 151717,Hydractinia carnea,10
@@ -3870,7 +2821,6 @@ aphiaID,scientificName,n_events
 152292,Terebellomorpha,10
 152894,Leptaxinus minutus,10
 153375,Facelina auriculata,10
-154920,Nicomachinae,10
 158251,Metridium dianthus,10
 177726,Siphonenteron bilineatum,10
 181040,Pagodula echinata,10
@@ -3878,15 +2828,8 @@ aphiaID,scientificName,n_events
 332670,Chaetozone corona,10
 334693,Raphidrilus nemasoma,10
 334812,Sosane wireni,10
-349205,Beatricella aemula,10
-352830,Leptomesochra tenuicornis,10
-357058,Amphiascus parvulus,10
-491654,Brachystomia carrozzai,10
-497297,Chaetopteris plumosa,10
 541014,Microgloma turnerae,10
 558890,Pseudexogone dineti,10
-637665,Vertebrata fruticulosa,10
-729905,Wellsopsyllus (Scottopsyllus) minor,10
 845991,Myrianida sanmartini,10
 862778,Schizomavella (Calvetomavella) discoidea,10
 886195,Calvadosia cruxmelitensis,10
@@ -3895,13 +2838,11 @@ aphiaID,scientificName,n_events
 1363,Scleractinia,9
 100757,Hormathia,9
 100773,Actinothoe,9
-101095,Priapulus,9
 101384,Haustoriidae,9
 102877,Halicreion aequicornis,9
 103031,Dulichia falcata,9
 103196,Tiron spiniferus,9
 103692,Synoicum pulmonaria,9
-106476,Notodelphys,9
 106964,Hemigrapsus,9
 107011,Pontophilus,9
 107677,Pasiphaea sivado,9
@@ -3922,18 +2863,7 @@ aphiaID,scientificName,n_events
 111317,Distansescharella seguenzai,9
 111480,Escharella abyssicola,9
 111614,Buskia nitens,9
-112168,Epistominella,9
-113186,Hanzawaia concentrica,9
-113193,Favulina hexagona,9
-113332,Eilohedra nipponica,9
-113598,Nonionella auricula,9
-113985,Hormosinella guttifera,9
-114037,Cribrostomoides nitida,9
-115621,Sicameira leptoderma,9
 115723,Canuella perplexa,9
-115812,Cylindropsyllus remanei,9
-116637,Idyella pallidula,9
-116648,Tachidiella minuta,9
 117434,Merona cornucopiae,9
 117554,Eudendrium rameum,9
 117591,Halecium labrosum,9
@@ -3944,18 +2874,10 @@ aphiaID,scientificName,n_events
 122543,Lineus viridis,9
 123111,Dendrochirotida,9
 124419,Spatangus raschi,9
-125519,Blenniidae,9
-126152,Myoxocephalus,9
-126518,Lepadogaster lepadogaster,9
-126835,Cepola macrophthalma,9
-127023,Scomber scombrus,9
-127145,Lepidorhombus boscii,9
 129128,Diplobrachia similis,9
 129278,Eunice,9
 129460,Sige,9
-129604,Spinther,9
 129715,Tomopteris,9
-130510,Polyophthalmus pictus,9
 130640,Eumida arctica,9
 130958,Pseudofabricia aberrans,9
 131126,Laonice appelloefi,9
@@ -3968,7 +2890,6 @@ aphiaID,scientificName,n_events
 136024,Onchnesoma,9
 136039,Aspidosiphon (Akrikos) zinni,9
 136080,Phascolosoma (Phascolosoma) granulatum,9
-137073,Melanitta nigra,9
 137541,Pirodrilus minutus,9
 137885,Dendronotus,9
 137906,Donax,9
@@ -3978,23 +2899,12 @@ aphiaID,scientificName,n_events
 140151,Tonicella marmorea,9
 141707,Crimora papillata,9
 141875,Turtonia minuta,9
-143914,Laurencia,9
-143937,Pseudendoclonium,9
-144126,Cystoseira,9
-144509,Antithamnion cruciatum,9
-144517,Antithamnion villosum,9
-144608,Polysiphonia atlantica,9
-145049,Cladophora hutchinsiae,9
-146627,Hyella,9
 146937,Tellimya,9
-154675,Lumpenus lampretaeformis,9
 156257,Nebalia borealis,9
-158960,Coryphaenoides rupestris,9
 170786,Protosuberites epiphytum,9
 249962,Asajirus indicus,9
 330333,Paranaitis uschakovi,9
 333453,Exogone dispar,9
-349410,Bradya typica,9
 389288,Hemigrapsus takanoi,9
 393741,Mimachlamys varia nivea,9
 416601,Zeuxo holdichi,9
@@ -4007,7 +2917,6 @@ aphiaID,scientificName,n_events
 920,Acrocirridae,8
 100694,Actinia,8
 101442,Pseudoprotella,8
-101800,Themisto,8
 102404,Ericthonius fasciatus,8
 102974,Harpinia propinqua,8
 103658,Aplidium pallidum,8
@@ -4027,30 +2936,7 @@ aphiaID,scientificName,n_events
 111554,Smittina crystallina,8
 111622,Hypophorella expansa,8
 111688,Bicrisia abyssicola,8
-112284,Lenticulina,8
-112603,Pyrgo williamsoni,8
-112896,Gyroidina lamarckiana,8
-113115,Pullenia subcarinata,8
-113780,Amphicoryna scalaris,8
-114982,Lohmannella falcata,8
-115201,Parevansula,8
-115278,Evansula,8
-115333,Ectinosoma,8
-115371,Heterolaophonte,8
-115433,Porcellidium,8
-115541,Filexilia brevipes,8
-115776,Cletodes tenuipes,8
-115811,Cylindropsyllus laevis,8
-115938,Haloschizopera bulbifer,8
-116042,Ectinosoma normani,8
-116067,Halectinosoma curticorne,8
-116074,Halectinosoma gothiceps,8
-116289,Paralaophonte brevirostris,8
 116370,Longipedia helgolandica,8
-116412,Apodopsyllus spinipes,8
-116634,Idyella exigua,8
-116700,Zosime typica,8
-116913,Zosime incrassata incrassata,8
 117535,Eucheilota maculata,8
 118283,Idoteidae,8
 118619,Eurycope iphthima,8
@@ -4065,11 +2951,6 @@ aphiaID,scientificName,n_events
 124464,Leptosynapta galliennii,8
 124694,Thyonidium drummondii,8
 124853,Ophiocten gracilis,8
-125741,Ciliata,8
-126890,Gobius gasteveni,8
-127123,Zoarces viviparus,8
-128392,Robertsonites tuberculatus,8
-129230,Mesochaetopterus,8
 129309,Hesionides,8
 129332,Augeneria,8
 129366,Aglaophamus,8
@@ -4088,36 +2969,21 @@ aphiaID,scientificName,n_events
 136232,Pseudoparatanais,8
 136337,Neotanais peculiaris,8
 136338,Neotanais sandersi,8
-137137,Chlidonias niger,8
-137165,Sterna paradisaea,8
 137573,Tubificoides crenacoleus,8
 137610,Rhabdopleura compacta,8
 138095,Kellia,8
 138120,Lepton,8
-138123,Limapontia,8
-138404,Eulimella,8
 138648,Venus,8
 138709,Aeolidia papillosa,8
 139631,Doto coronata,8
 139747,Iphitus tuberatus,8
 140032,Goniodoris castanea,8
 140630,Diaphorodoris luteocincta,8
-141149,Rissoella opalina,8
 141588,Tellina incarnata,8
-141947,Lyonsiella abyssicola,8
-142231,Notoplana,8
-143883,Delesseria,8
-143922,Pterosiphonia,8
-144504,Anotrichium barbatum,8
-145042,Cladophora dalmatica,8
-145497,Erythrotrichia welwitschii,8
-145721,Undaria pinnatifida,8
 148687,Paratanaoidea,8
 151541,Edwardsiella carnea,8
-154776,Hippocampus guttulatus,8
 154923,Amphicorina,8
 156922,Tanytarsus,8
-157723,Stenhelia gibba,8
 171049,Trachycladus minax,8
 175041,Phascolion (Montuga) pacificum,8
 181554,Pisidium,8
@@ -4132,19 +2998,15 @@ aphiaID,scientificName,n_events
 465551,Hydrobia acuta neglecta,8
 533169,Neilonella pusio,8
 596180,Spio arndti,8
-715972,Lemna,8
 815343,Calvadosia,8
 820120,Typhlotanais mucronatus,8
 852974,Erythrops serratus,8
 1033423,Lamispina falcata,8
-1046399,Fissurina (Fissurina) orbignyana,8
-1340377,Leptosiphonia brodiei,8
 158,Scaphandridae,7
 202,Dentaliidae,7
 251,Hiatellidae,7
 892,Phyllodocida,7
 941,Pholoidae,7
-1109,Rhizocephala,7
 1755,Pleurobranchidae,7
 2019,Ptychoderidae,7
 101427,Ingolfiellidae,7
@@ -4160,7 +3022,6 @@ aphiaID,scientificName,n_events
 103110,Hardametopa nasuta,7
 103724,Phallusia mammillata,7
 104057,Dallina septigera,7
-104152,Calanus,7
 107175,Munidopsis curvirostra,7
 107563,Pontophilus norvegicus,7
 107566,Sabinea sarsii,7
@@ -4177,20 +3038,7 @@ aphiaID,scientificName,n_events
 111228,Tegella unicornis,7
 111256,Tricellaria ternata,7
 111619,Metalcyonidium gautieri,7
-112564,Miliolinella subrotunda,7
-113206,Fissurina lucida,7
-113211,Fissurina semimarginata,7
-113759,Trifarina fluens,7
-113888,Pelosina arborescens,7
-115168,Paramesochridae,7
-115188,Ameira,7
-115306,Bulbamphiascus,7
-115539,Filexilia attenuata,7
-115603,Pseudameira perplexa,7
-115615,Sarsameira parva,7
-116217,Asellopsis intermedia,7
 116375,Longipedia scotti,7
-116636,Idyella major,7
 117183,Leuckartiara,7
 117876,Diphasia alata,7
 118152,Halocladius variabilis,7
@@ -4202,14 +3050,6 @@ aphiaID,scientificName,n_events
 123908,Psilaster andromeda,7
 124854,Ophiocten hastatum,7
 125190,Ophiura (Dictenophiura) carnea,7
-125508,Argentinidae,7
-126328,Synaphobranchus kaupii,7
-126375,Belone belone,7
-126510,Apletodon dentatus,7
-126977,Chelon labrosus,7
-127383,Nerophis lumbriciformis,7
-127718,Philomedes brenda,7
-128552,Phoronis psammophila,7
 129196,Laetmonice,7
 129310,Hesiospina,7
 129320,Syllidia,7
@@ -4220,7 +3060,6 @@ aphiaID,scientificName,n_events
 129846,Laetmonice producta,7
 129969,Dodecaceria fimbriata,7
 130020,Ophryotrocha dubia,7
-130485,Armandia cirrhosa,7
 130785,Harmothoe viridis,7
 130939,Oriopsis armandi,7
 130952,Potamethus malmgreni,7
@@ -4238,7 +3077,6 @@ aphiaID,scientificName,n_events
 137350,Henlea,7
 137353,Marionina,7
 137675,Arctica,7
-138122,Limacina,7
 138340,Philinoglossa,7
 138508,Skenea,7
 138913,Mohnia abyssorum,7
@@ -4246,28 +3084,14 @@ aphiaID,scientificName,n_events
 139720,Epitonium dallianum,7
 140099,Hero formosa,7
 140758,Philine punctata,7
-141086,Turbonilla pusilla,7
 141417,Anatoma crispata,7
 141449,Rossia macrosoma,7
 141919,Mercenaria mercenaria,7
-144027,Titanoderma,7
-144368,Acrochaetium microscopicum,7
-144528,Callithamnion granulatum,7
-144720,Dasya ocellata,7
-144910,Chordaria flagelliformis,7
-145095,Ostreobium queckettii,7
-145611,Cruoria cruoriiformis,7
-145949,Blidingia marginata,7
-146008,Epicladia perforans,7
 146433,Fabricia stellaris stellaris,7
-146537,Cyanobacteria,7
-146542,Cyanophyceae,7
 146744,Calliopiidae,7
 151935,Calycella hispida,7
-155032,Aricidea jeffreysii,7
 157496,Neanthes acuminata,7
 158351,Atlantopandalus propinqvus,7
-164103,Colaconema daviesii,7
 168544,Mycale (Aegogropila) rotalis,7
 175039,Phascolion (Montuga) lutense,7
 181084,Bela powisiana,7
@@ -4277,29 +3101,21 @@ aphiaID,scientificName,n_events
 183155,Eurycope sandersi,7
 183194,Hemiaclis ventrosa,7
 183250,Macandrevia tenera,7
-236462,Gasterosteus aculeatus aculeatus,7
-254681,Cribrostomoides subglobosus,7
-280299,Coelorinchus labiatus,7
 325170,Aonidella,7
 333182,Cenogenus brevipes,7
 334695,Rhamphobrachium (Spinigerium) brevibrachiatum,7
 334864,Sthenelais jeffreysii,7
-337052,Travisia gravieri,7
 388222,Nebalia troncosoi,7
-408518,Bathyneaera hadalis,7
 423180,Birsteiniamysis inermis,7
-425928,Araceae,7
 529394,Myriotrochus (Oligotrochus) vitreus,7
 530934,Parasabella saxicola,7
 549692,Pleustes (Pleustes) panoplus,7
 761800,Tryphosa crenata,7
-1027802,Xiphosiphonia pennata,7
 1033104,Chaetozone elakata,7
 1059478,Cribrilina (Juxtacribrilina) annulata,7
 1296685,Pseudotanais falcicula,7
 1296694,Pseudotanais scalpellum,7
 110,Archaeogastropoda,6
-167,Sacoglossa,6
 177,Polyceridae,6
 217,Venerida,6
 1367,Pennatulacea,6
@@ -4316,8 +3132,6 @@ aphiaID,scientificName,n_events
 103873,Cnemidocarpa mollis,6
 104063,Argyrotheca cistellula,6
 104066,Platidia anomioides,6
-104108,Acartia,6
-104902,Branchiostoma,6
 106838,Porcellana,6
 107166,Munida tenuimana,6
 107237,Pagurus forbesii,6
@@ -4333,28 +3147,7 @@ aphiaID,scientificName,n_events
 111229,Caberea boryi,6
 111242,Scrupocellaria incurvata,6
 111596,Alcyonidium cellarioides,6
-112028,Miliolinella,6
-112040,Quinqueloculina,6
-112305,Hippocrepina,6
-112674,Quinqueloculina seminula,6
-113217,Oolina apiopleura,6
-113626,Patellina corrugata,6
-115037,Simognathus leiomerus,6
-115147,Cylindropsyllidae,6
-115158,Leptastacidae,6
-115210,Sicameira,6
-115517,Ameira longipes,6
-115592,Proameira signata,6
-115771,Cletodes pusillus,6
-115970,Paramphiascella vararensis,6
-116020,Typhlamphiascus gracilis,6
-116222,Corbulaseta bulligera,6
 116368,Longipedia coronata,6
-116479,Rhizothrix curvata,6
-116701,Zosime valida,6
-116877,Laophonte elongata elongata,6
-116886,Diarthrodella secunda secunda,6
-116894,Paramesochra helgolandica helgolandica,6
 118388,Pleurogonium,6
 118479,Malacanthura truncata,6
 118499,Leptanthura affinis,6
@@ -4366,23 +3159,11 @@ aphiaID,scientificName,n_events
 123851,Pontaster tenuispinus,6
 124085,Pseudarchaster parelii,6
 125170,Poraniomorpha (Poraniomorpha) hispida,6
-125589,Cottidae,6
-126132,Solea,6
-126415,Alosa fallax,6
-126435,Gadiculus argenteus,6
-126439,Micromesistius poutassou,6
-126493,Lepidion eques,6
-126508,Spinachia spinachia,6
-126868,Aphia minuta,6
-127220,Liparis montagui,6
-127662,Paradoxostoma,6
 128495,Pennatula,6
 129397,Aponuphis,6
 129469,Pisione,6
 129622,Pygospio,6
 130059,Eunice oerstedii,6
-130273,Magelona rosea,6
-130528,Phylo foetida,6
 130755,Harmothoe areolata,6
 130988,Ficopomatus enigmaticus,6
 131398,Streptosyllis arenae,6
@@ -4394,42 +3175,21 @@ aphiaID,scientificName,n_events
 133115,Eurypon major,6
 135141,Caryophyllia (Caryophyllia) inornata,6
 135275,Haliclystus,6
-135513,Caligidae,6
 136077,Apionsoma (Apionsoma) murinae,6
 136372,Tanaella unguicillata,6
 137378,Phallodrilus,6
 137477,Amphichaeta sannio,6
 138109,Lepetella,6
 138212,Sphenia,6
-138387,Pruvotina,6
 138615,Turritella,6
 138865,Buccinum humphreysianum,6
 138980,Iphinopsis fuscoapicata,6
 139255,Gymnobela subaraneosa,6
-139445,Cuspidaria glacialis,6
 139623,Doris verrucosa,6
 140212,Leptochiton tenuis,6
-140229,Limapontia capitata,6
 140625,Todaropsis eblanae,6
-141148,Rissoella globularis,6
 141200,Alvania jeffreysi,6
-143755,Laminariaceae,6
-143893,Nitophyllum,6
-144031,Dilsea,6
-144146,Calliblepharis,6
-144489,Aglaothamnion bipinnatum,6
-144564,Ceramium siliquosum,6
-145086,Codium fragile,6
-145182,Melobesia membranacea,6
-145322,Dictyosiphon foeniculaceus,6
-145459,Spongonema tomentosum,6
-145568,Gelidiella calcicola,6
-145767,Atractophora hypnoides,6
-145925,Ulothrix flacca,6
-146236,Acrosiphonia spinescens,6
-147742,Anaptychia runcinata,6
 148595,Echinogammarus obtusatus,6
-151135,Corixidae,6
 152228,Exogoninae,6
 155171,Amphicorina armandi,6
 155472,Dialychone,6
@@ -4440,28 +3200,19 @@ aphiaID,scientificName,n_events
 183339,Pelagodiscus atlanticus,6
 195982,Salvatoria,6
 196121,Caprelloidea,6
-232042,Tadorna tadorna,6
 247892,Meromonakantha irregularis,6
 256204,Munna boeckii,6
 431322,Corophiinae,6
 478772,Typhlotanais tenuimanus,6
-494197,Aphididae,6
-526670,Spongoclonium caribaeum,6
-534155,Emertonia perharidiensis,6
 558146,Skeneidae,6
 592997,Halcampoides purpureus,6
 606988,Baeonectes pygmaea,6
-951876,Gyroidina orbicularis,6
 1047411,Fjordia lineata,6
 1047412,Fjordia browni,6
 1255613,Earleria panicula,6
 1296696,Pseudotanais spicatus,6
 1305582,Paucibranchia fallax,6
-1346076,Leodamas thalassae,6
 205,Nuculanidae,5
-1300,Arachnida,5
-1692,Folliculinidae,5
-19948,Trematoda,5
 100839,Actinostola callosa,5
 101007,Arachnanthus sarsi,5
 101453,Gitanopsis,5
@@ -4476,10 +3227,7 @@ aphiaID,scientificName,n_events
 103565,Didemnum coriaceum,5
 103647,Aplidium glabrum,5
 104038,Hispanirhynchia,5
-104071,Argulus,5
-105820,Galeorhinus galeus,5
 106115,Scalpellum,5
-106470,Doropygus,5
 106750,Corystidae,5
 106976,Pinnotheres,5
 107067,Axius,5
@@ -4497,37 +3245,6 @@ aphiaID,scientificName,n_events
 111398,Haplota clavata,5
 111431,Rosseliana rosselii,5
 111440,Gemellipora eburnea,5
-113052,Fursenkoina acuta,5
-113139,Buccella tenerrima,5
-113235,Parafissurina tectulostoma,5
-113481,Rupertina stabilis,5
-113941,Karreriella bradyi,5
-113984,Hormosinella distans,5
-114024,Ammobaculites agglutinans,5
-114285,Textularia sagittula,5
-114334,Tritaxis fusca,5
-115163,Miraciidae,5
-115205,Pseudameira,5
-115374,Laophonte,5
-115396,Minervella,5
-115631,Echinopsyllus normani,5
-115639,Argestes mollis,5
-115658,Mesocletodes fladensis,5
-115662,Mesocletodes irrasus,5
-115733,Cervinia bradyi,5
-115739,Cerviniopsis clavicornis,5
-115746,Eucanuella spinifera,5
-115797,Strongylacron buchholtzi,5
-115870,Pseudomesochra longifurcata,5
-116048,Ectinosoma tenuipes,5
-116270,Laophonte inornata,5
-116440,Paramesochra similis,5
-116498,Microarthridion littorale,5
-116608,Pseudotachidius coronatus,5
-116628,Thompsonula hyaenae,5
-116800,Leptopsyllus (Leptopsyllus) elongatus,5
-116839,Pseudameira mixta mixta,5
-116871,Heterolaophonte stroemii stroemii,5
 117196,Plumularia,5
 117380,Laomedea calceolifera,5
 117597,Halecium muricatum,5
@@ -4549,12 +3266,6 @@ aphiaID,scientificName,n_events
 124338,Calveriosoma hystrix,5
 124734,Peniagone azorica,5
 125284,Alcyonium,5
-125743,Gaidropsarus,5
-126501,Phycis blennoides,5
-127071,Chirolophis ascanii,5
-127731,Vargula norvegica,5
-128720,Melinnacheres,5
-128908,Selioides bocqueti,5
 129113,Siboglinum angustum,5
 129179,Sosane,5
 129291,Flabelligera,5
@@ -4572,15 +3283,12 @@ aphiaID,scientificName,n_events
 130154,Gyptis mackiei,5
 130241,Lumbrineris cluthensis,5
 130256,Paraninoe brevipes,5
-130277,Chirimia biceps,5
 130423,Rullierinereis faroensis,5
-130437,Nerilla antennata,5
 130479,Paradiopatra lepta,5
 130619,Eteone suecica,5
 130655,Mystides southerni,5
 130733,Bylgides groenlandicus,5
 130954,Potamilla neglecta,5
-130971,Saccocirrus major,5
 131063,Claparedepelogenia inclusa,5
 131136,Marenzelleria wireni,5
 131493,Lanassa nordenskioldi,5
@@ -4595,7 +3303,6 @@ aphiaID,scientificName,n_events
 136159,Anarthruridae,5
 136320,Pseudosphyrapus centobi,5
 136448,Leptognathia tenella,5
-137147,Larus melanocephalus,5
 137686,Goodallia,5
 137914,Doris,5
 137978,Melanella,5
@@ -4611,28 +3318,14 @@ aphiaID,scientificName,n_events
 140481,Mytilus galloprovincialis,5
 140551,Pseudopolinices nanus,5
 141486,Dikoleps cutleriana,5
-141555,Alderia modesta,5
 141641,Tergipes tergipes,5
 141833,Solariella amabilis,5
-142028,Tricladida,5
-143810,Bonnemaisonia,5
-143903,Boergeseniella,5
-144151,Halarachnion,5
-144223,Plocamium,5
-144497,Aglaothamnion priceanum,5
-144502,Aglaothamnion tripinnatum,5
-144663,Polysiphonia sanguinea,5
-145157,Lithophyllum orbiculatum,5
-145200,Phymatolithon laevigatum,5
 146802,Chironomus,5
-147719,Lichina,5
 148558,Photidae,5
 155473,Dialychone acustica,5
 156196,Leptaxinus incrassatus,5
 156489,Trochoidea,5
 157398,Glyphanostomum pallescens,5
-159175,Branta bernicla,5
-160017,Glossiphonia complanata,5
 160242,Curtitoma ovalis,5
 160246,Curtitoma trevelliana,5
 181270,Yoldiella biscayensis,5
@@ -4642,26 +3335,17 @@ aphiaID,scientificName,n_events
 182473,Campylaspis valleculata,5
 183395,Samythella elongata,5
 236539,Deflexilodes gibbosus,5
-292685,Halacaroidea,5
 333938,Lysippe fragilis,5
-373772,Euthora cristata,5
 382003,Chitonida,5
-416427,Anoplosomella sordidum,5
 442300,Parthenopoides massena,5
-458914,Trophomera diploptera,5
 459304,Nebalia kocatasi,5
 471226,Exidmonea atlantica,5
 474114,Penciletta penicillata,5
 478755,Typhlotanais inaequipes,5
 491532,Parahaustorius holmesi,5
 494362,Chironomus aprilinus,5
-548016,Zanardinia typus,5
-565558,Parthenina suturalis,5
-582525,Paralaophonte congenera congenera,5
-588573,Stuckenia pectinata,5
 605949,Dysponetus joeli,5
 723696,Miyakella,5
-745863,Normanella mucronata mucronata,5
 851590,Amathia gracillima,5
 854431,Phelliactis hertwigii,5
 875346,Mendicula ultima,5
@@ -4670,16 +3354,13 @@ aphiaID,scientificName,n_events
 146,Neogastropoda,4
 209,Glycymerididae,4
 220,Ungulinidae,4
-411,Aplacophora,4
 1562,Ammotheidae,4
 1598,Corymorphidae,4
 1750,Diaphanidae,4
-10216,Rajiformes,4
 100688,Epizoanthidae,4
 100892,Edwardsia timida,4
 100924,Anemonactis mazeli,4
 100951,Hormathia digitata,4
-101156,Halicryptus spinulosus,4
 101366,Ampithoidae,4
 101511,Calliopius,4
 101519,Eusirus,4
@@ -4706,9 +3387,6 @@ aphiaID,scientificName,n_events
 103814,Boltenia echinata,4
 103912,Polycarpa pusilla,4
 103928,Styela charcoti,4
-105693,Scyliorhinidae,4
-105824,Chimaera monstrosa,4
-106636,Pachypygus gibber,4
 106863,Nephrops,4
 106957,Xantho,4
 106984,Caridion,4
@@ -4729,34 +3407,6 @@ aphiaID,scientificName,n_events
 111549,Smittina affinis,4
 111608,Arachnidium hippothooides,4
 111654,Triticella pedicellata,4
-112593,Pyrgo murrhina,4
-112901,Gyroidina soldanii,4
-113634,Planorbulina mediterranensis,4
-113776,Uvigerina pygmaea,4
-113930,Eggerella bradyi,4
-113974,Saccorhiza ramosa,4
-114191,Saccammina sphaerica,4
-114321,Polystomammina nitida,4
-115143,Cletodidae,4
-115225,Eurycletodes,4
-115297,Pseudomesochra,4
-115305,Amphiascus,4
-115327,Stenhelia,4
-115329,Typhlamphiascus,4
-115331,Bradya,4
-115559,Malacopsyllus fragilis,4
-115628,Ceratonotus pectinatus,4
-115688,Heteropsyllus major,4
-115863,Psammis longisetosa,4
-116038,Ectinosoma dentatum,4
-116259,Laophonte cornuta,4
-116269,Laophonte inopinata,4
-116278,Laophonte thoracica,4
-116316,Pseudolaophonte spinosa,4
-116392,Normanella minuta,4
-116409,Apodopsyllus littoralis,4
-116541,Pteropsyllus consimilis,4
-116725,Eurycletodes (Oligocletodes) oblongus,4
 117105,Hydrodendron,4
 117119,Podocoryna,4
 117229,Dynamena,4
@@ -4784,41 +3434,21 @@ aphiaID,scientificName,n_events
 123845,Pectinaster filholi,4
 123919,Luidia atlantidea,4
 124713,Psolus squamatus,4
-125438,Atherinidae,4
-125464,Clupeidae,4
-125911,Hyperoplus,4
-126124,Scophthalmus,4
-126456,Gaidropsarus macrophthalmus,4
-126457,Gaidropsarus mediterraneus,4
-126481,Trachyrincus murrayi,4
-126645,Polyacanthonotus rissoanus,4
-126678,Spectrunculus grandis,4
-126682,Alepocephalus bairdii,4
-126716,Argentina sphyraena,4
-127237,Cottunculus thomsonii,4
-127278,Scopelogadus beanii,4
-127481,Cypridinidae,4
-128371,Carinocythereis carinata,4
 128504,Anthoptilum grandiflorum,4
 129118,Siboglinum holmei,4
 129166,Lysippe,4
 129199,Arabella,4
 129294,Piromis,4
-129342,Axiothella,4
 129378,Neanthes,4
-129418,Leitoscoloplos,4
 129523,Bispira,4
 129529,Fabricia,4
-129553,Polyphysia,4
 129568,Josephella,4
 129612,Dispio,4
-129908,Pseudocapitella incerta,4
 130102,Diplocirrus longisetosus,4
 130112,Pherusa monilifera,4
 130115,Therochaeta collarifera,4
 130380,Micronereis variegata,4
 130474,Onuphis rullieriana,4
-130566,Aricidea neosuecica,4
 130630,Eulalia microoculata,4
 130766,Harmothoe globifera,4
 131003,Hydroides ezoensis,4
@@ -4837,8 +3467,6 @@ aphiaID,scientificName,n_events
 134628,Cilunculus europaeus,4
 134715,Anoplodactylus arnaudae,4
 134721,Anoplodactylus oculatus,4
-134798,Peltogaster paguri,4
-134805,Sacculina carcini,4
 135226,Stauromedusae,4
 136023,Thysanocardia,4
 136205,Akanthophoreus,4
@@ -4846,8 +3474,6 @@ aphiaID,scientificName,n_events
 136335,Neotanais laevispinosus,4
 136360,Leptognathioides potens,4
 136441,Leptognathia manca,4
-136614,Microdajus gaelicus,4
-136976,Phocidae,4
 137718,Caecum,4
 137764,Cerithiopsis,4
 138335,Phaxas,4
@@ -4856,7 +3482,6 @@ aphiaID,scientificName,n_events
 139391,Typhlomangelia nivalis,4
 139643,Doto hystrix,4
 139655,Doto tuberculata,4
-139686,Elysia viridis,4
 139699,Claviscala richardi,4
 139813,Fuscapex cabiochi,4
 139861,Melanella pseudoglabra,4
@@ -4866,55 +3491,28 @@ aphiaID,scientificName,n_events
 140558,Neolepton sulcatulum,4
 140769,Pholadidea loscombiana,4
 140849,Chevroderma turnerae,4
-140965,Liostomia clavula,4
-141557,Calliopaea oophaga,4
 141674,Thyasira subcircularis,4
 142001,Yoldiella lenticula,4
 142006,Yoldiella propinqua,4
-142060,Euryleptidae,4
-142827,Leptoplana tremellaris,4
-142835,Discocelides langi,4
-143673,Delesseriaceae,4
-144033,Dumontia,4
-144169,Phyllophora,4
-144290,Monostroma,4
-144452,Bryopsis hypnoides,4
-144526,Callithamnion corymbosum,4
-144583,Griffithsia devoniensis,4
-144689,Ptilothamnion pluma,4
-144795,Chondria capillaris,4
-145203,Phymatolithon purpureum,4
-145232,Gloiosiphonia capillaris,4
-145526,Cystoseira nodicaulis,4
-145693,Gracilaria bursa-pastoris,4
-145902,Sphacelaria rigidula,4
-145988,Ulva pseudocurvata,4
 146116,Thyone,4
 146121,Psolus,4
 146845,Patinella verrucaria,4
-146898,Bembidion (Cillenus) laterale,4
 147133,Psammolyce,4
 150523,Nymphon macrum,4
-150861,Lipura maritima,4
 150940,Ceratopogonidae,4
 151934,Teretia anceps,4
 152400,Curveulima macrophthalmica,4
 152411,Circomphalus,4
-154405,Syngnathinae,4
 155153,Fabriciola berkeleyi,4
 156214,Limea crassa,4
 157532,Podarkeopsis brevipalpa,4
-158958,Coryphaenoides guentheri,4
 167852,Antho (Acarnia) coriacea,4
 169049,Crella (Crella) elegans,4
 169087,Crella (Yvesia) rosea,4
 169685,Hexadella pruvoti,4
-181575,Erpobdella octoculata,4
 182807,Palio dubia,4
-183099,Coryphaenoides mediterraneus,4
 183164,Flabelligella papillata,4
 183321,Paelopatides gigantea,4
-211903,Entophysalis deusta,4
 212784,Leucothoe richiardii,4
 231858,Anemonia sulcata,4
 240295,Bathypallenopsis tritonis,4
@@ -4922,34 +3520,17 @@ aphiaID,scientificName,n_events
 248352,Unciolidae,4
 251603,Eugyra borealis,4
 264181,Jaera (Jaera) nordmanni,4
-293026,Nonionella labradorica,4
-334240,Notomastus profondus,4
-366423,Vermicaris minuta,4
 396540,Hilbigneris pleijeli,4
-404096,Odonata,4
-416203,Bolboschoenus maritimus,4
-416204,Ceratophyllum demersum,4
-416209,Phragmites australis,4
-416222,Zannichellia palustris,4
 420663,Ledella sublevis,4
 478771,Typhlotanais tenuicornis,4
 490332,Gammarus spooneri,4
-504203,Sigara stagnalis,4
-528006,Protelphidium,4
-534122,Rhizothrix,4
 571555,Dosina,4
-590790,Laophonte longicaudata longicaudata,4
-738272,Hydrachnidia,4
 747547,Aforia hypomela,4
-748288,Cuspidaria atlantica,4
 832443,Retidrillia pruina,4
-836227,Brachystomia angusta,4
-840293,Umbraulva dangeardii,4
 852814,Pionosyllis nidrosiensis,4
 862804,Schizomavella (Schizomavella) sarniensis,4
 955309,Chironomus (Microchironomus) tener,4
 1308613,Iolanthe typhlops,4
-1311369,Chondria coerulescens,4
 1423860,Haliclona (Haliclona) gustavopulitzeri,4
 141,Calyptraeidae,3
 159,Cylichnidae,3
@@ -4959,14 +3540,9 @@ aphiaID,scientificName,n_events
 194,Tergipedidae,3
 909,Spioniformia,3
 944,Chrysopetalidae,3
-1069,Branchiopoda,3
-1101,Cyclopoida,3
-1414,Prostigmata,3
 1773,Onchidiidae,3
 2088,Chaetodermatida,3
-2095,Neomeniidae,3
 2096,Pulsellidae,3
-7173,Lottiidae,3
 14469,Phoxichilidiidae,3
 16351,Capitata,3
 100770,Metridium,3
@@ -4997,7 +3573,6 @@ aphiaID,scientificName,n_events
 103077,Monoporeia affinis,3
 103125,Metopa latimana,3
 103202,Orchestia gammarellus,3
-103259,Themisto abyssorum,3
 103327,Leiopathes grimaldii,3
 103453,Clavelina,3
 103488,Ciona,3
@@ -5006,10 +3581,6 @@ aphiaID,scientificName,n_events
 103758,Perophora japonica,3
 103808,Molgula vara,3
 103904,Polycarpa itera,3
-105826,Hydrolagus mirabilis,3
-105923,Squalus acanthias,3
-106269,Podon,3
-106409,Ascidicolidae,3
 106776,Alpheidae,3
 106826,Solenocera,3
 106909,Maja,3
@@ -5039,43 +3610,6 @@ aphiaID,scientificName,n_events
 111243,Scrupocellaria inermis,3
 111393,Hippoporidra lusitania,3
 111593,Aethozoon pellucidum,3
-111802,Barentsia gracilis,3
-111821,Loxosomella atkinsae,3
-112098,Cancris,3
-112158,Parafissurina,3
-112226,Astrononion,3
-112487,Cornuspira foliacea,3
-112488,Cornuspira involvens,3
-112988,Bolivina spathulata,3
-113047,Bulimina striata,3
-113093,Islandiella helenae,3
-113095,Islandiella norcrossi,3
-113236,Cribroelphidium albiumbilicatum,3
-113507,Lagena striata,3
-113988,Nodulina dentaliniformis,3
-114215,Thurammina papillata,3
-114273,Textularia earlandi,3
-114865,Copidognathus rhodostigma,3
-115203,Proameira,3
-115209,Sarsameira,3
-115400,Schizothrix,3
-115533,Ameiropsis mixta,3
-115588,Proameira echinipes,3
-115593,Proameira simplex,3
-115625,Ancorabolus mirabilis,3
-115720,Pusillargillus nixe,3
-115836,Danielssenia typica,3
-115905,Amphiascoides subdebilis,3
-115950,Haloschizopera pygmaea,3
-116070,Halectinosoma distinctum,3
-116115,Microsetella norvegica,3
-116162,Euterpina acutifrons,3
-116216,Asellopsis hispida,3
-116441,Remanea arenicola,3
-116722,Eurycletodes (Oligocletodes) latus,3
-116814,Tachidius (Tachidius) discipes,3
-116840,Stenocopia longicaudata longicaudata,3
-116986,Pontobdella muricata,3
 117281,Aglaophenia parvula,3
 117354,Rhizorhagium roseum,3
 117428,Cordylophora caspia,3
@@ -5091,7 +3625,6 @@ aphiaID,scientificName,n_events
 119888,Neomysis,3
 119921,Eucopia unguiculata,3
 122360,Micrura,3
-122635,Tubulanus nothus,3
 122641,Malacobdella grossa,3
 124324,Strongylocentrotus pallidus,3
 124400,Echinocardium mortenseni,3
@@ -5105,25 +3638,13 @@ aphiaID,scientificName,n_events
 125092,Amphiura otteri,3
 125147,Ophioscolex glacialis,3
 125394,Placogorgia intermedia,3
-125739,Trisopterus,3
-125779,Diplecogaster,3
-125991,Lebetus,3
-126023,Symphodus,3
-126189,Gonostoma,3
-126473,Nezumia aequalis,3
-126486,Antimora rostrata,3
-127118,Lycodes vahlii,3
 128490,Funiculina,3
 128512,Kophobelemnon stelliferum,3
-128792,Rhodinicola elongata,3
-128842,Herpyllobius polynoes,3
 129109,Oligobrachia gracilis,3
 129114,Siboglinum atlanticum,3
 129120,Siboglinum inerme,3
-129226,Pseudoleiocapitella,3
 129235,Chrysopetalum,3
 129314,Nereimyra,3
-129355,Microclymene,3
 129485,Enipo,3
 129544,Potamilla,3
 129564,Filogranula,3
@@ -5133,9 +3654,6 @@ aphiaID,scientificName,n_events
 129802,Melinna albicincta,3
 129810,Melinnopsis arctica,3
 130243,Lumbrineris flabellicola,3
-130274,Magelona wilsoni,3
-130295,Euclymene palermitana,3
-130308,Microclymene acirrata,3
 130390,Neanthes kerguelensis,3
 130470,Onuphis eremita,3
 130635,Eulalia tjalfiensis,3
@@ -5143,7 +3661,6 @@ aphiaID,scientificName,n_events
 130742,Eunoe hubrechti,3
 130869,Amphiglena mediterranea,3
 130906,Euchone papillosa,3
-130978,Pseudoscalibregma parvum,3
 131000,Hydroides dianthus,3
 131146,Polydora hoplura,3
 131186,Spio multioculata,3
@@ -5161,10 +3678,7 @@ aphiaID,scientificName,n_events
 133622,Hymedesmia (Hymedesmia) peachii,3
 134588,Endeis,3
 134645,Callipallene phantoma,3
-134788,Cryptogaster cumacei,3
-134795,Galatheascus striatus,3
 135194,Flabellum (Ulocyathus) alabastrum,3
-135566,Caligus,3
 136161,Nototanaidae,3
 136163,Pseudotanaidae,3
 136235,Leptochelia,3
@@ -5176,15 +3690,6 @@ aphiaID,scientificName,n_events
 136371,Tanaella ochracea,3
 136376,Paragathotanais nanus,3
 136466,Heterotanais oerstedii,3
-136980,Delphinidae,3
-137051,Stercorarius,3
-137101,Lagenorhynchus albirostris,3
-137131,Fratercula arctica,3
-137173,Stercorarius pomarinus,3
-137178,Phalacrocorax aristotelis,3
-137186,Gavia arctica,3
-137189,Hydrobates pelagicus,3
-137202,Puffinus griseus,3
 137481,Nais elinguis,3
 137572,Tubificoides brownae,3
 137592,Balanoglossus,3
@@ -5198,14 +3703,11 @@ aphiaID,scientificName,n_events
 138043,Trapania,3
 138054,Haminoea,3
 138090,Tonicella,3
-138114,Tegulaherpia,3
 138125,Lima,3
 138138,Alloteuthis,3
 138200,Ocenebra,3
 138285,Adalaria,3
 138395,Pseudovermis,3
-138414,Ondina,3
-138655,Policordia,3
 138711,Aeolidiella glauca,3
 138739,Aldisa zetlandica,3
 138798,Bathyarca inaequisculpta,3
@@ -5218,8 +3720,6 @@ aphiaID,scientificName,n_events
 139248,Gymnobela frielei,3
 139319,Oenopota graphica,3
 139385,Teretia teres,3
-139454,Cuspidaria subtorta,3
-139467,Protocuspidaria simplis,3
 139663,Spirotropis monterosatoi,3
 139761,Erato voluta,3
 139816,Fuscapex talismani,3
@@ -5235,47 +3735,18 @@ aphiaID,scientificName,n_events
 140184,Lepetella laterocompressa,3
 140197,Leptochiton alveolus,3
 140206,Leptochiton leloupi,3
-140227,Limacina retroversa,3
 140273,Lomanotus genei,3
-140292,Macellomenia palifera,3
 140442,Dacrydium abyssorum,3
 140734,Ensis minor,3
 140853,Prochaetoderma yongei,3
 141229,Alvania pseudosyngenes,3
 141411,Runcina coronata,3
 141580,Macoma calcarea,3
-141958,Verticordia quadrata,3
 141984,Microgloma guilonardi,3
-143644,Sabussowia dioica,3
-143827,Antithamnion,3
-143841,Griffithsia,3
-143846,Halurus,3
-143923,Rhodomela,3
-144019,Melobesia,3
-144022,Phymatolithon,3
-144172,Polyides,3
-144271,Cladostephus,3
-144413,Spongomorpha aeruginosa,3
-144464,Derbesia tenuissima,3
-144524,Bornetia secundiflora,3
-144597,Microcladia glandulosa,3
-144780,Radicilingua thysanorhizans,3
-144812,Halopithys incurva,3
-145216,Titanoderma pustulatum,3
-145410,Ectocarpus siliculosus,3
-145433,Hincksia granulosa,3
-145458,Pleurocladia lacustris,3
-145536,Cystoseira tamariscifolia,3
-145688,Stylonema alsidii,3
-145811,Gastroclonium reflexum,3
-145863,Petalonia fascia,3
-145893,Sphacelaria fusca,3
-146230,Chrysophyceae,3
 146902,Didemnum candidum,3
 146998,Ligia,3
 148582,Chelicorophium curvispinum,3
 148683,Diastylis rathkei typica,3
-150761,Haliplus,3
 150882,Chironomini,3
 150922,Nematocera,3
 152393,Protomystides bidentata,3
@@ -5298,7 +3769,6 @@ aphiaID,scientificName,n_events
 206159,Dotilla,3
 206520,Hinnites,3
 213013,Pseudanthura lateralis,3
-219773,Callionymus mascarenus,3
 221536,Cellaria harmelini,3
 236129,Acrocnida,3
 236548,Deshayesorchestia deshayesii,3
@@ -5309,50 +3779,27 @@ aphiaID,scientificName,n_events
 246144,Pholadinae,3
 247496,Paraleptognathia brachiata,3
 249333,Sphaeromides,3
-300719,Gadiculus thori,3
 322549,Microphthalminae,3
 326067,Uncispio,3
-333496,Gesaia elegans,3
-357831,Clausia lubbockii,3
-380393,Thysanoptera,3
 387349,Echinogammarus incertae sedis campylops campylops,3
 398868,Bodotria arenosa arenosa,3
 408758,Cordylophoridae,3
 412703,Acrocnida spatulispina,3
-416210,Potamogeton,3
 423725,Rostroculodes borealis,3
-437483,Collemopsidium,3
-466349,Bolivina robusta,3
-466471,Nonionoides turgidus,3
-479441,Monticellina,3
 490616,Apohyale prevostii,3
 507988,Venus thomassini,3
 530688,Pseudotryphosa umbonatus,3
-549121,Sarsamphiascus minutus,3
-600590,Oolina apiculata,3
 766393,Syllis mauretanica,3
-771447,Astarte,3
 816800,Mesothuria intestinalis,3
 820119,Typhlotanais grandis,3
-836217,Pyrgiscus rufescens,3
-836862,Ruttnera lamellosa,3
 1423900,Catherinum carinatum,3
-57,Neoloricata,2
 58,Lepidopleurida,2
 69,Ischnochitonidae,2
 128,Cerithiidae,2
 208,Arcidae,2
-827,Ulvales,2
-1028,Sphacelariales,2
-1089,Eucarida,2
 1565,Endeidae,2
-1795,Gymnolaemata,2
-2433,Sabatieria,2
-2581,Pontonema,2
 11718,Octopoda,2
-14421,Lepidomeniidae,2
 14665,Mitrocomidae,2
-100157,Naïs,2
 100698,Bolocera,2
 100743,Halcampoides,2
 100751,Adamsia,2
@@ -5362,7 +3809,6 @@ aphiaID,scientificName,n_events
 100912,Gonactinia prolifera,2
 100947,Cataphellia brodricii,2
 100993,Sagartia ornata,2
-101078,Priapulidae,2
 101362,Acanthonotozomatidae,2
 101410,Synopiidae,2
 101455,Peltocoxa,2
@@ -5400,15 +3846,10 @@ aphiaID,scientificName,n_events
 103927,Styela chaini,2
 103938,Styela sigma,2
 104065,Megathiris detruncata,2
-104474,Candacia armata,2
-105443,Parasagitta setosa,2
-105829,Harriotta raleighana,2
-105879,Neoraja caerulea,2
 106182,Arcoscalpellum michelottianum,2
 106477,Notopterophorus,2
 106670,Pleocyemata,2
 106702,Portunoidea,2
-106727,Penaeidae,2
 106758,Leucosiidae,2
 106775,Pinnotheridae,2
 106897,Achaeus,2
@@ -5433,7 +3874,6 @@ aphiaID,scientificName,n_events
 110600,Makrokylindrus (Adiastylis) insignis,2
 110613,Leucon (Epileucon) longirostris,2
 110614,Leucon (Epileucon) tenuirostris,2
-110708,Thysanoessa inermis,2
 110746,Electridae,2
 110762,Membraniporidae,2
 110825,Hippoporina,2
@@ -5457,42 +3897,6 @@ aphiaID,scientificName,n_events
 111647,Spathipora sertum,2
 111723,Hornera lichenoides,2
 111751,Tervia irregularis,2
-111794,Loxosomatidae,2
-111803,Barentsia matsushimana,2
-111831,Loxosomella harmeri,2
-111841,Loxosomella scaura,2
-112082,Cibicides,2
-112101,Bolivina,2
-112217,Dentalina,2
-112283,Astacolus,2
-112311,Pelosina,2
-112849,Ammonia beccarii,2
-112886,Cibicidoides pseudoungeriana,2
-112982,Bolivina pseudoplicata,2
-112998,Bolivina variabilis,2
-113171,Rosalina globularis,2
-113500,Lagena nebulosa,2
-113508,Lagena substriata,2
-113553,Chilostomella oolina,2
-113827,Ammolagena clavata,2
-114184,Psammosphaera fusca,2
-114324,Recurvoidella bradyi,2
-114505,Chaetonotus variosquamatus,2
-115140,Canthocamptidae,2
-115239,Heteropsyllus,2
-115379,Paralaophonte,2
-115453,Pteropsyllus,2
-115484,Tisbe,2
-115519,Ameira minuta,2
-115623,Stenocopia setosa,2
-115735,Cervinia synarthra,2
-115768,Cletodes limicola,2
-115780,Enhydrosoma gariene,2
-116320,Pseudonychocamptus koreni,2
-116561,Dactylopusia tisboides,2
-116667,Tisbe gracilis,2
-116730,Eurycletodes (Oligocletodes) similis,2
-116906,Dactylopusia vulgaris vulgaris,2
 116998,Aequorea,2
 117001,Gymnangium,2
 117162,Mitrocomella,2
@@ -5508,7 +3912,6 @@ aphiaID,scientificName,n_events
 117747,Cosmetira pilosella,2
 117879,Diphasia fallax,2
 117982,Ectopleura dumortierii,2
-118089,Hemiptera,2
 118145,Clunio balticus,2
 118164,Athelges,2
 118178,Ione,2
@@ -5551,44 +3954,19 @@ aphiaID,scientificName,n_events
 125332,Alcyonium coralloides,2
 125348,Acanthogorgia armata,2
 125390,Paramuricea placomus,2
-125570,Trachinidae,2
-125576,Bothidae,2
-125716,Clupea,2
-125744,Molva,2
-126180,Trigla,2
-126617,Lampanyctus macdonaldi,2
-126663,Echiodon drummondii,2
-126798,Synchiropus phaeton,2
-126878,Crystallogobius linearis,2
-127110,Lycodes pallidus,2
-127201,Micrenophrys lilljeborgii,2
-128780,Hersiliodes latericia,2
-128909,Selioides bolbroei,2
-129091,Xenocoeloma alleni,2
 129116,Siboglinum ekmani,2
-129207,Arenicolides,2
 129239,Vigtorniella,2
 129368,Micronephthys,2
-129419,Naineris,2
 129448,Hesionura,2
 129450,Mystides,2
 129634,Neodexiospira,2
 129650,Dioplosyllis,2
 129663,Palposyllis,2
 129834,Linopherus hemuli,2
-129869,Arenicolides branchialis,2
-129885,Leiocapitella dollfusi,2
-129887,Leiochrides norvegicus,2
-129900,Notomastus profundus,2
-129919,Phyllochaetopterus major,2
 130148,Amphiduros fuscescens,2
 130231,Lumbrinerides laubieri,2
 130250,Lumbrineris mixochaeta,2
-130267,Magelona equilamellae,2
-130314,Nicomache personata,2
-130336,Myzostoma cirriferum,2
 130406,Nereis rava,2
-130511,Tachytrypane jeffreysi,2
 130618,Eteone spetsbergensis,2
 130663,Paranaitis wahlbergi,2
 130810,Malmgreniella arenicolae,2
@@ -5612,7 +3990,6 @@ aphiaID,scientificName,n_events
 134626,Cilunculus alcicornis,2
 134642,Callipallene acus,2
 134730,Anoplodactylus virescens,2
-134799,Peltogasterella sulcata,2
 136058,Nephasoma (Nephasoma) flagriferum,2
 136061,Nephasoma (Nephasoma) rimicola,2
 136186,Apseudopsis,2
@@ -5624,28 +4001,18 @@ aphiaID,scientificName,n_events
 136380,Paranarthrura crassa,2
 136423,Leptognathia acanthifera,2
 136510,Pseudotanais (Pseudotanais) longispinus,2
-137047,Sterna,2
-137072,Melanitta fusca,2
-137074,Somateria mollissima,2
-137084,Phoca vitulina,2
-137140,Larus cachinnans,2
-137181,Podiceps auritus,2
 137419,Grania variochaeta,2
 137604,Stereobalanus canadensis,2
 137609,Glossobalanus sarniensis,2
 137894,Diaphana,2
-138063,Hermaea,2
 138126,Limaria,2
-138155,Macellomenia,2
 138185,Montacuta,2
 138222,Modiolula,2
-138249,Neomenia,2
 138267,Eledone,2
 138331,Mysia,2
 138361,Berthella,2
 138362,Berthellina,2
 138379,Janolus,2
-138384,Eleutheromenia,2
 138515,Solen,2
 138639,Gouldia,2
 138682,Aclis sarsi,2
@@ -5657,10 +4024,8 @@ aphiaID,scientificName,n_events
 139317,Oenopota elegans,2
 139334,Oenopota tenuicostata,2
 139387,Thesbia nana,2
-139435,Cardiomya knudseni,2
 139622,Doris sticta,2
 139644,Doto koenneckeri,2
-139664,Ebala nitidissima,2
 139695,Acrilloscala lamyi,2
 139738,Epitonium turtonis,2
 139772,Eubranchus vittatus,2
@@ -5672,12 +4037,9 @@ aphiaID,scientificName,n_events
 139939,Favorinus blianus,2
 140081,Hancockia uncinata,2
 140134,Connexochiton platynomenus,2
-140230,Limapontia depressa,2
-140231,Limapontia senestra,2
 140274,Lomanotus marmoratus,2
 140451,Dacrydium wareni,2
 140579,Nuculana pernula,2
-140725,Cochlodesma tenerum,2
 140743,Philine angulata,2
 140771,Zirfaea crispata,2
 141404,Rostanga rubra,2
@@ -5685,60 +4047,18 @@ aphiaID,scientificName,n_events
 141627,Cuthona nana,2
 141663,Thyasira gouldi,2
 141677,Thyasira tortuosa,2
-141684,Tjaernoeia exquisita,2
 141765,Calliostoma occidentale,2
 141822,Margarites olivaceus,2
-141953,Policordia gemma,2
 141987,Portlandia arctica,2
-142817,Oligocladus sanguinolentus,2
-142822,Stylostomum ellipse,2
-143814,Derbesia,2
-143828,Antithamnionella,2
-143835,Compsothamnion,2
-143850,Monosporus,2
-143864,Spermothamnion,2
-143866,Spyridia,2
-143870,Dasya,2
-143875,Acrosorium,2
-143877,Apoglossum,2
-143895,Phycodrys,2
-143973,Leathesia,2
-143985,Ralfsia,2
-144047,Callophyllis,2
-144154,Chondrus,2
-144155,Gigartina,2
-144163,Mastocarpus,2
-144235,Rosenvingiella,2
-144575,Crouania attenuata,2
-144626,Polysiphonia devoniensis,2
-144634,Polysiphonia fibrillosa,2
-144855,Rhodomela lycopodioides,2
-145009,Stilophora tenella,2
-145052,Cladophora lehmanniana,2
-145243,Dermocorynus montagnei,2
-145274,Peyssonnelia atropurpurea,2
-145440,Hincksia sandriana,2
-145544,Fucus distichus,2
-145622,Neurocaulon foliosum,2
-145638,Itonoa marginifera,2
-145651,Ahnfeltiopsis devoniensis,2
-145663,Phyllophora herediae,2
-145752,Helminthocladia calvadosii,2
-145919,Tilopteris mertensii,2
-146367,Lophosiphonia obscura,2
 146493,Anilocra,2
-146540,Microcoleus,2
-146655,Schizothrix,2
 147188,Trophonopsis,2
 147322,Cerebratulus lacteus,2
 148431,Pisinae,2
 148534,Atyidae,2
 150237,Suberites pagurorum,2
-150467,Araneae,2
 150929,Tipulidae,2
 150930,Dolichopodidae,2
 151024,Culicoides,2
-151155,Hymenoptera,2
 151326,Lutrariinae,2
 151708,Hydridae,2
 152261,Melinnopsis rostrata,2
@@ -5749,27 +4069,14 @@ aphiaID,scientificName,n_events
 153730,Alcyonidium condylocinereum,2
 153751,Odontoporella lata,2
 154073,Mangelia costulata,2
-154527,Barentsiidae,2
-154889,Heptacyclus,2
-155086,Polychaeta incertae sedis,2
 155403,Virchowia clavata,2
 155439,Harmothoe haliaeti,2
 156977,Pristigloma alba,2
 158384,Gilvossius,2
-159037,Numenius arquata,2
-159040,Numenius phaeopus,2
-159047,Calidris alpina,2
-159168,Anas penelope,2
-159171,Anas strepera,2
-160082,Turbonilla interrupta,2
-162546,Codiolum,2
 170765,Homaxinella subdola,2
 173545,Eranno bifrons,2
 177538,Lumbriculus variegatus,2
 178133,Pseudarchaster gracilis,2
-180813,Archaeomenia nova,2
-180814,Macellomenia aciculata,2
-180847,Plawenia sphaera,2
 181275,Yoldiella veletta,2
 181299,Similipecten greenlandicus,2
 181301,Pseudamussium sulcatum,2
@@ -5784,20 +4091,14 @@ aphiaID,scientificName,n_events
 182818,Eumida parva,2
 182953,Adeonellopsis coscinophora,2
 182994,Barbascalpellum rossi,2
-183109,Cystammina pauciloculata,2
 183147,Eulitoma arcus,2
-183233,Lana neglecta,2
 183320,Pachyzoon atlanticum,2
 183372,Protankyra brychia,2
 183648,Spiroxya levispira,2
 195971,Paraehlersia,2
 195978,Prosphaerosyllis campoyi,2
 196009,Catillopecten eucymatus,2
-196078,Branchiostomatidae,2
-213760,Rivularia bullata,2
 225144,Trochinae,2
-233983,Myzostomida,2
-234067,Argulus foliaceus,2
 235165,Novocrania,2
 235551,Eucalathis murrayi,2
 235789,Asbestopluma (Asbestopluma) pennatula,2
@@ -5807,27 +4108,17 @@ aphiaID,scientificName,n_events
 247456,Leptognathiopsis attenuata,2
 247908,Escharoides bishopi,2
 264152,Asellus (Asellus) aquaticus,2
-273566,Symphodus bailloni,2
-274878,Chelidonichthys spinosus,2
 295699,Stenosoma acuminatum,2
-295880,Grateloupia turuturu,2
 322556,Ophioplinthus tessellata,2
 330630,Phyllodoce schmardaei,2
 333193,Ceratonereis (Composetia) anoculata,2
 335309,Eulalia (Eumida),2
-382158,Patellogastropoda,2
 392211,Galacantha rostrata,2
-393561,Polysiphonieae,2
 410801,Aureliania,2
-414889,Solanaceae,2
-418051,Nonionoides grateloupii,2
 423170,Augeneria albidentata,2
-445503,Puffinus mauretanicus,2
-466398,Discanomalina semipunctata,2
 469134,Pseudoflustra aviculata,2
 478769,Typhlotanais spinicauda,2
 478774,Typhlotanais variabilis,2
-491655,Jordaniella truncatula,2
 505543,Limatula louiseae,2
 505946,Arcuatula senhousia,2
 506263,Neilonella whoii,2
@@ -5837,15 +4128,10 @@ aphiaID,scientificName,n_events
 535091,Catherinum flavum,2
 555339,Stenula latipes,2
 566736,Leiostraca pyramidalis,2
-582700,Chrysalogonium calomorphum,2
-602320,Amphitrite,2
 607338,Zoantharia,2
-615494,Thallochrysis litoralis,2
 714762,Ariadnaria borealis,2
 731112,Brevicirrosyllis,2
-734529,Aricidea (Strelzovia) quadrilobata,2
 738968,Cradoscrupocellaria,2
-743286,Spiralinella,2
 744647,Cryptorchestia cavimana,2
 751352,Kurtiella verrilli,2
 760213,Aquiloniella scabra,2
@@ -5855,65 +4141,36 @@ aphiaID,scientificName,n_events
 815946,Mendicula inflata,2
 832095,Zoidbergus tenuis,2
 834016,Bugulina simplex,2
-835646,Parthenina terebellum,2
 845529,Knoutsodonta oblonga,2
 849079,Jitlada juvenilis,2
 852961,Dactylerythrops gracilurus,2
 881904,Zoea,2
-886757,Aricidea (Strelzovia) ramosa,2
 955306,Chironomus (Microchironomus) deribae,2
-991800,Triloculina tricarinata,2
-995086,Lindrilus rubropharyngeus,2
-1027803,Xiphosiphonia pinnulata,2
 1039846,Steromphala pennanti,2
 1048787,Carronella pellucida,2
 1053400,Epimeria (Epimeria) parasitica,2
 1054988,Isorropodon elongatum,2
-1311361,Lychaete pygmaea,2
 1346775,Geminofilum distichum,2
 1391526,Tritia varicosa,2
-1391543,Paratriangulus galatheae,2
 1423136,Regioscalpellum regium,2
 151,Nassariidae,1
 200,Dentaliida,1
 236,Donacidae,1
-798,Monogenea,1
-803,Acrosiphoniales,1
-844,Fucales,1
-871,Gigartinales,1
 905,Ctenodrilidae,1
 915,Trochochaetidae,1
 958,Tomopteridae,1
 961,Euphrosinidae,1
-992,Nerillidae,1
-995,Saccocirridae,1
-1274,Chelicerata,1
-1277,Myriapoda,1
-1278,Hexapoda,1
-1304,Chilopoda,1
-1305,Diplopoda,1
 1611,Lovenellidae,1
 1644,Aspidosiphonidae,1
 1645,Phascolosomatidae,1
 1730,Scissurellidae,1
-1733,Lepetidae,1
 1741,Skeneopsidae,1
-1787,Pandoridae,1
-2043,Piscicolidae,1
-2174,Meyliidae,1
-2436,Araeolaimus,1
-10211,Squaliformes,1
-10313,Gadiformes,1
-10527,Lyonsiidae,1
-13568,Dondersiidae,1
 13795,Epicaridea,1
 14622,Myoidea,1
 14656,Nuculoidea,1
 14766,Littorinoidea,1
 14783,Eulimoidea,1
 15029,Pandeidae,1
-22388,Thecostraca,1
-22609,Myzostomatidae,1
 100672,Hormathiidae,1
 100731,Edwardsiella,1
 100774,Cereus,1
@@ -5922,7 +4179,6 @@ aphiaID,scientificName,n_events
 100922,Carlgrenia desiderata,1
 100959,Paracalliactis stephensoni,1
 100966,Phelliactis robusta,1
-101157,Priapulopsis bicaudatus,1
 101377,Cressidae,1
 101452,Gitana,1
 101454,Paramphilochoides,1
@@ -5981,21 +4237,11 @@ aphiaID,scientificName,n_events
 104034,Platidiidae,1
 104056,Terebratulina septentrionalis,1
 104068,Gryphus vitreus,1
-104079,Calanidae,1
 104722,Anomalocera patersoni,1
-105711,Rajidae,1
-105782,Squalus,1
-105807,Apristurus laurussonii,1
-105837,Cetorhinus maximus,1
-105869,Dipturus batis,1
 106055,Scalpellidae,1
 106121,Semibalanus,1
 106241,Bathylasma hirsutum,1
 106253,Metaverruca recta,1
-106346,Pleurobrachia,1
-106421,Notodelphyidae,1
-106453,Enterocola,1
-106462,Bonnierilla,1
 106700,Majoidea,1
 106715,Palaemonoidea,1
 106716,Pandaloidea,1
@@ -6035,11 +4281,6 @@ aphiaID,scientificName,n_events
 110577,Platycuma hessleri,1
 110583,Procampylaspis bituberculata,1
 110608,Makrokylindrus (Makrokylindrus) spiniventris,1
-110673,Euphausia,1
-110674,Meganyctiphanes,1
-110679,Thysanoessa,1
-110711,Thysanoessa raschii,1
-110717,Thysanopoda microphthalma,1
 110740,Chorizoporidae,1
 110757,Hippothoidae,1
 110763,Microporellidae,1
@@ -6068,50 +4309,9 @@ aphiaID,scientificName,n_events
 111708,Filicrisia geniculata,1
 111733,Disporella smitti,1
 111764,Tubulipora phalangea,1
-111851,Lagotia,1
-112030,Nummoloculina,1
-112148,Rosalina,1
-112215,Lagena,1
-112223,Nodosaria,1
-112233,Nonionella,1
-112244,Planorbulina,1
-112251,Guttulina,1
-112341,Reophax,1
-112394,Textularia,1
-112412,Trochammina,1
-112704,Sigmoilopsis schlumbergeri,1
-112741,Spiroloculina rotunda,1
-112918,Planulina ariminensis,1
-113341,Hoeglundina elegans,1
-113495,Lagena hispida,1
-113510,Stomatorbina concentrica,1
-113564,Melonis pompilioides,1
-113670,Laryngosigma hyalascidia,1
-113788,Lenticulina gibba,1
-113885,Marsipella elongata,1
-113897,Rhabdamminella cylindrica,1
-113918,Ammoscalaria pseudospiralis,1
-113934,Eggerelloides advenus,1
-113970,Hyperammina friabilis,1
-114016,Reophax scorpiurus,1
-114221,Morulaeplecta bulbosa,1
-114965,Thalassarachna basteri,1
-114976,Thalassarachna reticulata,1
-114990,Scaptognathus hallezi,1
-115135,Ameiridae,1
 115160,Longipediidae,1
-115181,Thalestridae,1
 115403,Longipedia,1
-115454,Tetragoniceps,1
-115463,Idomene,1
-115470,Thalestris,1
-115523,Ameira pusilla,1
 115732,Sunaristes paguri,1
-115814,Evansula incerta,1
-116295,Paralaophonte macera,1
-116550,Dactylopodella flava,1
-116665,Tisbe furcata,1
-116943,Pontobdella,1
 117017,Dicoryne,1
 117185,Neoturris,1
 117250,Stegopoma,1
@@ -6123,10 +4323,7 @@ aphiaID,scientificName,n_events
 117692,Grammaria abietina,1
 117823,Plumularia obliqua,1
 117827,Polyplumaria flabellata,1
-117832,Velella velella,1
 117978,Tiaropsis multicirrata,1
-118093,Staphylinidae,1
-118104,Petrobius,1
 118176,Gyge,1
 118233,Progebiophilus euxinicus,1
 118319,Desmosoma,1
@@ -6149,8 +4346,6 @@ aphiaID,scientificName,n_events
 119931,Neognathophausia gigas,1
 120054,Leptomysis lingvura,1
 120182,Pseudomma affine,1
-120805,Acantholaimus polydentatus,1
-122252,Tripyloides gracilis,1
 122391,Amphiporus,1
 122583,Valencinia longirostris,1
 122704,Nipponnemertes pulchra,1
@@ -6184,46 +4379,7 @@ aphiaID,scientificName,n_events
 125374,Isidella lofotensis,1
 125393,Placogorgia graciosa,1
 125414,Anthothela grandiflora,1
-125451,Belonidae,1
-125476,Gasterosteidae,1
-125580,Scophthalmidae,1
-125620,Anguilla,1
-125659,Atherina,1
-125732,Gadus,1
-125912,Anarhichas,1
-125920,Parablennius,1
-126108,Zoarces,1
-126115,Hippoglossoides,1
-126119,Platichthys,1
-126144,Agonus,1
-126178,Chelidonichthys,1
-126319,Serrivomer beanii,1
-126369,Bathysaurus ferox,1
-126421,Sardina pilchardus,1
-126442,Raniceps raninus,1
-126608,Lampadena speculigera,1
-126639,Halosauropsis macrochir,1
-126709,Rouleina attrita,1
-126715,Argentina silus,1
-126719,Bathylagus euryops,1
-127053,Diplodus sargus,1
-127205,Triglops murrayi,1
-127219,Liparis liparis,1
-127248,Scorpaena scrofa,1
-127255,Sebastes viviparus,1
-127309,Argyropelecus hemigymnus,1
-127380,Hippocampus hippocampus,1
-127385,Nerophis ophidion,1
-127689,Propontocypris,1
-127708,Synasterope norvegica,1
-128624,Hersiliodes,1
-128641,Ergasilus,1
-128666,Lichomolgus,1
-128702,Axinophilus,1
-128787,Mesnilia cluthae,1
-128996,Akessonia occulta,1
 129153,Amage,1
-129228,Pseudonotomastus,1
 129381,Platynereis,1
 129466,Pilargis,1
 129479,Austrolaenilla,1
@@ -6236,8 +4392,6 @@ aphiaID,scientificName,n_events
 129637,Paradexiospira,1
 129687,Amphitritides,1
 129773,Amage scotica,1
-129871,Arenicolides grubii,1
-129896,Notomastus exsertilis,1
 129932,Dysponetus pygmaeus,1
 129968,Dodecaceria diceria,1
 130021,Ophryotrocha gerlachi,1
@@ -6248,10 +4402,7 @@ aphiaID,scientificName,n_events
 130162,Hesionides maxima,1
 130247,Lumbrineris labrofimbriata,1
 130258,Paraninoe minuta,1
-130298,Johnstonia clymenoides,1
 130460,Diopatra neapolitana,1
-130519,Orbinia bioreti,1
-130521,Orbinia cuvierii,1
 130607,Pholoides dorsipapillatus,1
 130628,Eulalia hanssoni,1
 130660,Notophyllum americanum,1
@@ -6259,13 +4410,9 @@ aphiaID,scientificName,n_events
 130725,Austrolaenilla mollis,1
 130756,Harmothoe aspera,1
 130779,Harmothoe rarispina,1
-130838,Protodriloides symbioticus,1
-130851,Protodrilus oculifer,1
-130861,Lygdamis muratus,1
 130872,Bispira fabricii,1
 130943,Oriopsis hynensis,1
 130956,Potamilla torelli,1
-130981,Sclerobregma branchiatum,1
 131064,Euthalenessa oculata,1
 131068,Leanira hystricis,1
 131115,Dipolydora armata,1
@@ -6313,9 +4460,6 @@ aphiaID,scientificName,n_events
 134662,Colossendeis clavata,1
 134676,Boreonymphon abyssorum,1
 134688,Nymphon grossipes,1
-134764,Sacculinidae,1
-134772,Lernaeodiscus,1
-134796,Parthenopea subterranea,1
 135108,Balanophyllia,1
 135136,Caryophyllia (Caryophyllia) atlantica,1
 135143,Caryophyllia (Caryophyllia) seguenzae,1
@@ -6324,10 +4468,6 @@ aphiaID,scientificName,n_events
 135313,Depastrum cyathiforme,1
 135385,Agalma,1
 135497,Apolemia uvaria,1
-135530,Nicothoidae,1
-135541,Artotrogus,1
-135572,Cancerilla,1
-135929,Rhizorhina tanaidaceae,1
 136052,Nephasoma (Nephasoma) capilleforme,1
 136057,Nephasoma (Nephasoma) eremita,1
 136062,Nephasoma (Nephasoma) wodjanizkii,1
@@ -6349,13 +4489,6 @@ aphiaID,scientificName,n_events
 136451,Leptognathia ventralis,1
 136455,Mirandotanais vorax,1
 136563,Peraeospinosus kerguelenensis,1
-137024,Stenella,1
-137056,Podiceps,1
-137111,Tursiops truncatus,1
-137145,Larus hyperboreus,1
-137184,Podiceps nigricollis,1
-137192,Oceanodroma leucorhoa,1
-137203,Puffinus puffinus,1
 137347,Enchytraeus,1
 137357,Nais,1
 137538,Pectinodrilus rectisetosus,1
@@ -6367,9 +4500,7 @@ aphiaID,scientificName,n_events
 137758,Bittium,1
 137773,Chaetoderma,1
 137781,Cadlina,1
-137786,Cima,1
 137807,Bela,1
-137920,Ebala,1
 137924,Myosotella,1
 138069,Panomya,1
 138098,Jorunna,1
@@ -6382,7 +4513,6 @@ aphiaID,scientificName,n_events
 138325,Pseudamussium,1
 138371,Thecacera,1
 138391,Copulabyssia,1
-138411,Noemiamea,1
 138445,Cingula,1
 138461,Rostanga,1
 138477,Sepia,1
@@ -6403,7 +4533,6 @@ aphiaID,scientificName,n_events
 139360,Raphitoma concinna,1
 139366,Raphitoma echinata,1
 139388,Theta chariessa,1
-139459,Halonympha depressa,1
 139645,Doto lemchei,1
 139647,Doto millbayana,1
 139726,Epitonium hispidulum,1
@@ -6422,7 +4551,6 @@ aphiaID,scientificName,n_events
 139924,Fusinus bocagei,1
 140035,Okenia aspersa,1
 140037,Okenia elegans,1
-140187,Lepeta caeca,1
 140215,Arculus sykesii,1
 140278,Ctena decussata,1
 140297,Mactra glauca,1
@@ -6430,14 +4558,9 @@ aphiaID,scientificName,n_events
 140429,Urosalpinx cinerea,1
 140460,Modiolarca subpicta,1
 140596,Bathypolypus arcticus,1
-140616,Omalogyra atomus,1
 140661,Otina ovata,1
 140765,Philinoglossa praelongata,1
 140815,Berthellina citrina,1
-140967,Liostomia hansgei,1
-141002,Odostomia lukisii,1
-141039,Ondina warreni,1
-141071,Turbonilla jeffreysii,1
 141166,Alvania carinata,1
 141168,Alvania cimicoides,1
 141257,Alvania zetlandica,1
@@ -6447,78 +4570,16 @@ aphiaID,scientificName,n_events
 141437,Abra profundorum,1
 141440,Ervilia castanea,1
 141450,Sepietta neglecta,1
-141556,Calliopaea bellula,1
 141639,Tenellia adspersa,1
 141715,Marshallora adversa,1
 141917,Irus irus,1
-141951,Lyonsiella subquadrata,1
-141952,Policordia densicostata,1
 141976,Xylophaga dorsalis,1
 141998,Yoldiella insculpta,1
-142233,Discocelides,1
-142815,Cycloporus papillosus,1
-142816,Eurylepta cornuta,1
-142861,Stylochoplana maculata,1
-143671,Ceramiaceae,1
-143698,Kallymeniaceae,1
-143742,Schizymeniaceae,1
-143748,Gracilariaceae,1
-143773,Champiaceae,1
-143783,Stypocaulaceae,1
-143804,Spongomorpha,1
-143809,Asparagopsis,1
-143858,Ptilota,1
-143863,Seirospora,1
-143906,Chondria,1
-143954,Chordaria,1
-143975,Myriactula,1
-143984,Pseudolithoderma,1
-143997,Rhizoclonium,1
-144036,Gloiosiphonia,1
-144061,Desmarestia,1
-144086,Dictyota,1
-144121,Erythrotrichia,1
-144173,Rissoella,1
-144276,Sphaerococcus,1
-144287,Ulothrix,1
-144420,Urospora penicilliformis,1
-144423,Bangia atropurpurea,1
-144511,Antithamnion densum,1
-144531,Centroceras clavulatum,1
-144569,Ceramium tenuicorne,1
-144693,Scagelothamnion pusillum,1
-144751,Erythroglossum sandrianum,1
-144805,Chondria scintillans,1
-144883,Syncoryne reinkei,1
-144908,Acrothrix gracilis,1
-144945,Leptonematella fasciculata,1
-145026,Chaetomorpha ligustica,1
-145078,Codium adhaerens,1
-145278,Peyssonnelia dubyi,1
-145327,Litosiphon laminariae,1
-145347,Punctaria plantaginea,1
-145385,Padina pavonica,1
-145428,Herponema velutinum,1
-145435,Hincksia hincksiae,1
-145602,Calosiphonia vermicularis,1
-145694,Gracilaria cervicornis,1
-145922,Eugomontia sacculata,1
-145927,Ulothrix implexa,1
-145940,Monostroma grevillei,1
-146549,Oscillatoria,1
-146633,Rivularia atra,1
 146906,Fabulina,1
 146922,Melita nitida,1
 147029,Nebaliidae,1
-147436,Haematopus ostralegus,1
-147730,Verrucaria striatula,1
-148373,Daphnia longispina,1
-148374,Daphnia hyalina,1
 148606,Emplectonema neesii,1
-148736,Pinnipedia,1
-149013,Diatoma,1
 149681,Nebaliopsis typica,1
-150325,Acaridae,1
 150883,Polypedilum,1
 150932,Limoniidae,1
 152380,Curveulima devians,1
@@ -6528,31 +4589,14 @@ aphiaID,scientificName,n_events
 153574,Malacostegina,1
 153661,Schizoporelloidea,1
 153853,Mangeliidae,1
-154721,Balistes capriscus,1
-154938,Maldaninae,1
-155156,Lygdamis murata,1
 155375,Eulalia clavigera,1
 155460,Melinnopsis atlantica,1
-155531,Protodriloididae,1
 156065,Didemnum helgolandicum,1
 156086,Eugerda filipes,1
 156260,Nebalia strausi,1
-156485,Vetigastropoda,1
 156908,Psectrocladius,1
 157573,Spio setosa,1
-158909,Nannobrachium atrum,1
-158956,Coryphaenoides carapinus,1
-158970,Tringa totanus,1
-159034,Limosa lapponica,1
-159052,Calidris maritima,1
-159097,Mergus merganser,1
-159115,Egretta garzetta,1
-159135,Pluvialis apricaria,1
-159137,Pluvialis squatarola,1
-159159,Anser albifrons,1
-159177,Branta leucopsis,1
 160236,Curtitoma decussata,1
-160573,Trebouxiophyceae,1
 160615,Leucon (Leucon) affinis,1
 164322,Leucandra gossei,1
 165647,Monocrepidium minutum,1
@@ -6569,7 +4613,6 @@ aphiaID,scientificName,n_events
 181304,Hyalopecten pudicus,1
 181314,Limatula bisecta,1
 181542,Cardium exiguum,1
-181582,Lymnaea stagnalis,1
 182111,Makrokylindrus (Makrokylindrus) mystacinus,1
 182369,Campylaspides grandis,1
 182564,Cumellopsis bicostata,1
@@ -6578,30 +4621,23 @@ aphiaID,scientificName,n_events
 183022,Bonellia thomensis,1
 183026,Branchamphinome antarctica,1
 183031,Bugulella gracilis,1
-183100,Coryphaenoides zaniophorus,1
 183126,Dicarpa pacifica,1
 183134,Ecamphicteis elongata,1
 183141,Eucalathis ergastica,1
 183142,Eucalathis tuberata,1
 183261,Maxmuelleria verrucosum,1
 183271,Microecia suborbicularis,1
-183309,Ophelina groenlandica,1
 183311,Ophiernus vallincola,1
 183313,Ophiocymbium cavernosum,1
-183338,Paulillgia polycarpae,1
 183340,Peniagone incerta,1
 183341,Peniagone papillata,1
 195916,Leufroyia concinna,1
 195948,Anoplosyllis edentula,1
 196000,Syllis jorgei,1
 196022,Munidopsis aries,1
-203854,Cirripectes,1
 210060,Janua pagenstecheri,1
-212619,Charadrius hiaticula,1
 231681,Rhizorhagium arenosum,1
-232230,Lomentaria hakodatensis,1
 234085,Gammarus lacustris,1
-234601,Stomias boa boa,1
 236688,Saccella commutata,1
 237792,Stomatopora gingrina,1
 238193,Myrianida convoluta,1
@@ -6617,57 +4653,35 @@ aphiaID,scientificName,n_events
 261190,Metamunna typica,1
 261438,Neastacilla richardsonae,1
 264175,Jaera (Jaera) forsmani,1
-265044,Staurozoa,1
 266618,Sluiterina flabellorhynchum,1
 267197,Actineria,1
-274967,Argyropelecus olfersii,1
 284644,Eudendrium arbuscula,1
 284891,Hydractinia proboscidea,1
 285362,Abietinaria fusca,1
 288828,Zoanthus alderi,1
 295701,Stenosoma lancifer,1
-313540,Opheliinae,1
 324346,Nereidinae,1
 325961,Parexogone,1
 326485,Aphrodita acuminata,1
 328195,Haematocleptes terebellidis,1
-330349,Paraonides nordica,1
 332501,Terebellides atlantis,1
 333513,Grubianella klugei,1
 334444,Perinereis marionii,1
-337479,Aricidea (Aricidea) capensis,1
 337592,Phyllodoce (Carobia) rubiginosa,1
 339996,Sabella sarsii,1
-353934,Notodelphys salthasae,1
-367297,Raja brachyura,1
 367569,Propebela bergensis,1
-371595,Hypoglossum heterocystideum,1
-373745,Colaconema savianum,1
 387097,Ischnochiton albinus,1
 389697,Leucothoe brunonis,1
 390407,Euchone pararosea,1
 390517,Vitreolina colini,1
-399466,Chara aspera,1
-405109,Vertambitus triangularis,1
-405955,Policordia atlantica,1
-406055,Lyonsiella perplexa,1
-414988,Polycelis,1
-415382,Evalea,1
-417571,Archimerismus subnodosus,1
-417697,Pyrgo sarsi,1
-417986,Eoeponidella pulchella,1
 421138,Amphibalanus eburneus,1
 423079,Amphorina pallida,1
 429768,Thalassomembracis atlanticus,1
 446464,Parerythrops obesus,1
-463376,Propontocypris trigonella,1
-466321,Globulina minuta,1
 469412,Notoplites evocatus,1
 472036,Bugulopsis peachii,1
 478776,Tumidochelia uncinata,1
-479491,Ascophora,1
 488962,Nototropis nordlandicus,1
-494064,Endoclonium,1
 506255,Neilonella sulculata,1
 506294,Bathyspinula filatovae,1
 506466,Tindaria hessleri,1
@@ -6675,38 +4689,22 @@ aphiaID,scientificName,n_events
 510797,Parechinidae,1
 513337,Histocidaris purpurata,1
 526627,Holanthus expergitus,1
-528435,Fissurina quadricostulata,1
 532402,Aporodoris millegrana,1
 549784,Ophiotoma alberti,1
-556007,Parhedyle,1
-556063,Hanzawaia asterizans,1
 558845,Prionospio pulchra,1
 570199,Anoplosyllinae,1
 599861,Stephanotheca ochracea,1
-603257,Ophiothrix,1
-606407,Dondersia incali,1
 607838,Stomacrustula cruenta,1
-624205,Battersia plumigera,1
-625763,Scytonematopsis crustacea,1
-703701,Levinsenia uncinata,1
 712122,Tanypodinae,1
-722561,Chrysallida indistincta,1
-723205,Laevidentalina baggi,1
 723871,Pseudoflustra perrieri,1
 733520,Hesperibalanus fallax,1
-736821,Triloculinella tegminis,1
 742177,Leodice torquata,1
 744711,Photis inornatus,1
-745861,Notodelphys allmani allmani,1
-760683,Acariformes,1
 761610,Opisthodonta serratisetosa,1
-772698,Actinocythereis dunelmensis,1
 816801,Mesothuria verrilli,1
 826920,Pseudotanais forcipatus,1
 832090,Zoidbergus vicinus,1
 833992,Bugulina calathus,1
-835619,Sylon,1
-839257,Dermocorynus dichotomus,1
 852065,Polydora calcarea,1
 852999,Michthyops parvus,1
 869389,Styloptocuma echinatum,1
@@ -6716,12 +4714,8 @@ aphiaID,scientificName,n_events
 943463,Parexogone wolfi,1
 954695,Parathyasira biscayensis,1
 988092,Cyclocanna producta,1
-993559,Psammosiphonella discreta,1
 1027165,Samythella pacifica,1
 1039387,Magallana angulata,1
-1042828,Chelon aurata,1
-1042830,Chelon ramada,1
-1046354,Bigenerina (Bigenerina) nodosaria,1
 1048134,Microchlamylla gracilis,1
 1055683,Oedicerotoidea,1
 1059648,Centraloecetes pallidus,1
@@ -6730,8 +4724,5 @@ aphiaID,scientificName,n_events
 1296701,Pseudotanais vulsella,1
 1305625,Paucibranchia totospinata,1
 1307771,Platytyphlops grimaldii,1
-1311326,Nothokallymenia crouaniorum,1
-1311359,Halochlorococcum moorei,1
-1311367,Gaillona gallica,1
 1329193,Eremitione hyndmanni,1
 1424119,Amphilectus ovulum,1

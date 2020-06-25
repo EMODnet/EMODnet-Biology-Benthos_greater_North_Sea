@@ -25,8 +25,13 @@ sbnsc<- read_delim("./data/derived_data/all2Data.csv",
                    delim=",")
 trdi<-read.csv("./data/derived_data/allDatasets_selection.csv",stringsAsFactors = FALSE)
 usedds<- trdi %>% filter (include) %>% dplyr::select(datasetid)
+splst<-read_delim(file.path(dataDir,"sp2use.csv"),
+                  col_types = "dccccccclllllllllllllllll",
+                  delim=",")
 ##########################################################
 ##### select few columns to work with
+##### filter to only the used datasets
+##### and filter to true benthic species only
 ##########################################################
 trec<- sbnsc %>% dplyr::select(eventDate=datecollected,
                         decimalLongitude=decimallongitude,
@@ -36,6 +41,7 @@ trec<- sbnsc %>% dplyr::select(eventDate=datecollected,
 						            datasetid=datasetid) %>%
                  mutate(datasetid=as.numeric(substr(datasetid,65,90))) %>%
                  filter(datasetid %in% usedds$datasetid)
+trec<- trec %>%  filter(aphiaID %in% splst$AphiaID)
 
 ##############################################################
 # Define 'sampling events' as all records that share time and place, give
@@ -110,14 +116,15 @@ for(ss in spmin:spmax){
 	  tt_ds<- ic_sp %>% filter(aphiaID==spAphId) %>%
 	                  distinct(datasetid) %>% 
 	                  bind_rows(trdi_ct %>% dplyr::select(datasetid))
-	     # The dataset to be used consists of all complete datasets, and all incomplete datasets that targeted our species
+	     # The dataset to be used consists of all complete datasets, 
+	     # and all incomplete datasets that targeted our species
     spe<- trec %>% filter(datasetid %in% tt_ds$datasetid) %>%
 	               group_by(eventNummer) %>%
-				   summarize(pres_abs= as.numeric(any(aphiaID==spAphId)))  %>%
-				   left_join(events,by='eventNummer') 
+				         summarize(pres_abs= as.numeric(any(aphiaID==spAphId)))  %>%
+				         left_join(events,by='eventNummer') 
     spesh <- spe %>% 
       mutate (spcolumn=(pres_abs==1)) %>% 
-      select (- pres_abs)
+      dplyr::select (- pres_abs)
     names(spesh)[5]<-spcolumn
     if(ss==spmin) allspe <- spesh else {
       spesh  <- spesh  %>% dplyr::select('eventNummer',spcolumn)

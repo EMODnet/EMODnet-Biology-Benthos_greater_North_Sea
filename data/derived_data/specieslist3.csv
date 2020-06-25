@@ -1,0 +1,541 @@
+AphiaID,scientificnameaccepted,phylum,class,order,family,genus,subgenus,benthos,endobenthos,macrobenthos,epibenthos,meiobenthos,phytobenthos,plankton,nekton,Pisces,Algae,Aves_tax,Pisces_tax,Algae_tax,Plants_tax,meio_tax,micro_tax,misc_tax
+801,Chlorophyta,Chlorophyta,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,NA,NA,TRUE,TRUE,NA,FALSE,NA
+852,Rhodophyta,Rhodophyta,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,NA,NA,TRUE,TRUE,NA,FALSE,NA
+414889,Solanaceae,Tracheophyta,Magnoliopsida,Solanales,Solanaceae,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+144188,Gracilaria,Rhodophyta,Florideophyceae,Gracilariales,Gracilariaceae,Gracilaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144272,Sphacelaria,Ochrophyta,Phaeophyceae,Sphacelariales,Sphacelariaceae,Sphacelaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144296,Ulva,Chlorophyta,Ulvophyceae,Ulvales,Ulvaceae,Ulva,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144683,Pterothamnion plumula,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Pterothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144732,Heterosiphonia plumosa,Rhodophyta,Florideophyceae,Ceramiales,Dasyaceae,Heterosiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144743,Cryptopleura ramosa,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Cryptopleura,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144744,Delesseria sanguinea,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Delesseria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145307,Desmarestia aculeata,Ochrophyta,Phaeophyceae,Desmarestiales,Desmarestiaceae,Desmarestia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145540,Halidrys siliquosa,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Halidrys,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145771,Palmaria palmata,Rhodophyta,Florideophyceae,Palmariales,Palmariaceae,Palmaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145782,Plocamium cartilagineum,Rhodophyta,Florideophyceae,Plocamiales,Plocamiaceae,Plocamium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145825,Lomentaria clavellosa,Rhodophyta,Florideophyceae,Rhodymeniales,Lomentariaceae,Lomentaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+147480,Bryophyta,Bryophyta,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,NA,NA,FALSE,TRUE,NA,FALSE,NA
+415940,Rubus,Tracheophyta,Magnoliopsida,Rosales,Rosaceae,Rubus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+425928,Araceae,Tracheophyta,Magnoliopsida,Alismatales,Araceae,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+631828,Vertebrata byssoides,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Vertebrata,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+715972,Lemna,Tracheophyta,Magnoliopsida,Alismatales,Araceae,Lemna,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+143691,Corallinaceae,Rhodophyta,Florideophyceae,Corallinales,Corallinaceae,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144773,Phycodrys rubens,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Phycodrys,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145199,Phymatolithon calcareum,Rhodophyta,Florideophyceae,Corallinales,Lithothamniaceae,Phymatolithon,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+15308,Corallinales,Rhodophyta,Florideophyceae,Corallinales,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145724,Laminaria digitata,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Laminaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+234483,Saccharina latissima,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Saccharina,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144758,Membranoptera alata,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Membranoptera,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+830,Phaeophyceae,Ochrophyta,Phaeophyceae,NA,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,NA,FALSE,FALSE
+802,Chlorophyceae,Chlorophyta,Chlorophyceae,NA,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,NA,FALSE,FALSE
+143717,Ectocarpaceae,Ochrophyta,Phaeophyceae,Ectocarpales,Ectocarpaceae,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143800,Audouinella,Rhodophyta,Florideophyceae,Acrochaetiales,Acrochaetiaceae,Audouinella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143832,Callithamnion,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Callithamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143883,Delesseria,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Delesseria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143968,Elachista,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Elachista,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143999,Codium,Chlorophyta,Ulvophyceae,Bryopsidales,Codiaceae,Codium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144018,Lithothamnion,Rhodophyta,Florideophyceae,Corallinales,Lithothamniaceae,Lithothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144033,Dumontia,Rhodophyta,Florideophyceae,Gigartinales,Dumontiaceae,Dumontia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144051,Peyssonnelia,Rhodophyta,Florideophyceae,Peyssonneliales,Peyssonneliaceae,Peyssonnelia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144054,Cutleria,Ochrophyta,Phaeophyceae,Cutleriales,Cutleriaceae,Cutleria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144067,Dictyosiphon,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Dictyosiphon,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144086,Dictyota,Ochrophyta,Phaeophyceae,Dictyotales,Dictyotaceae,Dictyota,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144135,Gelidium,Rhodophyta,Florideophyceae,Gelidiales,Gelidiaceae,Gelidium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144151,Halarachnion,Rhodophyta,Florideophyceae,Gigartinales,Furcellariaceae,Halarachnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144252,Rhodymenia,Rhodophyta,Florideophyceae,Rhodymeniales,Rhodymeniaceae,Rhodymenia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144437,Porphyra umbilicalis,Rhodophyta,Bangiophyceae,Bangiales,Bangiaceae,Porphyra,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144442,Bonnemaisonia hamifera,Rhodophyta,Florideophyceae,Bonnemaisoniales,Bonnemaisoniaceae,Bonnemaisonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144502,Aglaothamnion tripinnatum,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Aglaothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144535,Ceramium botryocarpum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Ceramium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144603,Plumaria plumosa,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Plumaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144686,Ptilota gunneri,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Ptilota,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144702,Spermothamnion repens,Rhodophyta,Florideophyceae,Ceramiales,Wrangeliaceae,Spermothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144719,Dasya hutchinsiae,Rhodophyta,Florideophyceae,Ceramiales,Dasyaceae,Dasya,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144737,Apoglossum ruscifolium,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Apoglossum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144755,Haraldiophyllum bonnemaisonii,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Haraldiophyllum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144770,Nitophyllum punctatum,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Nitophyllum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144854,Rhodomela confervoides,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Rhodomela,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144855,Rhodomela lycopodioides,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Rhodomela,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144918,Eudesme virescens,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Eudesme,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144937,Elachista fucicola,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Elachista,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145170,Lithothamnion glaciale,Rhodophyta,Florideophyceae,Corallinales,Lithothamniaceae,Lithothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145188,Mesophyllum lichenoides,Rhodophyta,Florideophyceae,Hapalidiales,Mesophyllaceae,Mesophyllum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145222,Dilsea carnosa,Rhodophyta,Florideophyceae,Gigartinales,Dumontiaceae,Dilsea,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145271,Meredithia microphylla,Rhodophyta,Florideophyceae,Gigartinales,Kallymeniaceae,Meredithia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145306,Arthrocladia villosa,Ochrophyta,Phaeophyceae,Desmarestiales,Arthrocladiaceae,Arthrocladia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145313,Asperococcus fistulosus,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Asperococcus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145490,Erythrotrichia carnea,Rhodophyta,Compsopogonophyceae,Erythropeltales,Erythrotrichiaceae,Erythrotrichia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145590,Gelidium pusillum,Rhodophyta,Florideophyceae,Gelidiales,Gelidiaceae,Gelidium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145605,Catenella caespitosa,Rhodophyta,Florideophyceae,Gigartinales,Caulacanthaceae,Catenella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145606,Caulacanthus ustulatus,Rhodophyta,Florideophyceae,Gigartinales,Caulacanthaceae,Caulacanthus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145620,Furcellaria lumbricalis,Rhodophyta,Florideophyceae,Gigartinales,Furcellariaceae,Furcellaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145621,Halarachnion ligulatum,Rhodophyta,Florideophyceae,Gigartinales,Furcellariaceae,Halarachnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145654,Coccotylus truncatus,Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Coccotylus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145688,Stylonema alsidii,Rhodophyta,Stylonematophyceae,Stylonematales,Stylonemataceae,Stylonema,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145722,Chorda filum,Ochrophyta,Phaeophyceae,Laminariales,Chordaceae,Chorda,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143804,Spongomorpha,Chlorophyta,Ulvophyceae,Ulotrichales,Ulotrichaceae,Spongomorpha,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144047,Callophyllis,Rhodophyta,Florideophyceae,Gigartinales,Kallymeniaceae,Callophyllis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144099,Ectocarpus,Ochrophyta,Phaeophyceae,Ectocarpales,Ectocarpaceae,Ectocarpus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144129,Fucus,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Fucus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144149,Rhodophyllis,Rhodophyta,Florideophyceae,Gigartinales,Cystocloniaceae,Rhodophyllis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144172,Polyides,Rhodophyta,Florideophyceae,Gigartinales,Polyidaceae,Polyides,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144197,Chorda,Ochrophyta,Phaeophyceae,Laminariales,Chordaceae,Chorda,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145743,Scinaia furcellata,Rhodophyta,Florideophyceae,Nemaliales,Scinaiaceae,Scinaia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144204,Scinaia,Rhodophyta,Florideophyceae,Nemaliales,Scinaiaceae,Scinaia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144368,Acrochaetium microscopicum,Rhodophyta,Florideophyceae,Acrochaetiales,Acrochaetiaceae,Acrochaetium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144422,Ahnfeltia plicata,Rhodophyta,Florideophyceae,Ahnfeltiales,Ahnfeltiaceae,Ahnfeltia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144438,Asparagopsis armata,Rhodophyta,Florideophyceae,Bonnemaisoniales,Bonnemaisoniaceae,Asparagopsis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144440,Bonnemaisonia asparagoides,Rhodophyta,Florideophyceae,Bonnemaisoniales,Bonnemaisoniaceae,Bonnemaisonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145821,Lomentaria articulata,Rhodophyta,Florideophyceae,Rhodymeniales,Lomentariaceae,Lomentaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144501,Aglaothamnion tenuissimum,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Aglaothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144547,Ceramium echionotum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Ceramium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144549,Ceramium gaditanum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Ceramium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144563,Ceramium shuttleworthianum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Ceramium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145855,Rhodymenia pseudopalmata,Rhodophyta,Florideophyceae,Rhodymeniales,Rhodymeniaceae,Rhodymenia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145888,Cladostephus spongiosus,Ochrophyta,Phaeophyceae,Sphacelariales,Cladostephaceae,Cladostephus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144572,Compsothamnion gracillimum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Compsothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144599,Monosporus pedicellatus,Rhodophyta,Florideophyceae,Ceramiales,Wrangeliaceae,Monosporus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144608,Polysiphonia atlantica,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Polysiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144672,Polysiphonia stricta,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Polysiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145906,Halopteris filicina,Ochrophyta,Phaeophyceae,Sphacelariales,Stypocaulaceae,Halopteris,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145908,Sphaerococcus coronopifolius,Rhodophyta,Florideophyceae,Gigartinales,Sphaerococcaceae,Sphaerococcus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144697,Seirospora interrupta,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Seirospora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144749,Erythroglossum laciniatum,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Erythroglossum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144799,Chondria dasyphylla,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Chondria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144842,Osmundea hybrida,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Osmundea,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144847,Osmundea pinnatifida,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Osmundea,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144883,Syncoryne reinkei,Chlorophyta,Ulvophyceae,Ulvales,Ulvellaceae,Syncoryne,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144908,Acrothrix gracilis,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Acrothrix,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144924,Mesogloia vermiculata,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Mesogloia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144990,Pseudolithoderma extensum,Ochrophyta,Phaeophyceae,Sphacelariales,Lithodermataceae,Pseudolithoderma,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145001,Ralfsia verrucosa,Ochrophyta,Phaeophyceae,Ralfsiales,Ralfsiaceae,Ralfsia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145033,Cladophora albida,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Cladophora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145042,Cladophora dalmatica,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Cladophora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145049,Cladophora hutchinsiae,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Cladophora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145065,Cladophora sericea,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Cladophora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145076,Rhizoclonium tortuosum,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Rhizoclonium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145108,Corallina officinalis,Rhodophyta,Florideophyceae,Corallinales,Corallinaceae,Corallina,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+146793,Chaetomorpha mediterranea,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Chaetomorpha,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+146960,Gracilariopsis longissima,Rhodophyta,Florideophyceae,Gracilariales,Gracilariaceae,Gracilariopsis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145165,Lithothamnion corallioides,Rhodophyta,Florideophyceae,Corallinales,Lithothamniaceae,Lithothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145226,Dudresnaya verticillata,Rhodophyta,Florideophyceae,Gigartinales,Dumontiaceae,Dudresnaya,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145267,Kallymenia reniformis,Rhodophyta,Florideophyceae,Gigartinales,Kallymeniaceae,Kallymenia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+148899,Bacillariophyceae,Ochrophyta,Bacillariophyceae,NA,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,NA,FALSE,FALSE
+145310,Desmarestia viridis,Ochrophyta,Phaeophyceae,Desmarestiales,Desmarestiaceae,Desmarestia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145367,Dictyota dichotoma,Ochrophyta,Phaeophyceae,Dictyotales,Dictyotaceae,Dictyota,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145410,Ectocarpus siliculosus,Ochrophyta,Phaeophyceae,Ectocarpales,Ectocarpaceae,Ectocarpus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145542,Fucus ceranoides,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Fucus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145544,Fucus distichus,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Fucus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145551,Himanthalia elongata,Ochrophyta,Phaeophyceae,Fucales,Himanthaliaceae,Himanthalia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145594,Gelidium spinosum,Rhodophyta,Florideophyceae,Gelidiales,Gelidiaceae,Gelidium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145603,Schmitzia hiscockiana,Rhodophyta,Florideophyceae,Gigartinales,Calosiphoniaceae,Schmitzia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145617,Rhodophyllis divaricata,Rhodophyta,Florideophyceae,Gigartinales,Cystocloniaceae,Rhodophyllis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+164103,Colaconema daviesii,Rhodophyta,Florideophyceae,Colaconematales,Colaconemataceae,Colaconema,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145660,Phyllophora crispa,Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Phyllophora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145666,Schottera nicaeensis,Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Schottera,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145735,Saccorhiza polyschides,Ochrophyta,Phaeophyceae,Tilopteridales,Phyllariaceae,Saccorhiza,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+234476,Ulva prolifera,Chlorophyta,Ulvophyceae,Ulvales,Ulvaceae,Ulva,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145795,Zostera subg. Zostera marina,Tracheophyta,Magnoliopsida,Alismatales,Zosteraceae,Zostera,Zostera,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+145808,Chylocladia verticillata,Rhodophyta,Florideophyceae,Rhodymeniales,Champiaceae,Chylocladia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145869,Scytosiphon lomentaria,Ochrophyta,Phaeophyceae,Ectocarpales,Scytosiphonaceae,Scytosiphon,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145892,Sphacelaria cirrosa,Ochrophyta,Phaeophyceae,Sphacelariales,Sphacelariaceae,Sphacelaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145910,Carpomitra costata,Ochrophyta,Phaeophyceae,Sporochnales,Sporochnaceae,Carpomitra,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+182769,Armeria maritima,Tracheophyta,Magnoliopsida,Caryophyllales,Plumbaginaceae,Armeria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+234474,Ulva linza,Chlorophyta,Ulvophyceae,Ulvales,Ulvaceae,Ulva,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143673,Delesseriaceae,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+416745,Rhodophyllis divaricata var. werneri,Rhodophyta,Florideophyceae,Gigartinales,Cystocloniaceae,Rhodophyllis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+475211,Vertebrata lanosa,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Vertebrata,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+399466,Chara aspera,Charophyta,Charophyceae,Charales,Characeae,Chara,NA,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+495082,Zostera noltei,Tracheophyta,Magnoliopsida,Alismatales,Zosteraceae,Zostera,NA,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+494940,Leathesia marina,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Leathesia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1027775,Vertebrata nigra,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Vertebrata,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+668195,Vertebrata thuyoides,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Vertebrata,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1311359,Halochlorococcum moorei,Chlorophyta,Ulvophyceae,Oltmannsiellopsidales,Oltmannsiellopsidaceae,Halochlorococcum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1333554,Leptosiphonia fibrata,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Leptosiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1356570,Symphyocladiella parasitica,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Symphyocladiella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143808,Porphyra,Rhodophyta,Bangiophyceae,Bangiales,Bangiaceae,Porphyra,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143810,Bonnemaisonia,Rhodophyta,Florideophyceae,Bonnemaisoniales,Bonnemaisoniaceae,Bonnemaisonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143825,Aglaothamnion,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Aglaothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143874,Heterosiphonia,Rhodophyta,Florideophyceae,Ceramiales,Dasyaceae,Heterosiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143893,Nitophyllum,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Nitophyllum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143975,Myriactula,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Myriactula,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144027,Titanoderma,Rhodophyta,Florideophyceae,Corallinales,Lithophyllaceae,Titanoderma,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144126,Cystoseira,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Cystoseira,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144191,Hildenbrandia,Rhodophyta,Florideophyceae,Hildenbrandiales,Hildenbrandiaceae,Hildenbrandia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144293,Blidingia,Chlorophyta,Ulvophyceae,Ulvales,Kornmanniaceae,Blidingia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144245,Lomentaria,Rhodophyta,Florideophyceae,Rhodymeniales,Lomentariaceae,Lomentaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144404,Rhodochorton purpureum,Rhodophyta,Florideophyceae,Acrochaetiales,Acrochaetiaceae,Rhodochorton,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144529,Callithamnion tetragonum,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Callithamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144595,Halurus flosculosus,Rhodophyta,Florideophyceae,Ceramiales,Wrangeliaceae,Halurus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144777,Polyneura bonnemaisonii,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Polyneura,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144844,Osmundea osmunda,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Osmundea,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144910,Chordaria flagelliformis,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Chordaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144945,Leptonematella fasciculata,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Leptonematella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145029,Chaetomorpha melagonium,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Chaetomorpha,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145064,Cladophora rupestris,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Cladophora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145095,Ostreobium queckettii,Chlorophyta,Ulvophyceae,Bryopsidales,Ostreobiaceae,Ostreobium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145228,Dumontia contorta,Rhodophyta,Florideophyceae,Gigartinales,Dumontiaceae,Dumontia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145278,Peyssonnelia dubyi,Rhodophyta,Florideophyceae,Peyssonneliales,Peyssonneliaceae,Peyssonnelia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145297,Cutleria multifida,Ochrophyta,Phaeophyceae,Cutleriales,Cutleriaceae,Cutleria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145311,Asperococcus bullosus,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Asperococcus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145498,Porphyropsis coccinea,Rhodophyta,Compsopogonophyceae,Erythropeltales,Erythrotrichiaceae,Porphyropsis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145546,Fucus serratus,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Fucus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145547,Fucus spiralis,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Fucus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145548,Fucus vesiculosus,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Fucus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145599,Pterocladiella capillacea,Rhodophyta,Florideophyceae,Gelidiales,Pterocladiaceae,Pterocladiella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145613,Calliblepharis ciliata,Rhodophyta,Florideophyceae,Gigartinales,Cystocloniaceae,Calliblepharis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145615,Cystoclonium purpureum,Rhodophyta,Florideophyceae,Gigartinales,Cystocloniaceae,Cystoclonium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145712,Hildenbrandia rubra,Rhodophyta,Florideophyceae,Hildenbrandiales,Hildenbrandiaceae,Hildenbrandia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145765,Nemalion elminthoides,Rhodophyta,Florideophyceae,Nemaliales,Nemaliaceae,Nemalion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145830,Lomentaria orcadensis,Rhodophyta,Florideophyceae,Rhodymeniales,Lomentariaceae,Lomentaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145847,Cordylecladia erecta,Rhodophyta,Florideophyceae,Rhodymeniales,Rhodymeniaceae,Cordylecladia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145915,Sporochnus pedunculatus,Ochrophyta,Phaeophyceae,Sporochnales,Sporochnaceae,Sporochnus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+147470,Spongomorpha arcta,Chlorophyta,Ulvophyceae,Ulotrichales,Ulotrichaceae,Spongomorpha,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+373745,Colaconema savianum,Rhodophyta,Florideophyceae,Colaconematales,Colaconemataceae,Colaconema,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+373772,Euthora cristata,Rhodophyta,Florideophyceae,Gigartinales,Kallymeniaceae,Euthora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+497297,Chaetopteris plumosa,Ochrophyta,Phaeophyceae,Sphacelariales,Sphacelariaceae,Chaetopteris,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1311357,Metacallophyllis laciniata,Rhodophyta,Florideophyceae,Gigartinales,Kallymeniaceae,Metacallophyllis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1340378,Carradoriella elongata,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Carradoriella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1346682,Carradoriella elongella,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Carradoriella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143846,Halurus,Rhodophyta,Florideophyceae,Ceramiales,Wrangeliaceae,Halurus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143723,Fucaceae,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143914,Laurencia,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Laurencia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143973,Leathesia,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Leathesia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143996,Cladophora,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Cladophora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144062,Asperococcus,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Asperococcus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144130,Pelvetia,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Pelvetia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144221,Rhodothamniella,Rhodophyta,Florideophyceae,Palmariales,Rhodothamniellaceae,Rhodothamniella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144457,Bryopsis plumosa,Chlorophyta,Ulvophyceae,Bryopsidales,Bryopsidaceae,Bryopsis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144489,Aglaothamnion bipinnatum,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Aglaothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144573,Compsothamnion thuioides,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Compsothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144582,Griffithsia corallinoides,Rhodophyta,Florideophyceae,Ceramiales,Wrangeliaceae,Griffithsia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144600,Pleonosporium borreri,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Pleonosporium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144689,Ptilothamnion pluma,Rhodophyta,Florideophyceae,Ceramiales,Wrangeliaceae,Ptilothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144705,Sphondylothamnion multifidum,Rhodophyta,Florideophyceae,Ceramiales,Wrangeliaceae,Sphondylothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144839,Odonthalia dentata,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Odonthalia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145009,Stilophora tenella,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Stilophora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145075,Rhizoclonium riparium,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Rhizoclonium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145157,Lithophyllum orbiculatum,Rhodophyta,Florideophyceae,Corallinales,Lithophyllaceae,Lithophyllum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145200,Phymatolithon laevigatum,Rhodophyta,Florideophyceae,Corallinales,Lithothamniaceae,Phymatolithon,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145202,Phymatolithon lenormandii,Rhodophyta,Florideophyceae,Corallinales,Lithothamniaceae,Phymatolithon,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145216,Titanoderma pustulatum,Rhodophyta,Florideophyceae,Corallinales,Lithophyllaceae,Titanoderma,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145541,Ascophyllum nodosum,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Ascophyllum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145309,Desmarestia ligulata,Ochrophyta,Phaeophyceae,Desmarestiales,Desmarestiaceae,Desmarestia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145459,Spongonema tomentosum,Ochrophyta,Phaeophyceae,Ectocarpales,Ectocarpaceae,Spongonema,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145625,Chondrus crispus,Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Chondrus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145550,Pelvetia canaliculata,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Pelvetia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145650,Mastocarpus stellatus,Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Mastocarpus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145668,Polyides rotunda,Rhodophyta,Florideophyceae,Gigartinales,Polyidaceae,Polyides,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145700,Gracilaria gracilis,Rhodophyta,Florideophyceae,Gracilariales,Gracilariaceae,Gracilaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145716,Alaria esculenta,Ochrophyta,Phaeophyceae,Laminariales,Alariaceae,Alaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145725,Laminaria hyperborea,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Laminaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145777,Rhodothamniella floridula,Rhodophyta,Florideophyceae,Palmariales,Rhodothamniellaceae,Rhodothamniella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145800,Prasiola stipitata,Chlorophyta,Trebouxiophyceae,Prasiolales,Prasiolaceae,Prasiola,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145850,Rhodymenia ardissonei,Rhodophyta,Florideophyceae,Rhodymeniales,Rhodymeniaceae,Rhodymenia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145984,Ulva lactuca,Chlorophyta,Ulvophyceae,Ulvales,Ulvaceae,Ulva,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145893,Sphacelaria fusca,Ochrophyta,Phaeophyceae,Sphacelariales,Sphacelariaceae,Sphacelaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+234462,Ulva compressa,Chlorophyta,Ulvophyceae,Ulvales,Ulvaceae,Ulva,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+234471,Ulva intestinalis,Chlorophyta,Ulvophyceae,Ulvales,Ulvaceae,Ulva,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+295874,Acrosorium ciliolatum,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Acrosorium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+416210,Potamogeton,Tracheophyta,Magnoliopsida,Alismatales,Potamogetonaceae,Potamogeton,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+500421,Wildemania miniata,Rhodophyta,Bangiophyceae,Bangiales,Bangiaceae,Wildemania,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+637672,Vertebrata fucoides,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Vertebrata,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+637756,Vertebrata furcellata,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Vertebrata,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1311358,Gaillona seposita,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Gaillona,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1311360,Lychaete pellucida,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Lychaete,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1311368,Gaillona hookeri,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Gaillona,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144199,Laminaria,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Laminaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144583,Griffithsia devoniensis,Rhodophyta,Florideophyceae,Ceramiales,Wrangeliaceae,Griffithsia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144756,Hypoglossum hypoglossoides,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Hypoglossum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144061,Desmarestia,Ochrophyta,Phaeophyceae,Desmarestiales,Desmarestiaceae,Desmarestia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144562,Ceramium secundatum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Ceramium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145769,Naccaria wiggii,Rhodophyta,Florideophyceae,Bonnemaisoniales,Naccariaceae,Naccaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145853,Rhodymenia holmesii,Rhodophyta,Florideophyceae,Rhodymeniales,Rhodymeniaceae,Rhodymenia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143853,Polysiphonia,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Polysiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144745,Drachiella heterocarpa,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Drachiella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144795,Chondria capillaris,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Chondria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144007,Corallina,Rhodophyta,Florideophyceae,Corallinales,Corallinaceae,Corallina,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144555,Ceramium pallidum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Ceramium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144564,Ceramium siliquosum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Ceramium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+494791,Sargassum muticum,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Sargassum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145360,Dictyopteris polypodioides,Ochrophyta,Phaeophyceae,Dictyotales,Dictyotaceae,Dictyopteris,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145393,Taonia atomaria,Ochrophyta,Phaeophyceae,Dictyotales,Dictyotaceae,Taonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145693,Gracilaria bursa-pastoris,Rhodophyta,Florideophyceae,Gracilariales,Gracilariaceae,Gracilaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145852,Rhodymenia delicatula,Rhodophyta,Florideophyceae,Rhodymeniales,Rhodymeniaceae,Rhodymenia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+146345,Halurus equisetifolius,Rhodophyta,Florideophyceae,Ceramiales,Wrangeliaceae,Halurus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+178915,Ceramium virgatum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Ceramium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143834,Ceramium,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Ceramium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144521,Antithamnionella spirographidis,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Antithamnionella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144720,Dasya ocellata,Rhodophyta,Florideophyceae,Ceramiales,Dasyaceae,Dasya,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143812,Bryopsis,Chlorophyta,Ulvophyceae,Bryopsidales,Bryopsidaceae,Bryopsis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143856,Pterothamnion,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Pterothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143890,Hypoglossum,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Hypoglossum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143921,Osmundea,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Osmundea,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143957,Eudesme,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Eudesme,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143995,Chaetomorpha,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Chaetomorpha,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144016,Lithophyllum,Rhodophyta,Florideophyceae,Corallinales,Lithophyllaceae,Lithophyllum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144079,Punctaria,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Punctaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144156,Haemescharia,Rhodophyta,Florideophyceae,Gigartinales,Haemeschariaceae,Haemescharia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144233,Zostera,Tracheophyta,Magnoliopsida,Alismatales,Zosteraceae,Zostera,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+144234,Prasiola,Chlorophyta,Trebouxiophyceae,Prasiolales,Prasiolaceae,Prasiola,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144257,Petalonia,Ochrophyta,Phaeophyceae,Ectocarpales,Scytosiphonaceae,Petalonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144303,Vaucheria,Ochrophyta,Xanthophyceae,Vaucheriales,Vaucheriaceae,Vaucheria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144420,Urospora penicilliformis,Chlorophyta,Ulvophyceae,Ulotrichales,Ulotrichaceae,Urospora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144431,Porphyra linearis,Rhodophyta,Bangiophyceae,Bangiales,Bangiaceae,Porphyra,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144434,Porphyra purpurea,Rhodophyta,Bangiophyceae,Bangiales,Bangiaceae,Porphyra,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144530,Callithamnion tetricum,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Callithamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144537,Ceramium ciliatum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Ceramium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144545,Ceramium deslongchampsii,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Ceramium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144791,Bostrychia scorpioides,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Bostrychia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145027,Chaetomorpha linum,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Chaetomorpha,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145086,Codium fragile,Chlorophyta,Ulvophyceae,Bryopsidales,Codiaceae,Codium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145130,Jania rubens,Rhodophyta,Florideophyceae,Corallinales,Corallinaceae,Jania,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145152,Lithophyllum incrustans,Rhodophyta,Florideophyceae,Corallinales,Lithophyllaceae,Lithophyllum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145232,Gloiosiphonia capillaris,Rhodophyta,Florideophyceae,Gigartinales,Gloiosiphoniaceae,Gloiosiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145503,Bifurcaria bifurcata,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Bifurcaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145507,Cystoseira baccata,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Cystoseira,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145526,Cystoseira nodicaulis,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Cystoseira,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145536,Cystoseira tamariscifolia,Ochrophyta,Phaeophyceae,Fucales,Sargassaceae,Cystoseira,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145580,Gelidium crinale,Rhodophyta,Florideophyceae,Gelidiales,Gelidiaceae,Gelidium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145614,Calliblepharis jubata,Rhodophyta,Florideophyceae,Gigartinales,Cystocloniaceae,Calliblepharis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145655,Erythrodermis traillii,Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Erythrodermis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145656,Gymnogongrus crenulatus,Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Gymnogongrus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145657,Gymnogongrus griffithsiae,Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Gymnogongrus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145810,Gastroclonium ovatum,Rhodophyta,Florideophyceae,Rhodymeniales,Champiaceae,Gastroclonium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145856,Colpomenia peregrina,Ochrophyta,Phaeophyceae,Ectocarpales,Scytosiphonaceae,Colpomenia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145925,Ulothrix flacca,Chlorophyta,Ulvophyceae,Ulotrichales,Ulotrichaceae,Ulothrix,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+182742,Halopteris scoparia,Ochrophyta,Phaeophyceae,Sphacelariales,Stypocaulaceae,Halopteris,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+234031,Ruppia maritima,Tracheophyta,Magnoliopsida,Alismatales,Potamogetonaceae,Ruppia,NA,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+845,Laminariales,Ochrophyta,Phaeophyceae,Laminariales,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+860,Ceramiales,Rhodophyta,Florideophyceae,Ceramiales,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143661,Acrochaetiaceae,Rhodophyta,Florideophyceae,Acrochaetiales,Acrochaetiaceae,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143828,Antithamnionella,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Antithamnionella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143835,Compsothamnion,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Compsothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143850,Monosporus,Rhodophyta,Florideophyceae,Ceramiales,Wrangeliaceae,Monosporus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143863,Seirospora,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Seirospora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143866,Spyridia,Rhodophyta,Florideophyceae,Ceramiales,Spyridiaceae,Spyridia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143875,Acrosorium,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Acrosorium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143877,Apoglossum,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Apoglossum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143895,Phycodrys,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Phycodrys,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143922,Pterosiphonia,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Pterosiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144012,Jania,Rhodophyta,Florideophyceae,Corallinales,Corallinaceae,Jania,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144031,Dilsea,Rhodophyta,Florideophyceae,Gigartinales,Dumontiaceae,Dilsea,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144032,Dudresnaya,Rhodophyta,Florideophyceae,Gigartinales,Dumontiaceae,Dudresnaya,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144060,Arthrocladia,Ochrophyta,Phaeophyceae,Desmarestiales,Arthrocladiaceae,Arthrocladia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144102,Hincksia,Ochrophyta,Phaeophyceae,Ectocarpales,Acinetosporaceae,Hincksia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144146,Calliblepharis,Rhodophyta,Florideophyceae,Gigartinales,Cystocloniaceae,Calliblepharis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144290,Monostroma,Chlorophyta,Ulvophyceae,Ulotrichales,Monostromataceae,Monostroma,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144452,Bryopsis hypnoides,Chlorophyta,Ulvophyceae,Bryopsidales,Bryopsidaceae,Bryopsis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144462,Derbesia marina,Chlorophyta,Ulvophyceae,Bryopsidales,Derbesiaceae,Derbesia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144504,Anotrichium barbatum,Rhodophyta,Florideophyceae,Ceramiales,Wrangeliaceae,Anotrichium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144509,Antithamnion cruciatum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Antithamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144526,Callithamnion corymbosum,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Callithamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144528,Callithamnion granulatum,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Callithamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144538,Ceramium cimbricum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Ceramium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144546,Ceramium diaphanum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Ceramium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144626,Polysiphonia devoniensis,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Polysiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144663,Polysiphonia sanguinea,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Polysiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144682,Pterothamnion crispum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Pterothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144690,Ptilothamnion sphaericum,Rhodophyta,Florideophyceae,Ceramiales,Wrangeliaceae,Ptilothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144704,Spermothamnion strictum,Rhodophyta,Florideophyceae,Ceramiales,Wrangeliaceae,Spermothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144706,Spyridia filamentosa,Rhodophyta,Florideophyceae,Ceramiales,Spyridiaceae,Spyridia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144747,Drachiella spectabilis,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Drachiella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144780,Radicilingua thysanorhizans,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Radicilingua,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144827,Laurencia obtusa,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Laurencia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145051,Cladophora laetevirens,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Cladophora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145182,Melobesia membranacea,Rhodophyta,Florideophyceae,Hapalidiales,Hapalidiaceae,Melobesia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145243,Dermocorynus montagnei,Rhodophyta,Florideophyceae,Halymeniales,Halymeniaceae,Dermocorynus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145248,Grateloupia filicina,Rhodophyta,Florideophyceae,Halymeniales,Halymeniaceae,Grateloupia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145322,Dictyosiphon foeniculaceus,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Dictyosiphon,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145347,Punctaria plantaginea,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Punctaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145433,Hincksia granulosa,Ochrophyta,Phaeophyceae,Ectocarpales,Acinetosporaceae,Hincksia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145602,Calosiphonia vermicularis,Rhodophyta,Florideophyceae,Gigartinales,Calosiphoniaceae,Calosiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145612,Cruoria pellita,Rhodophyta,Florideophyceae,Gigartinales,Cruoriaceae,Cruoria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145623,Chondracanthus acicularis,Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Chondracanthus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145638,Itonoa marginifera,Rhodophyta,Florideophyceae,Nemastomatales,Nemastomataceae,Itonoa,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145752,Helminthocladia calvadosii,Rhodophyta,Florideophyceae,Nemaliales,Liagoraceae,Helminthocladia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145767,Atractophora hypnoides,Rhodophyta,Florideophyceae,Atractophorales,Atractophoraceae,Atractophora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145902,Sphacelaria rigidula,Ochrophyta,Phaeophyceae,Sphacelariales,Sphacelariaceae,Sphacelaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145919,Tilopteris mertensii,Ochrophyta,Phaeophyceae,Tilopteridales,Tilopteridaceae,Tilopteris,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145988,Ulva pseudocurvata,Chlorophyta,Ulvophyceae,Ulvales,Ulvaceae,Ulva,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+146959,Gracilariopsis,Rhodophyta,Florideophyceae,Gracilariales,Gracilariaceae,Gracilariopsis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+156078,Ulva clathrata,Chlorophyta,Ulvophyceae,Ulvales,Ulvaceae,Ulva,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+156279,Osmundea truncata,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Osmundea,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+157188,Pylaiella littoralis,Ochrophyta,Phaeophyceae,Ectocarpales,Acinetosporaceae,Pylaiella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+163275,Antithamnionella ternifolia,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Antithamnionella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+234468,Ulva flexuosa,Chlorophyta,Ulvophyceae,Ulvales,Ulvaceae,Ulva,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+494064,Endoclonium,Chlorophyta,Chlorophyceae,Chaetophorales,Chaetophoraceae,Endoclonium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+637665,Vertebrata fruticulosa,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Vertebrata,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+839257,Dermocorynus dichotomus,Rhodophyta,Florideophyceae,Halymeniales,Halymeniaceae,Dermocorynus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1027787,Melanothamnus harveyi,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Melanothamnus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1339221,Leptosiphonia fibrillosa,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Leptosiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+234037,Spartina,Tracheophyta,Magnoliopsida,Poales,Poaceae,Spartina,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+146537,Cyanobacteria,Cyanobacteria,NA,NA,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,NA,NA,TRUE,TRUE,NA,FALSE,NA
+144169,Phyllophora,Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Phyllophora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145665,Phyllophora sicula,Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Phyllophora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143827,Antithamnion,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Antithamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143903,Boergeseniella,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Boergeseniella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143937,Pseudendoclonium,Chlorophyta,Ulvophyceae,Ulvales,Kornmanniaceae,Pseudendoclonium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144494,Aglaothamnion feldmanniae,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Aglaothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145203,Phymatolithon purpureum,Rhodophyta,Florideophyceae,Corallinales,Lithothamniaceae,Phymatolithon,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145588,Gelidium pulchellum,Rhodophyta,Florideophyceae,Gelidiales,Gelidiaceae,Gelidium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+234030,Ruppia,Tracheophyta,Magnoliopsida,Alismatales,Potamogetonaceae,Ruppia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+1340377,Leptosiphonia brodiei,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Leptosiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+369702,Grania,Rhodophyta,Florideophyceae,Acrochaetiales,Acrochaetiaceae,Grania,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+842,Ectocarpales,Ochrophyta,Phaeophyceae,Ectocarpales,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+871,Gigartinales,Rhodophyta,Florideophyceae,Gigartinales,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144276,Sphaerococcus,Rhodophyta,Florideophyceae,Gigartinales,Sphaerococcaceae,Sphaerococcus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144426,Porphyra dioica,Rhodophyta,Bangiophyceae,Bangiales,Bangiaceae,Porphyra,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144511,Antithamnion densum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Antithamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144693,Scagelothamnion pusillum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Scagelothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144812,Halopithys incurva,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Halopithys,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143698,Kallymeniaceae,Rhodophyta,Florideophyceae,Gigartinales,Kallymeniaceae,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144571,Compsothamnion decompositum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Compsothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145078,Codium adhaerens,Chlorophyta,Ulvophyceae,Bryopsidales,Codiaceae,Codium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145428,Herponema velutinum,Ochrophyta,Phaeophyceae,Ectocarpales,Acinetosporaceae,Herponema,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145497,Erythrotrichia welwitschii,Rhodophyta,Compsopogonophyceae,Erythropeltales,Erythrotrichiaceae,Erythrotrichia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145020,Chaetomorpha aerea,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Chaetomorpha,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145052,Cladophora lehmanniana,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Cladophora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145579,Gelidium corneum,Rhodophyta,Florideophyceae,Gelidiales,Gelidiaceae,Gelidium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145663,Phyllophora herediae,Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Phyllophora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145664,Phyllophora pseudoceranoïdes,Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Phyllophora,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145681,Solieria chordalis,Rhodophyta,Florideophyceae,Gigartinales,Solieriaceae,Solieria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145624,Chondracanthus teedei,Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Chondracanthus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143906,Chondria,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Chondria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143997,Rhizoclonium,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Rhizoclonium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144413,Spongomorpha aeruginosa,Chlorophyta,Ulvophyceae,Ulotrichales,Ulotrichaceae,Spongomorpha,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145704,Gracilaria multipartita,Rhodophyta,Florideophyceae,Gracilariales,Gracilariaceae,Gracilaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145721,Undaria pinnatifida,Ochrophyta,Phaeophyceae,Laminariales,Alariaceae,Undaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145863,Petalonia fascia,Ochrophyta,Phaeophyceae,Ectocarpales,Scytosiphonaceae,Petalonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144497,Aglaothamnion priceanum,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Aglaothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144524,Bornetia secundiflora,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Bornetia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144531,Centroceras clavulatum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Centroceras,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145804,Champia parvula,Rhodophyta,Florideophyceae,Rhodymeniales,Champiaceae,Champia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144597,Microcladia glandulosa,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Microcladia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+160573,Trebouxiophyceae,Chlorophyta,Trebouxiophyceae,NA,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,NA,FALSE,FALSE
+145940,Monostroma grevillei,Chlorophyta,Ulvophyceae,Ulotrichales,Monostromataceae,Monostroma,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+146540,Microcoleus,Cyanobacteria,Cyanophyceae,Oscillatoriales,Microcoleaceae,Microcoleus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145026,Chaetomorpha ligustica,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Chaetomorpha,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145092,Codium tomentosum,Chlorophyta,Ulvophyceae,Bryopsidales,Codiaceae,Codium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145274,Peyssonnelia atropurpurea,Rhodophyta,Florideophyceae,Peyssonneliales,Peyssonneliaceae,Peyssonnelia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+393561,Polysiphonieae,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145626,Gigartina pistillata,Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Gigartina,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145667,Stenogramma interruptum,Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Stenogramma,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145694,Gracilaria cervicornis,Rhodophyta,Florideophyceae,Gracilariales,Gracilariaceae,Gracilaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145728,Laminaria ochroleuca,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,Laminaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+468875,Jania squamata,Rhodophyta,Florideophyceae,Corallinales,Corallinaceae,Jania,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1311369,Chondria coerulescens,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Chondria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1311367,Gaillona gallica,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Gaillona,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+732248,Ellisolandia elongata,Rhodophyta,Florideophyceae,Corallinales,Corallinaceae,Ellisolandia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+836896,Dasysiphonia japonica,Rhodophyta,Florideophyceae,Ceramiales,Dasyaceae,Dasysiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+232230,Lomentaria hakodatensis,Rhodophyta,Florideophyceae,Rhodymeniales,Lomentariaceae,Lomentaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1027802,Xiphosiphonia pennata,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Xiphosiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+371035,Rhodymenia coespitosella,Rhodophyta,Florideophyceae,Rhodymeniales,Rhodymeniaceae,Rhodymenia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+526670,Spongoclonium caribaeum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Spongoclonium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143755,Laminariaceae,Ochrophyta,Phaeophyceae,Laminariales,Laminariaceae,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144048,Kallymenia,Rhodophyta,Florideophyceae,Gigartinales,Kallymeniaceae,Kallymenia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144121,Erythrotrichia,Rhodophyta,Compsopogonophyceae,Erythropeltales,Erythrotrichiaceae,Erythrotrichia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144155,Gigartina,Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Gigartina,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144223,Plocamium,Rhodophyta,Florideophyceae,Plocamiales,Plocamiaceae,Plocamium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144423,Bangia atropurpurea,Rhodophyta,Bangiophyceae,Bangiales,Bangiaceae,Bangia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144575,Crouania attenuata,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Crouania,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+162555,Melobesioideae,Rhodophyta,Florideophyceae,Hapalidiales,Hapalidiaceae,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145811,Gastroclonium reflexum,Rhodophyta,Florideophyceae,Rhodymeniales,Champiaceae,Gastroclonium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145950,Blidingia minima,Chlorophyta,Ulvophyceae,Ulvales,Kornmanniaceae,Blidingia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+146236,Acrosiphonia spinescens,Chlorophyta,Ulvophyceae,Ulotrichales,Ulotrichaceae,Acrosiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+146368,Pterosiphonia complanata,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Pterosiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+295880,Grateloupia turuturu,Rhodophyta,Florideophyceae,Halymeniales,Halymeniaceae,Grateloupia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+371595,Hypoglossum heterocystideum,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Hypoglossum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+377234,Gayliella flaccida,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Gayliella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+381180,Dictyota dichotoma var. intricata,Ochrophyta,Phaeophyceae,Dictyotales,Dictyotaceae,Dictyota,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+626059,Pyropia leucosticta,Rhodophyta,Bangiophyceae,Bangiales,Bangiaceae,Pyropia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+840293,Umbraulva dangeardii,Chlorophyta,Ulvophyceae,Ulvales,Ulvaceae,Umbraulva,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1346675,Carradoriella denudata,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Carradoriella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143742,Schizymeniaceae,Rhodophyta,Florideophyceae,Nemastomatales,Schizymeniaceae,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143809,Asparagopsis,Rhodophyta,Florideophyceae,Bonnemaisoniales,Bonnemaisoniaceae,Asparagopsis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143897,Polyneura,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Polyneura,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144271,Cladostephus,Ochrophyta,Phaeophyceae,Sphacelariales,Cladostephaceae,Cladostephus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144569,Ceramium tenuicorne,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Ceramium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144879,Pseudendoclonium submarinum,Chlorophyta,Ulvophyceae,Ulvales,Kornmanniaceae,Pseudendoclonium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145457,Pilinia rimosa,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Pilinia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145385,Padina pavonica,Ochrophyta,Phaeophyceae,Dictyotales,Dictyotaceae,Padina,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145796,Zostera subg. Zosterella noltei,Tracheophyta,Magnoliopsida,Alismatales,Zosteraceae,Zostera,Zosterella,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+146230,Chrysophyceae,Ochrophyta,Chrysophyceae,NA,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,NA,FALSE,FALSE
+146401,Scinaia interrupta,Rhodophyta,Florideophyceae,Nemaliales,Scinaiaceae,Scinaia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+146627,Hyella,Cyanobacteria,Cyanophyceae,Pleurocapsales,Hydrococcaceae,Hyella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+146628,Hyella caespitosa,Cyanobacteria,Cyanophyceae,Pleurocapsales,Hydrococcaceae,Hyella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+146655,Schizothrix,Cyanobacteria,Cyanophyceae,Oscillatoriales,Schizotrichaceae,Schizothrix,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+162546,Codiolum,Chlorophyta,Ulvophyceae,Ulotrichales,Ulotrichaceae,Codiolum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+179052,Lamprothamnium,Charophyta,Charophyceae,Charales,Characeae,Lamprothamnium,NA,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+179053,Lamprothamnium papulosum,Charophyta,Charophyceae,Charales,Characeae,Lamprothamnium,NA,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+403903,Salicornia,Tracheophyta,Magnoliopsida,Caryophyllales,Amaranthaceae,Salicornia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+416218,Ruppia cirrhosa,Tracheophyta,Magnoliopsida,Alismatales,Potamogetonaceae,Ruppia,NA,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+588573,Stuckenia pectinata,Tracheophyta,Magnoliopsida,Alismatales,Potamogetonaceae,Stuckenia,NA,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+615414,Chrysotila stipitata,Haptophyta,Prymnesiophyceae,Isochrysidales,Isochrysidaceae,Chrysotila,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143671,Ceramiaceae,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143841,Griffithsia,Rhodophyta,Florideophyceae,Ceramiales,Wrangeliaceae,Griffithsia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+146316,Hildenbrandiales,Rhodophyta,Florideophyceae,Hildenbrandiales,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143773,Champiaceae,Rhodophyta,Florideophyceae,Rhodymeniales,Champiaceae,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143864,Spermothamnion,Rhodophyta,Florideophyceae,Ceramiales,Wrangeliaceae,Spermothamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143870,Dasya,Rhodophyta,Florideophyceae,Ceramiales,Dasyaceae,Dasya,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144805,Chondria scintillans,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Chondria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145622,Neurocaulon foliosum,Rhodophyta,Florideophyceae,Gigartinales,Furcellariaceae,Neurocaulon,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+146367,Lophosiphonia obscura,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Lophosiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+146633,Rivularia atra,Cyanobacteria,Cyanophyceae,Nostocales,Rivulariaceae,Rivularia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+149013,Diatoma,Ochrophyta,Bacillariophyceae,Fragilariales,Fragilariaceae,Diatoma,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+548016,Zanardinia typus,Ochrophyta,Phaeophyceae,Cutleriales,Cutleriaceae,Zanardinia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+213760,Rivularia bullata,Cyanobacteria,Cyanophyceae,Nostocales,Rivulariaceae,Rivularia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1311326,Nothokallymenia crouaniorum,Rhodophyta,Florideophyceae,Gigartinales,Kallymeniaceae,Nothokallymenia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144464,Derbesia tenuissima,Chlorophyta,Ulvophyceae,Bryopsidales,Derbesiaceae,Derbesia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144505,Anotrichium furcellatum,Rhodophyta,Florideophyceae,Ceramiales,Wrangeliaceae,Anotrichium,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1027803,Xiphosiphonia pinnulata,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Xiphosiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1311361,Lychaete pygmaea,Chlorophyta,Ulvophyceae,Cladophorales,Cladophoraceae,Lychaete,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143923,Rhodomela,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Rhodomela,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144517,Antithamnion villosum,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Antithamnion,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145327,Litosiphon laminariae,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Litosiphon,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145568,Gelidiella calcicola,Rhodophyta,Florideophyceae,Gelidiales,Gelidiellaceae,Gelidiella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145611,Cruoria cruoriiformis,Rhodophyta,Florideophyceae,Gigartinales,Cruoriaceae,Cruoria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+827,Ulvales,Chlorophyta,Ulvophyceae,Ulvales,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143783,Stypocaulaceae,Ochrophyta,Phaeophyceae,Sphacelariales,Stypocaulaceae,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143954,Chordaria,Ochrophyta,Phaeophyceae,Ectocarpales,Chordariaceae,Chordaria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143985,Ralfsia,Ochrophyta,Phaeophyceae,Ralfsiales,Ralfsiaceae,Ralfsia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144019,Melobesia,Rhodophyta,Florideophyceae,Hapalidiales,Hapalidiaceae,Melobesia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+603257,Ophiothrix,Ochrophyta,NA,NA,NA,Ophiothrix,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,NA,NA,TRUE,TRUE,NA,FALSE,NA
+602320,Amphitrite,Ochrophyta,Bacillariophyceae,NA,NA,Amphitrite,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,NA,FALSE,FALSE
+803,Acrosiphoniales,Chlorophyta,Chlorophyceae,Acrosiphoniales,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+1028,Sphacelariales,Ochrophyta,Phaeophyceae,Sphacelariales,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144022,Phymatolithon,Rhodophyta,Florideophyceae,Corallinales,Lithothamniaceae,Phymatolithon,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144173,Rissoella,Rhodophyta,Florideophyceae,Gigartinales,Rissoellaceae,Rissoella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144751,Erythroglossum sandrianum,Rhodophyta,Florideophyceae,Ceramiales,Delesseriaceae,Erythroglossum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145458,Pleurocladia lacustris,Ochrophyta,Phaeophyceae,Ectocarpales,Ectocarpaceae,Pleurocladia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145651,Ahnfeltiopsis devoniensis,Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Ahnfeltiopsis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145922,Eugomontia sacculata,Chlorophyta,Ulvophyceae,Ulotrichales,Gomontiaceae,Eugomontia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145949,Blidingia marginata,Chlorophyta,Ulvophyceae,Ulvales,Kornmanniaceae,Blidingia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+146008,Epicladia perforans,Chlorophyta,Ulvophyceae,Ulvales,Ulvellaceae,Epicladia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+146542,Cyanophyceae,Cyanobacteria,Cyanophyceae,NA,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,NA,FALSE,FALSE
+146549,Oscillatoria,Cyanobacteria,Cyanophyceae,Oscillatoriales,Oscillatoriaceae,Oscillatoria,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+211903,Entophysalis deusta,Cyanobacteria,Cyanophyceae,Chroococcales,Entophysalidaceae,Entophysalis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+416203,Bolboschoenus maritimus,Tracheophyta,Magnoliopsida,Poales,Cyperaceae,Bolboschoenus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+416204,Ceratophyllum demersum,Tracheophyta,Magnoliopsida,Ceratophyllales,Ceratophyllaceae,Ceratophyllum,NA,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+416209,Phragmites australis,Tracheophyta,Magnoliopsida,Poales,Poaceae,Phragmites,NA,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+416222,Zannichellia palustris,Tracheophyta,Magnoliopsida,Alismatales,Potamogetonaceae,Zannichellia,NA,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+615494,Thallochrysis litoralis,Ochrophyta,Chrysophyceae,Thallochrysidales,Thallochrysidaceae,Thallochrysis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+624205,Battersia plumigera,Ochrophyta,Phaeophyceae,Sphacelariales,Sphacelariaceae,Battersia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+625763,Scytonematopsis crustacea,Cyanobacteria,Cyanophyceae,Nostocales,Scytonemataceae,Scytonematopsis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+836862,Ruttnera lamellosa,Haptophyta,Haptophyta incertae sedis,NA,NA,Ruttnera,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,NA,FALSE,FALSE
+844,Fucales,Ochrophyta,Phaeophyceae,Fucales,NA,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144235,Rosenvingiella,Chlorophyta,Trebouxiophyceae,Prasiolales,Prasiolaceae,Rosenvingiella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144287,Ulothrix,Chlorophyta,Ulvophyceae,Ulotrichales,Ulotrichaceae,Ulothrix,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144520,Antithamnionella floccosa,Rhodophyta,Florideophyceae,Ceramiales,Ceramiaceae,Antithamnionella,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145440,Hincksia sandriana,Ochrophyta,Phaeophyceae,Ectocarpales,Acinetosporaceae,Hincksia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144154,Chondrus,Rhodophyta,Florideophyceae,Gigartinales,Gigartinaceae,Chondrus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144163,Mastocarpus,Rhodophyta,Florideophyceae,Gigartinales,Phyllophoraceae,Mastocarpus,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145435,Hincksia hincksiae,Ochrophyta,Phaeophyceae,Ectocarpales,Acinetosporaceae,Hincksia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143858,Ptilota,Rhodophyta,Florideophyceae,Ceramiales,Callithamniaceae,Ptilota,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144128,Ascophyllum,Ochrophyta,Phaeophyceae,Fucales,Fucaceae,Ascophyllum,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144634,Polysiphonia fibrillosa,Rhodophyta,Florideophyceae,Ceramiales,Rhodomelaceae,Polysiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+145927,Ulothrix implexa,Chlorophyta,Ulvophyceae,Ulotrichales,Ulotrichaceae,Ulothrix,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143984,Pseudolithoderma,Ochrophyta,Phaeophyceae,Sphacelariales,Lithodermataceae,Pseudolithoderma,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+144036,Gloiosiphonia,Rhodophyta,Florideophyceae,Gigartinales,Gloiosiphoniaceae,Gloiosiphonia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143748,Gracilariaceae,Rhodophyta,Florideophyceae,Gracilariales,Gracilariaceae,NA,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+143814,Derbesia,Chlorophyta,Ulvophyceae,Bryopsidales,Derbesiaceae,Derbesia,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE

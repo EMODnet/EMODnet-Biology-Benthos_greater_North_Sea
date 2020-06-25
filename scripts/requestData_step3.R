@@ -24,7 +24,4 @@ all2Data<- all2Data %>%
   filter(!is.na(decimallatitude)) %>%
   filter(!is.na(datecollected))
 
-splst<- all2Data %>% dplyr::select(AphiaID,scientificnameaccepted) %>% distinct()
-
-write_delim(splst,file.path(dataDir,"splst.csv"),delim=",")
 write_delim(all2Data, file.path(dataDir, "all2Data.csv"), delim = ",")
