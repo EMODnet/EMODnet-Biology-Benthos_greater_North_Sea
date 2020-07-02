@@ -29,3 +29,6 @@ output/
 
 # RStudio
 .Rproj.user
+
+asides files
+/asides/
