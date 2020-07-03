@@ -34,6 +34,7 @@ output/
 #asides files
 asides/
 
-#all data and products, because too big
+#all data, products and docs, because too big
 data/
 product/
+docs/
