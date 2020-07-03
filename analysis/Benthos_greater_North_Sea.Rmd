@@ -11,6 +11,28 @@ output: pdf_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+require(raster)
+require(sp)
+require(RColorBrewer)
+require(tidyverse)
+require(sf)
+require(worrms)
+#############
+downloadDir <- "../data/raw_data"
+dataDir     <- "../data/derived_data"
+mapsDir     <- "../product/maps"
+rareDir    <- "../product/rarespecies"
+#############
+proWG<-CRS("+proj=longlat +datum=WGS84")
+##########################################################
+# define a raster covering the grid. Set resolution of the raster here
+##########################################################
+r<-raster(ext=extent(-16,9,46,66),ncol=150,nrow=280,crs=proWG,vals=0)
+##########################################################
+# load a base raster with land
+##########################################################
+load(file.path(dataDir,"rs.Rdata"))
+lcol<-rgb(210/256,234/256,242/256)
 ```
 
 ## Introduction
@@ -31,14 +53,7 @@ In this file we perform the (manual) selection of datasets to be used. We also q
 
 
 ```{r requestData_step1, echo=TRUE,eval=FALSE}
- 
-# contents of the script "./scripts/requestData_step1.R"
- 
-require(sf)
-require(tidyverse)
-downloadDir <- "data/raw_data"
-dataDir <- "data/derived_data"
- 
+
 # read geographic layers for plotting
 layerurl <- paste0("http://geo.vliz.be/geoserver/MarineRegions/ows?service=WFS&version=1.0.0&",
                    "request=GetFeature&typeName=MarineRegions:eez_iho_union_v2&",
@@ -119,10 +134,6 @@ In this step, we download the part of all these useful datasets that occur in th
  
 # content of script requestData_step2.R
  
-require(sf)
-require(tidyverse)
-downloadDir <- "data/raw_data"
-dataDir <- "data/derived_data"
 # read selected geographic layers for downloading
 roi <- read_delim("data/derived_data/regions.csv", delim = ",")
 getDatasets <- read_csv("./data/derived_data/allDatasets_selection.csv")
@@ -156,10 +167,6 @@ In this step, we read in all the files written during the previous step, and com
 The procedure for this step is simple, and documented in the following code.
  
 ```{r requestData_step3, echo=TRUE,eval=FALSE}
-require(sf)
-require(tidyverse)
-downloadDir <- "data/raw_data"
-dataDir <- "data/derived_data"
 filelist <- list.files("data/raw_data/byDataset")
 all2Data <- lapply(filelist, function(x) 
   read_delim(file.path("data", "raw_data/byDataset", x), 
@@ -187,11 +194,6 @@ The selection of data in the first step makes use of the traits stored in WoRMS,
  
 The checks are illustrated in the script "select_species_4_maps.R". Note that the actual downloading of the trait information of over 6000 species is commented out. Results have been written to a file after performing this step once.
 ```{r select_species_4_maps, echo=TRUE,eval=FALSE}
-require(tidyverse)
-require(worrms)
-downloadDir <- "data/raw_data"
-dataDir     <- "data/derived_data"
-outputDir   <- "product"
 # we build the species list, keeping the taxonomic information we have in the total data set
 # we foresee logical columns in the species list to group the species by in the rest of this script
 bns<-read_delim(file.path(dataDir,"all2Data.csv"),
@@ -341,24 +343,6 @@ write_delim(sp2use,file.path(dataDir,"sp2use.csv"),delim=",")
 For the production of maps, we define 'sampling events' as the ensembles of records that share time and place. We consider such events as one sample. For the incomplete datasets, we inventory what species they have targeted. Finally, for every species we determine whether or not it was present in all sampling events of all relevant datasets. This presence/absence information is written to the output file, together with the spatial location and the sampling date. The intention is to use this information to produce interpolated maps covering also the non-sampled space. As a first step in visualisation, we rasterize this information and show it in a map per species. 
 
 ```{r produce_maps, echo=TRUE, eval=FALSE}
-require(raster)
-require(sp)
-require(RColorBrewer)
-require(svMisc)
-require(tidyverse)
-downloadDir <- "data/raw_data"
-dataDir <- "data/derived_data"
-outputDir <- "product"
-proWG<-CRS("+proj=longlat +datum=WGS84")
-##########################################################
-# define a raster covering the grid. Set resolution of the raster here
-##########################################################
-r<-raster(ext=extent(-16,9,46,66),ncol=150,nrow=280,crs=proWG,vals=0)
-##########################################################
-# load a base raster with land
-##########################################################
-load("./data/derived_data/rs.Rdata")
-lcol<-rgb(210/256,234/256,242/256)
 ##########################################################
 #### load data
 ##########################################################
@@ -442,7 +426,7 @@ nsptoplot<-length(which(spfr$n_events>200))
 ############ end of the generic part. What follows is a loop over the species ##
 spmin<-1
 spmax<-nsptoplot
-pdf("./product/species_maps.pdf",width=7,height=9)
+pdf(file.path(mapsDir,"species_maps.pdf"),width=7,height=9)
 
 for(ss in spmin:spmax){
   spAphId<-spfr$aphiaID[ss]
@@ -482,7 +466,8 @@ for(ss in spmin:spmax){
     par(new=TRUE)
     plot(r1,breaks=c(-0.01,0,0.2,0.4,0.6,0.8,1),
          col=yor,
-         main=paste(specname,"all targeting datasets"))
+         main=paste(specname,"all targeting datasets"),
+         legend=FALSE)
     plot(rs,add=T,col=lcol,legend=FALSE)
     legend("bottomright",col=yor[1:6],pch=15,
            legend=c("0",">0-0.2",">0.2-0.4",">0.4-0.6",">0.6-0.8",">0.8-1"),
@@ -491,6 +476,74 @@ for(ss in spmin:spmax){
 par(bg="white")
 dev.off()
 spe<-allspe
-save(spe,file="./product/spe.Rdata")
-write_delim(spfr,path="./product/specieslist.csv",delim=",")
+save(spe,file=file.path(mapsDir,"spe.Rdata")
+write_delim(spfr,path=file.path(mapsDir,"specieslist.csv",delim=",")
+```
+
+
+## Analysis of rare species
+
+There are an astonishing number of rare species in this dataset. Around 1800 taxa have been sampled 8 times or less. In this added analysis we look where these rare taxa have been found. For this we partly recycle code from the previous chunks, to arrive finally at a shapefile with the positions of samples with rare species (including the number of rare taxa found), as well as a shapefile with all events. This is combined in GIS with base layers from Emodnet habitats.
+
+```{r analyse_rare_species, echo=TRUE, eval=TRUE}
+##########################################################
+#### load data
+##########################################################
+sbnsc<- read_delim(file.path(dataDir,"all2Data.csv"),
+                   col_types = "ccccccccTnnncccccccccccccccn",
+                   delim=",")
+trdi<-read.csv(file.path(dataDir,"allDatasets_selection.csv"),
+               stringsAsFactors = FALSE)
+usedds<- trdi %>% filter (include & complete) %>% dplyr::select(datasetid)
+splst<-read_delim(file.path(dataDir,"sp2use.csv"),
+                  col_types = "dccccccclllllllllllllllll",
+                  delim=",")
+##########################################################
+##### select few columns to work with
+##### filter to only the used datasets
+##### and filter to true benthic species only
+##########################################################
+trec<- sbnsc %>% dplyr::select(eventDate=datecollected,
+                        decimalLongitude=decimallongitude,
+						            decimalLatitude=decimallatitude,
+						            scientificName=scientificnameaccepted,
+						            aphiaID=AphiaID,
+						            datasetid=datasetid) %>%
+                 mutate(datasetid=as.numeric(substr(datasetid,65,90))) %>%
+                 filter(datasetid %in% usedds$datasetid)
+trec<- trec %>%  filter(aphiaID %in% splst$AphiaID)
+##############################################################
+# Define 'sampling events' as all records that share time and place, give
+# ID numbers to all events (eventNummer), and store the eventNummer in each
+# record of trec
+##############################################################
+events<- trec %>% dplyr::select(eventDate,decimalLongitude,decimalLatitude) %>% 
+                  distinct() %>%
+				          mutate(eventNummer=row_number())
+trec <- trec %>% left_join(events,by=c('eventDate','decimalLongitude','decimalLatitude'))
+
+##############################################################
+# find rare species, discard any higher taxa from the list
+#
+raresp<- trec                               %>% 
+           group_by(aphiaID,scientificName) %>%
+           summarize(n_events=n())          %>%
+	         arrange(desc(n_events))          %>%
+           filter(n_events<9)               %>%
+           filter(grepl(" ",scientificName))
+
+spe<- trec %>% filter (aphiaID %in% raresp$aphiaID)
+sev<-spe %>% group_by(eventNummer) %>% summarise(nrares=n()) %>% arrange(desc(nrares))
+spe<- spe %>% left_join(sev, by="eventNummer")
+coordinates(spe)<- ~decimalLongitude+decimalLatitude
+projection(spe)<-proWG
+par(bg="lightblue")
+plot(spe,pch=19,cex=0.3*log(spe$nrares),col="red")
+plot(rs,add=T,col=lcol,legend=FALSE)
+par(bg="white")
+
+shapefile(spe,file.path(rareDir,"rarespecs.shp"),overwrite=TRUE)
+coordinates(events) <- ~decimalLongitude+decimalLatitude
+projection(events)<-proWG
+shapefile(events,file.path(rareDir,"events.shp"),overwrite=TRUE)
 ```
