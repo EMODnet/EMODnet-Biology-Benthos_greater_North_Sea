@@ -31,5 +31,9 @@ output/
 # RStudio
 .Rproj.user
 
-asides files
+#asides files
 /asides/
+
+#all data and products, because too big
+/data/
+/product/
