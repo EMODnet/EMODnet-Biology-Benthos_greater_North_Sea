@@ -32,9 +32,9 @@ output/
 .Rproj.user
 
 #asides files
-asides/
+asides/*
 
 #all data, products and docs, because too big
-data/
-product/
-docs/
+data/*
+product/*
+docs/*
