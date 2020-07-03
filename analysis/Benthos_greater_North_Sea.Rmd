@@ -495,9 +495,11 @@ sbnsc<- read_delim(file.path(dataDir,"all2Data.csv"),
 trdi<-read.csv(file.path(dataDir,"allDatasets_selection.csv"),
                stringsAsFactors = FALSE)
 usedds<- trdi %>% filter (include & complete) %>% dplyr::select(datasetid)
+# higher taxa than genus removed from species list, to avoid
+# unidentified specimens to be called 'rare'
 splst<-read_delim(file.path(dataDir,"sp2use.csv"),
                   col_types = "dccccccclllllllllllllllll",
-                  delim=",")
+                  delim=",") %>% filter(!is.na(genus))
 ##########################################################
 ##### select few columns to work with
 ##### filter to only the used datasets
@@ -529,18 +531,17 @@ raresp<- trec                               %>%
            group_by(aphiaID,scientificName) %>%
            summarize(n_events=n())          %>%
 	         arrange(desc(n_events))          %>%
-           filter(n_events<9)               %>%
-           filter(grepl(" ",scientificName))
+           filter(n_events<9)              
 
 spe<- trec %>% filter (aphiaID %in% raresp$aphiaID)
 sev<-spe %>% group_by(eventNummer) %>% summarise(nrares=n()) %>% arrange(desc(nrares))
 spe<- spe %>% left_join(sev, by="eventNummer")
 coordinates(spe)<- ~decimalLongitude+decimalLatitude
 projection(spe)<-proWG
-par(bg="lightblue")
-plot(spe,pch=19,cex=0.3*log(spe$nrares),col="red")
-plot(rs,add=T,col=lcol,legend=FALSE)
-par(bg="white")
+# par(bg="lightblue")
+# plot(spe,pch=19,cex=0.3*log(spe$nrares),col="red")
+# plot(rs,add=T,col=lcol,legend=FALSE)
+# par(bg="white")
 
 shapefile(spe,file.path(rareDir,"rarespecs.shp"),overwrite=TRUE)
 coordinates(events) <- ~decimalLongitude+decimalLatitude
