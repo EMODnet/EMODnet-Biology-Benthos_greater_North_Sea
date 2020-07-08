@@ -5,7 +5,7 @@ require(svMisc)
 require(tidyverse)
 downloadDir <- "data/raw_data"
 dataDir <- "data/derived_data"
-outputDir <- "product"
+outputDir <- "product/maps"
 proWG<-CRS("+proj=longlat +datum=WGS84")
 ##########################################################
 # define a raster covering the grid. Set resolution of the raster here
@@ -124,8 +124,8 @@ for(ss in spmin:spmax){
     mutate (spcolumn=(pres_abs==1)) %>% 
     dplyr::select (- pres_abs)
   names(spesh)[5]<-spcolumn
+  spesh <- spesh %>% dplyr::select('eventNummer',spcolumn)
   if(ss==spmin) allspe <- spesh else {
-    spesh  <- spesh  %>% dplyr::select('eventNummer',spcolumn)
     allspe <- allspe %>% full_join(spesh,by='eventNummer')
   }
   coordinates(spe)<- ~decimalLongitude+decimalLatitude
@@ -139,7 +139,8 @@ for(ss in spmin:spmax){
   par(new=TRUE)
   plot(r1,breaks=c(-0.01,0,0.2,0.4,0.6,0.8,1),
        col=yor,
-       main=paste(specname,"all targeting datasets"))
+       main=paste(specname,"all targeting datasets"),
+       legend=FALSE)
   plot(rs,add=T,col=lcol,legend=FALSE)
   legend("bottomright",col=yor[1:6],pch=15,
          legend=c("0",">0-0.2",">0.2-0.4",">0.4-0.6",">0.6-0.8",">0.8-1"),
@@ -147,6 +148,8 @@ for(ss in spmin:spmax){
 }
 par(bg="white")
 dev.off()
-spe<-allspe
-save(spe,file="./product/spe.Rdata")
-write_delim(spfr,path="./product/specieslist.csv",delim=",")
+evs<-tibble(eventNummer=allspe$eventNummer)
+evs<- evs %>% left_join(events,by='eventNummer')
+spe<- cbind(evs,allspe[,2:ncol(allspe)])
+save(spe,file=file.path(outputDir,"spe.Rdata"))
+write_delim(spfr,path=file.path(outputDir,"specieslist.csv"),delim=",")
