@@ -343,6 +343,7 @@ write_delim(sp2use,file.path(dataDir,"sp2use.csv"),delim=",")
 For the production of maps, we define 'sampling events' as the ensembles of records that share time and place. We consider such events as one sample. For the incomplete datasets, we inventory what species they have targeted. Finally, for every species we determine whether or not it was present in all sampling events of all relevant datasets. This presence/absence information is written to the output file, together with the spatial location and the sampling date. The intention is to use this information to produce interpolated maps covering also the non-sampled space. As a first step in visualisation, we rasterize this information and show it in a map per species. 
 
 ```{r produce_maps, echo=TRUE, eval=FALSE}
+
 ##########################################################
 #### load data
 ##########################################################
@@ -361,13 +362,13 @@ splst<-read_delim(file.path(dataDir,"sp2use.csv"),
 ##### and filter to true benthic species only
 ##########################################################
 trec<- sbnsc %>% dplyr::select(eventDate=datecollected,
-                        decimalLongitude=decimallongitude,
-						            decimalLatitude=decimallatitude,
-						            scientificName=scientificnameaccepted,
-						            aphiaID=AphiaID,
-						            datasetid=datasetid) %>%
-                 mutate(datasetid=as.numeric(substr(datasetid,65,90))) %>%
-                 filter(datasetid %in% usedds$datasetid)
+                               decimalLongitude=decimallongitude,
+                               decimalLatitude=decimallatitude,
+                               scientificName=scientificnameaccepted,
+                               aphiaID=AphiaID,
+                               datasetid=datasetid) %>%
+  mutate(datasetid=as.numeric(substr(datasetid,65,90))) %>%
+  filter(datasetid %in% usedds$datasetid)
 trec<- trec %>%  filter(aphiaID %in% splst$AphiaID)
 ##############################################################
 # Define 'sampling events' as all records that share time and place, give
@@ -375,25 +376,25 @@ trec<- trec %>%  filter(aphiaID %in% splst$AphiaID)
 # record of trec
 ##############################################################
 events<- trec %>% dplyr::select(eventDate,decimalLongitude,decimalLatitude) %>% 
-                  distinct() %>%
-				          mutate(eventNummer=row_number())
+  distinct() %>%
+  mutate(eventNummer=row_number())
 trec <- trec %>% left_join(events,by=c('eventDate','decimalLongitude','decimalLatitude'))
 ########### work on datasets
 #
 #### check on completeness
 #
 nsp<-trec %>% group_by(datasetid) %>% 
-              distinct(aphiaID)    %>%
-              mutate(nspec=n())    %>%
-              dplyr::select(datasetid,nspec) %>%
-              distinct()
+  distinct(aphiaID)    %>%
+  mutate(nspec=n())    %>%
+  dplyr::select(datasetid,nspec) %>%
+  distinct()
 nev<-trec %>% group_by(datasetid)     %>% 
-              distinct(eventNummer)    %>%
-              mutate(nev=n())          %>%
-              dplyr::select(datasetid,nev) %>%
-              distinct()                    %>%
-              left_join(nsp,by='datasetid')%>%
-              left_join(trdi,by='datasetid')
+  distinct(eventNummer)    %>%
+  mutate(nev=n())          %>%
+  dplyr::select(datasetid,nev) %>%
+  distinct()                    %>%
+  left_join(nsp,by='datasetid')%>%
+  left_join(trdi,by='datasetid')
 #
 plot(nev$nev,nev$nspec,log="xy",col=ifelse(nev$complete,"blue","red"),pch=19,
      xlab="number of events in dataset",ylab="number of species in dataset")
@@ -421,63 +422,65 @@ for(i in 1:nrow(trdi_ic)){
 spfr<- trec %>% 
   group_by(aphiaID,scientificName) %>%
   summarize(n_events=n()) %>%
-	arrange(desc(n_events))
+  arrange(desc(n_events))
 nsptoplot<-length(which(spfr$n_events>200))
 ############ end of the generic part. What follows is a loop over the species ##
 spmin<-1
 spmax<-nsptoplot
-pdf(file.path(mapsDir,"species_maps.pdf"),width=7,height=9)
+pdf("./product/species_maps.pdf",width=7,height=9)
 
 for(ss in spmin:spmax){
   spAphId<-spfr$aphiaID[ss]
   specname<-spfr$scientificName[ss]
   spcolumn<-paste0("pa",spAphId)
   progress(value=ss,max.value=spmax,init=(ss=spmin))
-    # from the list of incomplete datasets, check if they have our species. 
-    # Only keep these, drop the others
-	  tt_ds<- ic_sp                      %>% 
-	            filter(aphiaID==spAphId) %>%
-	            distinct(datasetid)      %>% 
-	            bind_rows(trdi_ct        %>% 
-	            dplyr::select(datasetid))
-	  # The dataset to be used consists of all complete datasets, and all 
-	  # incomplete datasets that targeted our species
-    spe<- trec                                                      %>% 
-            filter(datasetid %in% tt_ds$datasetid)                  %>%
-	          group_by(eventNummer)                                   %>%
-				    summarize(pres_abs= as.numeric(any(aphiaID==spAphId)))  %>%
-				    left_join(events,by='eventNummer') 
-    spesh <- spe                               %>% 
-               mutate (spcolumn=(pres_abs==1)) %>% 
-               dplyr::select (- pres_abs)
-    names(spesh)[5]<-spcolumn
-    if(ss==spmin) allspe <- spesh else {
-      spesh  <- spesh  %>% dplyr::select('eventNummer',spcolumn)
-      allspe <- allspe %>% full_join(spesh,by='eventNummer')
-    }
-    coordinates(spe)<- ~decimalLongitude+decimalLatitude
-    projection(spe)<-proWG
-    r1<-rasterize(spe,r,field="pres_abs",fun=mean)
-    #
-    #plotting
-    par(bg="lightblue")
-    yor<-brewer.pal(7,"YlOrRd")
-    plot(0, 0, type="n", ann=FALSE, axes=FALSE)
-    par(new=TRUE)
-    plot(r1,breaks=c(-0.01,0,0.2,0.4,0.6,0.8,1),
-         col=yor,
-         main=paste(specname,"all targeting datasets"),
-         legend=FALSE)
-    plot(rs,add=T,col=lcol,legend=FALSE)
-    legend("bottomright",col=yor[1:6],pch=15,
-           legend=c("0",">0-0.2",">0.2-0.4",">0.4-0.6",">0.6-0.8",">0.8-1"),
-           bg=lcol)
+  # from the list of incomplete datasets, check if they have our species. 
+  # Only keep these, drop the others
+  tt_ds<- ic_sp                      %>% 
+    filter(aphiaID==spAphId) %>%
+    distinct(datasetid)      %>% 
+    bind_rows(trdi_ct        %>% 
+                dplyr::select(datasetid))
+  # The dataset to be used consists of all complete datasets, and all 
+  # incomplete datasets that targeted our species
+  spe<- trec                                                      %>% 
+    filter(datasetid %in% tt_ds$datasetid)                  %>%
+    group_by(eventNummer)                                   %>%
+    summarize(pres_abs= as.numeric(any(aphiaID==spAphId)))  %>%
+    left_join(events,by='eventNummer') 
+  spesh <- spe                               %>% 
+    mutate (spcolumn=(pres_abs==1)) %>% 
+    dplyr::select (- pres_abs)
+  names(spesh)[5]<-spcolumn
+  spesh <- spesh %>% dplyr::select('eventNummer',spcolumn)
+  if(ss==spmin) allspe <- spesh else {
+    allspe <- allspe %>% full_join(spesh,by='eventNummer')
+  }
+  coordinates(spe)<- ~decimalLongitude+decimalLatitude
+  projection(spe)<-proWG
+  r1<-rasterize(spe,r,field="pres_abs",fun=mean)
+  #
+  #plotting
+  par(bg="lightblue")
+  yor<-brewer.pal(7,"YlOrRd")
+  plot(0, 0, type="n", ann=FALSE, axes=FALSE)
+  par(new=TRUE)
+  plot(r1,breaks=c(-0.01,0,0.2,0.4,0.6,0.8,1),
+       col=yor,
+       main=paste(specname,"all targeting datasets"),
+       legend=FALSE)
+  plot(rs,add=T,col=lcol,legend=FALSE)
+  legend("bottomright",col=yor[1:6],pch=15,
+         legend=c("0",">0-0.2",">0.2-0.4",">0.4-0.6",">0.6-0.8",">0.8-1"),
+         bg=lcol)
 }
 par(bg="white")
 dev.off()
-spe<-allspe
-save(spe,file=file.path(mapsDir,"spe.Rdata")
-write_delim(spfr,path=file.path(mapsDir,"specieslist.csv",delim=",")
+evs<-tibble(eventNummer=allspe$eventNummer)
+evs<- evs %>% left_join(events,by='eventNummer')
+spe<- cbind(evs,allspe[,2:ncol(allspe)])
+save(spe,file=file.path(mapsDir,"spe.Rdata"))
+write_delim(spfr,path=file.path(mapsDir,"specieslist.csv"),delim=",")
 ```
 
 

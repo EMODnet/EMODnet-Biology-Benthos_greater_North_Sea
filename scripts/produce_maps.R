@@ -5,7 +5,7 @@ require(svMisc)
 require(tidyverse)
 downloadDir <- "data/raw_data"
 dataDir <- "data/derived_data"
-outputDir <- "product/maps"
+mapsDir <- "product/maps"
 proWG<-CRS("+proj=longlat +datum=WGS84")
 ##########################################################
 # define a raster covering the grid. Set resolution of the raster here
@@ -151,5 +151,5 @@ dev.off()
 evs<-tibble(eventNummer=allspe$eventNummer)
 evs<- evs %>% left_join(events,by='eventNummer')
 spe<- cbind(evs,allspe[,2:ncol(allspe)])
-save(spe,file=file.path(outputDir,"spe.Rdata"))
-write_delim(spfr,path=file.path(outputDir,"specieslist.csv"),delim=",")
+save(spe,file=file.path(mapsDir,"spe.Rdata"))
+write_delim(spfr,path=file.path(mapsDir,"specieslist.csv"),delim=",")
