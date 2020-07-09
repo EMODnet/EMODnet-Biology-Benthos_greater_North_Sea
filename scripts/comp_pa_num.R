@@ -6,7 +6,7 @@ require(tidyverse)
 require(reshape2)
 downloadDir <- "data/raw_data"
 dataDir <- "data/derived_data"
-outputDir <- "product/maps"
+mapsDir <- "product/maps"
 proWG<-CRS("+proj=longlat +datum=WGS84")
 ##########################################################
 # define a raster covering the grid. Set resolution of the raster here
@@ -18,15 +18,17 @@ r<-raster(ext=extent(-16,9,46,66),ncol=150,nrow=280,crs=proWG,vals=0)
 load("./data/derived_data/rs.Rdata")
 lcol<-rgb(210/256,234/256,242/256)
 
-load(file.path(outputDir,"spe.Rdata"))
-splst<-read_delim(file.path(outputDir,"specieslist.csv"),delim=",")
+######### read in stored data
+load(file.path(mapsDir,"spe.Rdata"))
+splst<-read_delim(file.path(mapsDir,"specieslist.csv"),delim=",")
 names(spe)[5:ncol(spe)]<-splst$scientificName[1:(ncol(spe)-4)]
 spe<-spe %>% mutate_at(5:ncol(spe),as.numeric)
 # read in numerical density data
 numdts<-read_delim(file.path(dataDir,"df_ab.csv"),delim=",")
 evts<-numdts %>% select(data,sta,x,y) %>% distinct()
 
-pdf(file.path(outputDir,"compPAdens.pdf"),width=8,height=5.5)
+
+pdf(file.path(mapsDir,"compPAdens.pdf"),width=8,height=5.5)
 # select at random 100 species among the first 500
 spslct<-unique(floor(runif(100)*500)+1)
 par(mfrow=c(1,2))
@@ -52,7 +54,7 @@ for(i in spslct){
   legend("bottomright",col=yor[1:6],pch=15,
          legend=c("0",">0-0.2",">0.2-0.4",">0.4-0.6",">0.6-0.8",">0.8-1"),
          bg=lcol,cex=0.6)
-
+  ######## plot the numerical data of the same species ##############
   spp<- numdts %>% filter(tx==specname)
   spp<- spp %>% full_join(evts,by=c("data","sta","x","y")) %>%
     mutate(dens=ifelse(is.na(dens),0,dens))
