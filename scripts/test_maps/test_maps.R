@@ -34,6 +34,7 @@ logo_raw <- image_read("https://www.emodnet-biology.eu/sites/emodnet-biology.eu/
 
 # Transform raster to vector
 grid <- sf::st_as_sf(raster::rasterToPolygons(r1))
+grid_bbox <- sf::st_bbox(sf::st_transform(grid, 3035))
 
 # Plot the grid
 plot_grid <- ggplot() +
@@ -42,10 +43,10 @@ plot_grid <- ggplot() +
           color = emodnetColor$lightgrey, 
           size = 0.1) +
   geom_sf(data = grid, aes(fill = layer), size = 0.05) +
-  coord_sf(crs = 3035, xlim = c(2426378.0132, 7093974.6215), ylim = c(1308101.2618, 5446513.5222)) +
+  coord_sf(crs = 3035, xlim = c(grid_bbox$xmin, grid_bbox$xmax), ylim = c(grid_bbox$ymin, grid_bbox$ymax)) +
   scale_fill_viridis_c(alpha = 1, begin = 1, end = 0, direction = -1) +
-  ggtitle(specname,
-          subtitle = paste0('AphiaID ', spAphId)) +
+  ggtitle("specname",
+          subtitle = paste0('AphiaID ', "spAphId")) +
   theme(
     panel.background = element_rect(fill = emodnetColor$lightgrey),
     plot.title = element_text(color= emodnetColor$darkgrey, size = 14, face="bold.italic", hjust = 0.5),
@@ -61,7 +62,7 @@ ggsave(filename = file.path(".", "scripts", "test_maps", "map_test.png"),
 
 # Add emodnet logo
 plot <- image_read(file.path(".", "scripts", "test_maps", "map_test.png"))
-logo <- logo_raw %>% image_scale("200")
+logo <- logo_raw %>% image_scale("150")
 final_plot <- image_composite(plot, logo, gravity = "northeast", offset = "+680+220")
 image_write(final_plot, file.path(".", "scripts", "test_maps", "map_test.png"))
 
