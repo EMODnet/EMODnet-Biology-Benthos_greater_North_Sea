@@ -131,6 +131,18 @@ for(ss in spmin:spmax){
   coordinates(spe)<- ~decimalLongitude+decimalLatitude
   projection(spe)<-proWG
   r1<-rasterize(spe,r,field="pres_abs",fun=mean)
+  # Export rasters as tif
+  raster::writeRaster(
+    r1, 
+    file.path(
+      ".", "product", "species_rasters", paste0(
+        as.character(ss), "_",
+        spAphId, "_",
+        gsub(" ", "-", specname),
+        ".tif"
+      )
+    )
+  )
   #
   #plotting
   par(bg="lightblue")
