@@ -10,10 +10,14 @@ output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
+options(tinytex.verbose = TRUE)
+
 knitr::opts_chunk$set(echo = TRUE)
 require(raster)
 require(sp)
+require(rgdal)
 require(RColorBrewer)
+require(svMisc)
 require(tidyverse)
 require(sf)
 require(worrms)
@@ -61,7 +65,7 @@ layerurl <- paste0("http://geo.vliz.be/geoserver/MarineRegions/ows?service=WFS&v
 regions <- sf::st_read(layerurl)
  
 # read selected geographic layers for downloading
-roi <- read_delim("data/derived_data/regions.csv", delim = ",")
+roi <- read_delim(file.path(dataDir,"regions.csv", delim = ",")
 
 # check by plotting
 regions %>% filter(mrgid %in% roi$mrgid) %>%
@@ -71,7 +75,7 @@ regions %>% filter(mrgid %in% roi$mrgid) %>%
   theme(axis.title = element_blank(),
         axis.text = element_blank(),
         axis.ticks = element_blank())
-ggsave("data/derived_data/regionsOfInterest.png", width = 3, height =  4, )
+ggsave(file.path(dataDir,"regionsOfInterest.png", width = 3, height =  4, )
 #== download data by geographic location and trait =====================================
 beginDate<- "1900-01-01"
 endDate <- "2020-05-31"
@@ -97,7 +101,7 @@ for(ii in 1:length(roi$mrgid)){
   data <- read_csv(downloadURL) 
   write_delim(data, file.path(downloadDir, "byTrait", filename), delim = ";")
 }
-filelist <- list.files("data/raw_data/byTrait")
+filelist <- list.files(file.path(downloadDir,"byTrait"))
 allDataExtra <- lapply(filelist, function(x) 
   read_delim(file.path("data", "raw_data/byTrait", x), 
              delim = ";", 
@@ -122,7 +126,7 @@ for (i in datasetidsoi$datasetid){
   all_info <- rbind(all_info, dataset_info)
 }
 names(all_info)[1]<-"datasetid"
-write.csv(all_info,file="./data/derived_data/allDatasets.csv",row.names = F)
+write.csv(all_info,file=file.path(dataDir,"allDatasets.csv"),row.names = F)
 # Note
 # this step is followed by manual inspection of data sets, and selection
 # results in file "./data/derived_data/allDatasets_selection.csv"
@@ -135,8 +139,8 @@ In this step, we download the part of all these useful datasets that occur in th
 # content of script requestData_step2.R
  
 # read selected geographic layers for downloading
-roi <- read_delim("data/derived_data/regions.csv", delim = ",")
-getDatasets <- read_csv("./data/derived_data/allDatasets_selection.csv")
+roi <- read_delim(file.path(dataDir,"regions.csv"), delim = ",")
+getDatasets <- read_csv(file.path(dataDir,"allDatasets_selection.csv"))
 getDatasets <- getDatasets %>% filter(include)
 for(ii in 1:length(roi$mrgid)){
   for(jj in 1:length(getDatasets$datasetid)){
@@ -167,9 +171,9 @@ In this step, we read in all the files written during the previous step, and com
 The procedure for this step is simple, and documented in the following code.
  
 ```{r requestData_step3, echo=TRUE,eval=FALSE}
-filelist <- list.files("data/raw_data/byDataset")
+filelist <- list.files(file.path(downloadDir,"byDataset"))
 all2Data <- lapply(filelist, function(x) 
-  read_delim(file.path("data", "raw_data/byDataset", x), 
+  read_delim(file.path(downloadDir,"byDataset", x), 
              delim = ",", 
              col_types = "ccccccTnnnccccccccccccccc"
 			)
@@ -347,10 +351,10 @@ For the production of maps, we define 'sampling events' as the ensembles of reco
 ##########################################################
 #### load data
 ##########################################################
-sbnsc<- read_delim("./data/derived_data/all2Data.csv",
+sbnsc<- read_delim(file.path(dataDir,"all2Data.csv"),
                    col_types = "ccccccccTnnncccccccccccccccn",
                    delim=",")
-trdi<-read.csv("./data/derived_data/allDatasets_selection.csv",
+trdi<-read.csv(file.path(dataDir,"allDatasets_selection.csv"),
                stringsAsFactors = FALSE)
 usedds<- trdi %>% filter (include) %>% dplyr::select(datasetid)
 splst<-read_delim(file.path(dataDir,"sp2use.csv"),
@@ -427,7 +431,7 @@ nsptoplot<-length(which(spfr$n_events>200))
 ############ end of the generic part. What follows is a loop over the species ##
 spmin<-1
 spmax<-nsptoplot
-pdf("./product/species_maps.pdf",width=7,height=9)
+pdf(file.path(mapsDir,"species_maps.pdf"),width=7,height=9)
 
 for(ss in spmin:spmax){
   spAphId<-spfr$aphiaID[ss]
@@ -488,7 +492,7 @@ write_delim(spfr,path=file.path(mapsDir,"specieslist.csv"),delim=",")
 
 There are an astonishing number of rare species in this dataset. Around 1800 taxa have been sampled 8 times or less. In this added analysis we look where these rare taxa have been found. For this we partly recycle code from the previous chunks, to arrive finally at a shapefile with the positions of samples with rare species (including the number of rare taxa found), as well as a shapefile with all events. This is combined in GIS with base layers from Emodnet habitats.
 
-```{r analyse_rare_species, echo=TRUE, eval=FALSE}
+```{r analyse_rare_species, echo=TRUE, eval=TRUE}
 ##########################################################
 #### load data
 ##########################################################
