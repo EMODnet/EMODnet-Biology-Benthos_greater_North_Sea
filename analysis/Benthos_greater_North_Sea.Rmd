@@ -15,6 +15,12 @@ The large databases of EMODNET Biology only store confirmed presences of species
 ```{r setup, eval=FALSE}
 options(tinytex.verbose = TRUE)
 
+<<<<<<< HEAD
+=======
+```{r setup, include=FALSE}
+options(tinytex.verbose = TRUE)
+
+>>>>>>> 560719b1b423c3dcb46248c9673ba9b621bd29b6
 knitr::opts_chunk$set(echo = TRUE)
 require(raster)
 require(sp)
@@ -542,9 +548,164 @@ evs<- evs %>% left_join(events,by='eventNummer')
 spe<- cbind(evs,allspe[,2:ncol(allspe)])
 save(spe,file=file.path(mapsDir,"spe.Rdata"))
 write_delim(spfr,path=file.path(mapsDir,"specieslist.csv"),delim=",")
+<<<<<<< HEAD
+=======
 
 for(i in 5:ncol(spe)) spe[,i]<-as.numeric(spe[,i])
 write_delim(spe,path=file.path(mapsDir,"spe.csv"),delim=",")
 
+```
+
+
+## Analysis of rare species
+>>>>>>> 560719b1b423c3dcb46248c9673ba9b621bd29b6
+
+for(i in 5:ncol(spe)) spe[,i]<-as.numeric(spe[,i])
+write_delim(spe,path=file.path(mapsDir,"spe.csv"),delim=",")
+
+<<<<<<< HEAD
+=======
+```{r analyse_rare_species, echo=TRUE, eval=TRUE}
+##########################################################
+#### load data
+##########################################################
+sbnsc<- read_delim(file.path(dataDir,"all2Data.csv"),
+                   col_types = "ccccccccTnnncccccccccccccccn",
+                   delim=",")
+trdi<-read.csv(file.path(dataDir,"allDatasets_selection.csv"),
+               stringsAsFactors = FALSE)
+usedds<- trdi %>% filter (include & complete) %>% dplyr::select(datasetid)
+# higher taxa than genus removed from species list, to avoid
+# unidentified specimens to be called 'rare'
+splst<-read_delim(file.path(dataDir,"sp2use.csv"),
+                  col_types = "dccccccclllllllllllllllll",
+                  delim=",") %>% filter(!is.na(genus))
+##########################################################
+##### select few columns to work with
+##### filter to only the used datasets
+##### and filter to true benthic species only
+##########################################################
+trec<- sbnsc %>% dplyr::select(eventDate=datecollected,
+                        decimalLongitude=decimallongitude,
+						            decimalLatitude=decimallatitude,
+						            scientificName=scientificnameaccepted,
+						            aphiaID=AphiaID,
+						            datasetid=datasetid) %>%
+                 mutate(datasetid=as.numeric(substr(datasetid,65,90))) %>%
+                 filter(datasetid %in% usedds$datasetid)
+trec<- trec %>%  filter(aphiaID %in% splst$AphiaID)
+##############################################################
+# Define 'sampling events' as all records that share time and place, give
+# ID numbers to all events (eventNummer), and store the eventNummer in each
+# record of trec
+##############################################################
+events<- trec %>% dplyr::select(eventDate,decimalLongitude,decimalLatitude) %>% 
+                  distinct() %>%
+				          mutate(eventNummer=row_number())
+trec <- trec %>% left_join(events,by=c('eventDate','decimalLongitude','decimalLatitude'))
+
+##############################################################
+# find rare species, discard any higher taxa from the list
+#
+raresp<- trec                               %>% 
+           group_by(aphiaID,scientificName) %>%
+           summarize(n_events=n())          %>%
+	         arrange(desc(n_events))          %>%
+           filter(n_events<9)              
+
+spe<- trec %>% filter (aphiaID %in% raresp$aphiaID)
+sev<-spe %>% group_by(eventNummer) %>% summarise(nrares=n()) %>% arrange(desc(nrares))
+spe<- spe %>% left_join(sev, by="eventNummer")
+coordinates(spe)<- ~decimalLongitude+decimalLatitude
+projection(spe)<-proWG
+# par(bg="lightblue")
+# plot(spe,pch=19,cex=0.3*log(spe$nrares),col="red")
+# plot(rs,add=T,col=lcol,legend=FALSE)
+# par(bg="white")
+
+shapefile(spe,file.path(rareDir,"rarespecs.shp"),overwrite=TRUE)
+coordinates(events) <- ~decimalLongitude+decimalLatitude
+projection(events)<-proWG
+shapefile(events,file.path(rareDir,"events.shp"),overwrite=TRUE)
+```
+
+## Comparison of presence/absence data with numerical abundance data
+
+Within EMODnet Biology, a separate data product has been made containing numerical abundance data of benthic species in the NOrth Sea and Baltic. This data set has been prepared based on a small selection of (large) datasets that have comparable boxcore or grab methods, and that do provide the numerical abundance estimate. In the following script the results of the presence/absence analysis is compared with the results of the dataset with numerical abundance estimates. For a random selection of 100 species, side-by-side maps using the two different approaches are produced. The code is in the script "comp_pa_num.R". Output is produced in the pdf file "compPAdens.pdf" in the product/maps directory.
+
+```{r comp_pa_num, echo=TRUE,eval=FALSE}
+######### read in stored data
+load(file.path(mapsDir,"spe.Rdata"))
+splst<-read_delim(file.path(mapsDir,"specieslist.csv"),delim=",")
+names(spe)[5:ncol(spe)]<-splst$scientificName[1:(ncol(spe)-4)]
+spe<-spe %>% mutate_at(5:ncol(spe),as.numeric)
+# read in numerical density data
+numdts<-read_delim(file.path(dataDir,"df_ab.csv"),delim=",")
+evts<-numdts %>% select(data,sta,x,y) %>% distinct()
+
+
+pdf(file.path(mapsDir,"compPAdens.pdf"),width=8,height=5.5)
+# select at random 100 species among the first 500
+spslct<-unique(floor(runif(100)*500)+1)
+par(mfrow=c(1,2))
+for(i in spslct){
+  spp<-cbind(spe[,1:4],spe[,i+4])
+  spp<-spp[!is.na(spp[,5]),]
+  specname<-names(spe)[i+4]
+  names(spp)[5]<-"pres_abs"
+  coordinates(spp)<- ~decimalLongitude+decimalLatitude
+  projection(spp)<-proWG
+  r1<-rasterize(spp,r,field="pres_abs",fun=mean)
+  #
+  #plotting
+  par(bg="lightblue")
+  yor<-brewer.pal(7,"YlOrRd")
+  plot(0, 0, type="n", ann=FALSE, axes=FALSE)
+  par(new=TRUE)
+  plot(r1,breaks=c(-0.01,0,0.2,0.4,0.6,0.8,1),
+       col=yor,
+       main=paste(specname,"P/A"),
+       legend=FALSE)
+  plot(rs,add=T,col=lcol,legend=FALSE)
+  legend("bottomright",col=yor[1:6],pch=15,
+         legend=c("0",">0-0.2",">0.2-0.4",">0.4-0.6",">0.6-0.8",">0.8-1"),
+         bg=lcol,cex=0.6)
+  ######## plot the numerical data of the same species ##############
+  spp<- numdts %>% filter(tx==specname)
+  spp<- spp %>% full_join(evts,by=c("data","sta","x","y")) %>%
+    mutate(dens=ifelse(is.na(dens),0,dens))
+  if(nrow(spp)>0){
+    coordinates(spp)<- ~x+y
+    projection(spp)<-proWG
+    r1<-rasterize(spp,r,field="dens",fun=mean)
+    md<-max(log(values(r1)+1),na.rm=T)
+    r1<-log(r1+1)/md
+    #
+    #plotting
+    par(bg="lightblue")
+    yor<-brewer.pal(7,"YlOrRd")
+    plot(0, 0, type="n", ann=FALSE, axes=FALSE)
+    par(new=TRUE)
+    plot(r1,breaks=c(-0.01,0,0.2,0.4,0.6,0.8,1),
+         col=yor,
+         main=paste(specname,"density"),
+         legend=FALSE)
+    plot(rs,add=T,col=lcol,legend=FALSE)
+    legend("bottomright",col=yor[1:6],pch=15,
+           legend=c("0",paste0(">0-",floor(exp(0.2*md)-1)),
+                    paste0(">",floor(exp(0.2*md)-1),"-",floor(exp(0.4*md)-1)),
+                    paste0(">",floor(exp(0.4*md)-1),"-",floor(exp(0.6*md)-1)),
+                    paste0(">",floor(exp(0.6*md)-1),"-",floor(exp(0.8*md)-1)),
+                    paste0(">",floor(exp(0.8*md)-1),"-",floor(exp(1.0*md)-1))),
+           bg=lcol,cex=0.6)
+  }else{
+    plot(0, 0, type="n", ann=FALSE, axes=FALSE)
+    par(new=TRUE)
+    
+  }
+  
+}
+dev.off()
+>>>>>>> 560719b1b423c3dcb46248c9673ba9b621bd29b6
 ```
 
