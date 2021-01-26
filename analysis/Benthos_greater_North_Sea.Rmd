@@ -8,20 +8,33 @@ knit: (function(inputFile, encoding) {
                         output_file="../docs/Benthos_greater_North_Sea.pdf")}) 
 output: pdf_document
 ---
+## Introduction
 
-```{r setup, include=FALSE}
+The large databases of EMODNET Biology only store confirmed presences of species. However, when mapping species distribution, it is also important where the species did not occur: there is at least as much information in absences as in presences. Inferring absences from presence-only databases is difficult and always involves some guesswork. In this product we have used as much meta-information as possible to guide us in inferring absences. There is important meta-information at two different levels: the level of the data set, and the level of the species. Datasets can contain implicit information on absences when they have uniformly searched for the same species over a number of sample locations. Normally, if the species would have been present there, it would have been recorded. Other datasets, however, are not informative at all about absences. Typical examples are museum collections. The fact that a specimen is found at a particular place confirms that it lived there, but does not give information on any other species being present or absent in the same spot. A difficulty is that some datasets have searched for a restricted part of the total community, e.g. only sampled shellfish but no worms. In this case, absence of a shellfish species is relevant, but absence of a worm is not. The dataset can only be used to infer absence for the species it has targeted. Here we implicitly assume that a dataset inventoring the endomacrobenthos, is targeting all species belonging to this functional group. Usually, the distinction can be made on the basis of the metadata. It is also helpful to plot the total number of species versus the total number of samples. Incomplete datasets have far less species than expected for their size, compared to 'complete' datasets. At the species level, taxonomic databases such as WoRMS give information on the functional group the species belongs to. This information is present for many species, but it is incomplete. However, we can use it in a step to select the most useful datasets. We could use it to restrict the species to be used in mapping, but since the data are incomplete that would cause some loss of interesting information.
+
+```{r setup, eval=FALSE}
+options(tinytex.verbose = TRUE)
+
 knitr::opts_chunk$set(echo = TRUE)
 require(raster)
 require(sp)
+require(rgdal)
 require(RColorBrewer)
+require(svMisc)
 require(tidyverse)
 require(sf)
 require(worrms)
+library(ggplot2)
+library('rnaturalearth')
+library(magick)
+library(rgeos)
 #############
 downloadDir <- "../data/raw_data"
 dataDir     <- "../data/derived_data"
 mapsDir     <- "../product/maps"
-rareDir    <- "../product/rarespecies"
+rasterDir   <- "../product/species_rasters"
+plotsDir    <- "../product/species_plots"
+rareDir     <- "../product/rarespecies"
 #############
 proWG<-CRS("+proj=longlat +datum=WGS84")
 ##########################################################
@@ -33,11 +46,28 @@ r<-raster(ext=extent(-16,9,46,66),ncol=150,nrow=280,crs=proWG,vals=0)
 ##########################################################
 load(file.path(dataDir,"rs.Rdata"))
 lcol<-rgb(210/256,234/256,242/256)
+##########################################################
+# load some information needed for the maps
+##########################################################
+# Show countries
+world <- ne_countries(scale = "medium", returnclass = "sf")
+# EMODnet colors
+emodnetColor <- list(
+  # First palette
+  blue = "#0A71B4",
+  yellow = "#F8B334",
+  darkgrey = "#333333",
+  # Secondary palette,
+  darkblue = "#012E58",
+  lightblue = "#61AADF",
+  white = "#FFFFFF",
+  lightgrey = "#F9F9F9"
+)
+# EMODnet logo
+logo_raw <- image_read("https://www.emodnet-biology.eu/sites/emodnet-biology.eu/files/public/logos/logo-footer.png") 
+logo <- logo_raw %>% image_scale("150")
 ```
 
-## Introduction
-
-The large databases of EMODNET Biology only store confirmed presences of species. However, when mapping species distribution, it is also important where the species did not occur: there is at least as much information in absences as in presences. Inferring absences from presence-only databases is difficult and always involves some guesswork. In this product we have used as much meta-information as possible to guide us in inferring absences. There is important meta-information at two different levels: the level of the data set, and the level of the species. Datasets can contain implicit information on absences when they have uniformly searched for the same species over a number of sample locations. Normally, if the species would have been present there, it would have been recorded. Other datasets, however, are not informative at all about absences. Typical examples are museum collections. The fact that a specimen is found at a particular place confirms that it lived there, but does not give information on any other species being present or absent in the same spot. A difficulty is that some datasets have searched for a restricted part of the total community, e.g. only sampled shellfish but no worms. In this case, absence of a shellfish species is relevant, but absence of a worm is not. The dataset can only be used to infer absence for the species it has targeted. Here we implicitly assume that a dataset inventoring the endomacrobenthos, is targeting all species belonging to this functional group. Usually, the distinction can be made on the basis of the metadata. It is also helpful to plot the total number of species versus the total number of samples. Incomplete datasets have far less species than expected for their size, compared to 'complete' datasets. At the species level, taxonomic databases such as WoRMS give information on the functional group the species belongs to. This information is present for many species, but it is incomplete. However, we can use it in a step to select the most useful datasets. We could use it to restrict the species to be used in mapping, but since the data are incomplete that would cause some loss of interesting information.
 
 ## Data selection and retrieval
 
@@ -61,7 +91,7 @@ layerurl <- paste0("http://geo.vliz.be/geoserver/MarineRegions/ows?service=WFS&v
 regions <- sf::st_read(layerurl)
  
 # read selected geographic layers for downloading
-roi <- read_delim("data/derived_data/regions.csv", delim = ",")
+roi <- read_delim(file.path(dataDir,"regions.csv", delim = ",")
 
 # check by plotting
 regions %>% filter(mrgid %in% roi$mrgid) %>%
@@ -71,7 +101,7 @@ regions %>% filter(mrgid %in% roi$mrgid) %>%
   theme(axis.title = element_blank(),
         axis.text = element_blank(),
         axis.ticks = element_blank())
-ggsave("data/derived_data/regionsOfInterest.png", width = 3, height =  4, )
+ggsave(file.path(dataDir,"regionsOfInterest.png", width = 3, height =  4, )
 #== download data by geographic location and trait =====================================
 beginDate<- "1900-01-01"
 endDate <- "2020-05-31"
@@ -97,7 +127,7 @@ for(ii in 1:length(roi$mrgid)){
   data <- read_csv(downloadURL) 
   write_delim(data, file.path(downloadDir, "byTrait", filename), delim = ";")
 }
-filelist <- list.files("data/raw_data/byTrait")
+filelist <- list.files(file.path(downloadDir,"byTrait"))
 allDataExtra <- lapply(filelist, function(x) 
   read_delim(file.path("data", "raw_data/byTrait", x), 
              delim = ";", 
@@ -122,7 +152,7 @@ for (i in datasetidsoi$datasetid){
   all_info <- rbind(all_info, dataset_info)
 }
 names(all_info)[1]<-"datasetid"
-write.csv(all_info,file="./data/derived_data/allDatasets.csv",row.names = F)
+write.csv(all_info,file=file.path(dataDir,"allDatasets.csv"),row.names = F)
 # Note
 # this step is followed by manual inspection of data sets, and selection
 # results in file "./data/derived_data/allDatasets_selection.csv"
@@ -135,8 +165,8 @@ In this step, we download the part of all these useful datasets that occur in th
 # content of script requestData_step2.R
  
 # read selected geographic layers for downloading
-roi <- read_delim("data/derived_data/regions.csv", delim = ",")
-getDatasets <- read_csv("./data/derived_data/allDatasets_selection.csv")
+roi <- read_delim(file.path(dataDir,"regions.csv"), delim = ",")
+getDatasets <- read_csv(file.path(dataDir,"allDatasets_selection.csv"))
 getDatasets <- getDatasets %>% filter(include)
 for(ii in 1:length(roi$mrgid)){
   for(jj in 1:length(getDatasets$datasetid)){
@@ -167,9 +197,9 @@ In this step, we read in all the files written during the previous step, and com
 The procedure for this step is simple, and documented in the following code.
  
 ```{r requestData_step3, echo=TRUE,eval=FALSE}
-filelist <- list.files("data/raw_data/byDataset")
+filelist <- list.files(file.path(downloadDir,"byDataset"))
 all2Data <- lapply(filelist, function(x) 
-  read_delim(file.path("data", "raw_data/byDataset", x), 
+  read_delim(file.path(downloadDir,"byDataset", x), 
              delim = ",", 
              col_types = "ccccccTnnnccccccccccccccc"
 			)
@@ -343,7 +373,6 @@ write_delim(sp2use,file.path(dataDir,"sp2use.csv"),delim=",")
 For the production of maps, we define 'sampling events' as the ensembles of records that share time and place. We consider such events as one sample. For the incomplete datasets, we inventory what species they have targeted. Finally, for every species we determine whether or not it was present in all sampling events of all relevant datasets. This presence/absence information is written to the output file, together with the spatial location and the sampling date. The intention is to use this information to produce interpolated maps covering also the non-sampled space. As a first step in visualisation, we rasterize this information and show it in a map per species. 
 
 ```{r produce_maps, echo=TRUE, eval=FALSE}
-
 ##########################################################
 #### load data
 ##########################################################
@@ -427,7 +456,6 @@ nsptoplot<-length(which(spfr$n_events>200))
 ############ end of the generic part. What follows is a loop over the species ##
 spmin<-1
 spmax<-nsptoplot
-pdf("./product/species_maps.pdf",width=7,height=9)
 
 for(ss in spmin:spmax){
   spAphId<-spfr$aphiaID[ss]
@@ -446,7 +474,7 @@ for(ss in spmin:spmax){
   spe<- trec                                                      %>% 
     filter(datasetid %in% tt_ds$datasetid)                  %>%
     group_by(eventNummer)                                   %>%
-    summarize(pres_abs= as.numeric(any(aphiaID==spAphId)))  %>%
+    summarize(pres_abs= as.numeric(any(aphiaID==spAphId)),.groups = 'drop')  %>%
     left_join(events,by='eventNummer') 
   spesh <- spe                               %>% 
     mutate (spcolumn=(pres_abs==1)) %>% 
@@ -459,175 +487,64 @@ for(ss in spmin:spmax){
   coordinates(spe)<- ~decimalLongitude+decimalLatitude
   projection(spe)<-proWG
   r1<-rasterize(spe,r,field="pres_abs",fun=mean)
+  # Export rasters as tif
+  raster::writeRaster(
+    r1, 
+    file.path(
+      rasterDir, paste0(
+        sprintf("%04d",ss), "_",
+        spAphId, "_",
+        gsub(" ", "-", specname),
+        ".tif"
+      )
+    ),
+    overwrite=TRUE
+  )
   #
-  #plotting
-  par(bg="lightblue")
-  yor<-brewer.pal(7,"YlOrRd")
-  plot(0, 0, type="n", ann=FALSE, axes=FALSE)
-  par(new=TRUE)
-  plot(r1,breaks=c(-0.01,0,0.2,0.4,0.6,0.8,1),
-       col=yor,
-       main=paste(specname,"all targeting datasets"),
-       legend=FALSE)
-  plot(rs,add=T,col=lcol,legend=FALSE)
-  legend("bottomright",col=yor[1:6],pch=15,
-         legend=c("0",">0-0.2",">0.2-0.4",">0.4-0.6",">0.6-0.8",">0.8-1"),
-         bg=lcol)
+  # Transform raster to vector
+  grid <- sf::st_as_sf(raster::rasterToPolygons(r1))
+  grid_bbox <- sf::st_bbox(sf::st_transform(grid, 3035))
+  
+  # Plot the grid
+  plot_grid <- ggplot() +
+    geom_sf(data = world, 
+            fill = emodnetColor$darkgrey, 
+            color = emodnetColor$lightgrey, 
+            size = 0.1) +
+    geom_sf(data = grid, aes(fill = layer), size = 0.05) +
+    coord_sf(crs = 3035, xlim = c(grid_bbox$xmin, grid_bbox$xmax), ylim = c(grid_bbox$ymin, grid_bbox$ymax)) +
+    scale_fill_viridis_c(alpha = 1, begin = 1, end = 0, direction = -1) +
+    ggtitle(specname,
+            subtitle = paste0('AphiaID ', spAphId)) +
+    theme(
+      panel.background = element_rect(fill = emodnetColor$lightgrey),
+      plot.title = element_text(color= emodnetColor$darkgrey, size = 14, face="bold.italic", hjust = 0.5),
+      plot.subtitle = element_text(color= emodnetColor$darkgrey, face="bold", size=10, hjust = 0.5)
+    )
+  
+  # Inspect plot
+  plot_grid
+  
+  # Save plot
+  filnam<-file.path(plotsDir, 
+                    paste0(sprintf("%04d",ss), "_",spAphId, "_",gsub(" ", "-", specname),".png"))
+  ggsave(filename = filnam,width = 198.4375, height = 121.70833333, dpi = 300, units = "mm")
+  
+  # Add emodnet logo
+  plot <- image_read(filnam)
+  final_plot <- image_composite(plot, logo, gravity = "northeast", offset = "+680+220")
+  image_write(final_plot, filnam)
 }
-par(bg="white")
-dev.off()
+
+# save file with presence/absence information of all species plotted
 evs<-tibble(eventNummer=allspe$eventNummer)
 evs<- evs %>% left_join(events,by='eventNummer')
 spe<- cbind(evs,allspe[,2:ncol(allspe)])
 save(spe,file=file.path(mapsDir,"spe.Rdata"))
 write_delim(spfr,path=file.path(mapsDir,"specieslist.csv"),delim=",")
-```
 
+for(i in 5:ncol(spe)) spe[,i]<-as.numeric(spe[,i])
+write_delim(spe,path=file.path(mapsDir,"spe.csv"),delim=",")
 
-## Analysis of rare species
-
-There are an astonishing number of rare species in this dataset. Around 1800 taxa have been sampled 8 times or less. In this added analysis we look where these rare taxa have been found. For this we partly recycle code from the previous chunks, to arrive finally at a shapefile with the positions of samples with rare species (including the number of rare taxa found), as well as a shapefile with all events. This is combined in GIS with base layers from Emodnet habitats.
-
-```{r analyse_rare_species, echo=TRUE, eval=FALSE}
-##########################################################
-#### load data
-##########################################################
-sbnsc<- read_delim(file.path(dataDir,"all2Data.csv"),
-                   col_types = "ccccccccTnnncccccccccccccccn",
-                   delim=",")
-trdi<-read.csv(file.path(dataDir,"allDatasets_selection.csv"),
-               stringsAsFactors = FALSE)
-usedds<- trdi %>% filter (include & complete) %>% dplyr::select(datasetid)
-# higher taxa than genus removed from species list, to avoid
-# unidentified specimens to be called 'rare'
-splst<-read_delim(file.path(dataDir,"sp2use.csv"),
-                  col_types = "dccccccclllllllllllllllll",
-                  delim=",") %>% filter(!is.na(genus))
-##########################################################
-##### select few columns to work with
-##### filter to only the used datasets
-##### and filter to true benthic species only
-##########################################################
-trec<- sbnsc %>% dplyr::select(eventDate=datecollected,
-                        decimalLongitude=decimallongitude,
-						            decimalLatitude=decimallatitude,
-						            scientificName=scientificnameaccepted,
-						            aphiaID=AphiaID,
-						            datasetid=datasetid) %>%
-                 mutate(datasetid=as.numeric(substr(datasetid,65,90))) %>%
-                 filter(datasetid %in% usedds$datasetid)
-trec<- trec %>%  filter(aphiaID %in% splst$AphiaID)
-##############################################################
-# Define 'sampling events' as all records that share time and place, give
-# ID numbers to all events (eventNummer), and store the eventNummer in each
-# record of trec
-##############################################################
-events<- trec %>% dplyr::select(eventDate,decimalLongitude,decimalLatitude) %>% 
-                  distinct() %>%
-				          mutate(eventNummer=row_number())
-trec <- trec %>% left_join(events,by=c('eventDate','decimalLongitude','decimalLatitude'))
-
-##############################################################
-# find rare species, discard any higher taxa from the list
-#
-raresp<- trec                               %>% 
-           group_by(aphiaID,scientificName) %>%
-           summarize(n_events=n())          %>%
-	         arrange(desc(n_events))          %>%
-           filter(n_events<9)              
-
-spe<- trec %>% filter (aphiaID %in% raresp$aphiaID)
-sev<-spe %>% group_by(eventNummer) %>% summarise(nrares=n()) %>% arrange(desc(nrares))
-spe<- spe %>% left_join(sev, by="eventNummer")
-coordinates(spe)<- ~decimalLongitude+decimalLatitude
-projection(spe)<-proWG
-# par(bg="lightblue")
-# plot(spe,pch=19,cex=0.3*log(spe$nrares),col="red")
-# plot(rs,add=T,col=lcol,legend=FALSE)
-# par(bg="white")
-
-shapefile(spe,file.path(rareDir,"rarespecs.shp"),overwrite=TRUE)
-coordinates(events) <- ~decimalLongitude+decimalLatitude
-projection(events)<-proWG
-shapefile(events,file.path(rareDir,"events.shp"),overwrite=TRUE)
-```
-
-## Comparison of presence/absence data with numerical abundance data
-
-Within EMODnet Biology, a separate data product has been made containing numerical abundance data of benthic species in the NOrth Sea and Baltic. This data set has been prepared based on a small selection of (large) datasets that have comparable boxcore or grab methods, and that do provide the numerical abundance estimate. In the following script the results of the presence/absence analysis is compared with the results of the dataset with numerical abundance estimates. For a random selection of 100 species, side-by-side maps using the two different approaches are produced. The code is in the script "comp_pa_num.R". Output is produced in the pdf file "compPAdens.pdf" in the product/maps directory.
-
-```{r comp_pa_num, echo=TRUE,eval=FALSE}
-######### read in stored data
-load(file.path(mapsDir,"spe.Rdata"))
-splst<-read_delim(file.path(mapsDir,"specieslist.csv"),delim=",")
-names(spe)[5:ncol(spe)]<-splst$scientificName[1:(ncol(spe)-4)]
-spe<-spe %>% mutate_at(5:ncol(spe),as.numeric)
-# read in numerical density data
-numdts<-read_delim(file.path(dataDir,"df_ab.csv"),delim=",")
-evts<-numdts %>% select(data,sta,x,y) %>% distinct()
-
-
-pdf(file.path(mapsDir,"compPAdens.pdf"),width=8,height=5.5)
-# select at random 100 species among the first 500
-spslct<-unique(floor(runif(100)*500)+1)
-par(mfrow=c(1,2))
-for(i in spslct){
-  spp<-cbind(spe[,1:4],spe[,i+4])
-  spp<-spp[!is.na(spp[,5]),]
-  specname<-names(spe)[i+4]
-  names(spp)[5]<-"pres_abs"
-  coordinates(spp)<- ~decimalLongitude+decimalLatitude
-  projection(spp)<-proWG
-  r1<-rasterize(spp,r,field="pres_abs",fun=mean)
-  #
-  #plotting
-  par(bg="lightblue")
-  yor<-brewer.pal(7,"YlOrRd")
-  plot(0, 0, type="n", ann=FALSE, axes=FALSE)
-  par(new=TRUE)
-  plot(r1,breaks=c(-0.01,0,0.2,0.4,0.6,0.8,1),
-       col=yor,
-       main=paste(specname,"P/A"),
-       legend=FALSE)
-  plot(rs,add=T,col=lcol,legend=FALSE)
-  legend("bottomright",col=yor[1:6],pch=15,
-         legend=c("0",">0-0.2",">0.2-0.4",">0.4-0.6",">0.6-0.8",">0.8-1"),
-         bg=lcol,cex=0.6)
-  ######## plot the numerical data of the same species ##############
-  spp<- numdts %>% filter(tx==specname)
-  spp<- spp %>% full_join(evts,by=c("data","sta","x","y")) %>%
-    mutate(dens=ifelse(is.na(dens),0,dens))
-  if(nrow(spp)>0){
-    coordinates(spp)<- ~x+y
-    projection(spp)<-proWG
-    r1<-rasterize(spp,r,field="dens",fun=mean)
-    md<-max(log(values(r1)+1),na.rm=T)
-    r1<-log(r1+1)/md
-    #
-    #plotting
-    par(bg="lightblue")
-    yor<-brewer.pal(7,"YlOrRd")
-    plot(0, 0, type="n", ann=FALSE, axes=FALSE)
-    par(new=TRUE)
-    plot(r1,breaks=c(-0.01,0,0.2,0.4,0.6,0.8,1),
-         col=yor,
-         main=paste(specname,"density"),
-         legend=FALSE)
-    plot(rs,add=T,col=lcol,legend=FALSE)
-    legend("bottomright",col=yor[1:6],pch=15,
-           legend=c("0",paste0(">0-",floor(exp(0.2*md)-1)),
-                    paste0(">",floor(exp(0.2*md)-1),"-",floor(exp(0.4*md)-1)),
-                    paste0(">",floor(exp(0.4*md)-1),"-",floor(exp(0.6*md)-1)),
-                    paste0(">",floor(exp(0.6*md)-1),"-",floor(exp(0.8*md)-1)),
-                    paste0(">",floor(exp(0.8*md)-1),"-",floor(exp(1.0*md)-1))),
-           bg=lcol,cex=0.6)
-  }else{
-    plot(0, 0, type="n", ann=FALSE, axes=FALSE)
-    par(new=TRUE)
-    
-  }
-  
-}
-dev.off()
 ```
 

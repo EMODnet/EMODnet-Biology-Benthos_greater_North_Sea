@@ -3,19 +3,42 @@ require(sp)
 require(RColorBrewer)
 require(svMisc)
 require(tidyverse)
+library(ggplot2)
+library('rnaturalearth')
+library(magick)
+library(rgeos)
+
 downloadDir <- "data/raw_data"
 dataDir <- "data/derived_data"
 mapsDir <- "product/maps"
+rasterDir <- "product/species_rasters"
+plotsDir <- "product/species_plots"
 proWG<-CRS("+proj=longlat +datum=WGS84")
 ##########################################################
 # define a raster covering the grid. Set resolution of the raster here
 ##########################################################
 r<-raster(ext=extent(-16,9,46,66),ncol=150,nrow=280,crs=proWG,vals=0)
 ##########################################################
-# load a base raster with land
+# load some information needed for the maps
 ##########################################################
-load("./data/derived_data/rs.Rdata")
-lcol<-rgb(210/256,234/256,242/256)
+# Show countries
+world <- ne_countries(scale = "medium", returnclass = "sf")
+# EMODnet colors
+emodnetColor <- list(
+  # First palette
+  blue = "#0A71B4",
+  yellow = "#F8B334",
+  darkgrey = "#333333",
+  # Secondary palette,
+  darkblue = "#012E58",
+  lightblue = "#61AADF",
+  white = "#FFFFFF",
+  lightgrey = "#F9F9F9"
+)
+# EMODnet logo
+logo_raw <- image_read("https://www.emodnet-biology.eu/sites/emodnet-biology.eu/files/public/logos/logo-footer.png") 
+logo <- logo_raw %>% image_scale("150")
+#
 ##########################################################
 #### load data
 ##########################################################
@@ -99,7 +122,6 @@ nsptoplot<-length(which(spfr$n_events>200))
 ############ end of the generic part. What follows is a loop over the species ##
 spmin<-1
 spmax<-nsptoplot
-pdf("./product/species_maps.pdf",width=7,height=9)
 
 for(ss in spmin:spmax){
   spAphId<-spfr$aphiaID[ss]
@@ -118,7 +140,7 @@ for(ss in spmin:spmax){
   spe<- trec                                                      %>% 
     filter(datasetid %in% tt_ds$datasetid)                  %>%
     group_by(eventNummer)                                   %>%
-    summarize(pres_abs= as.numeric(any(aphiaID==spAphId)))  %>%
+    summarize(pres_abs= as.numeric(any(aphiaID==spAphId)),.groups = 'drop')  %>%
     left_join(events,by='eventNummer') 
   spesh <- spe                               %>% 
     mutate (spcolumn=(pres_abs==1)) %>% 
@@ -131,25 +153,60 @@ for(ss in spmin:spmax){
   coordinates(spe)<- ~decimalLongitude+decimalLatitude
   projection(spe)<-proWG
   r1<-rasterize(spe,r,field="pres_abs",fun=mean)
+  # Export rasters as tif
+  raster::writeRaster(
+    r1, 
+    file.path(
+      rasterDir, paste0(
+        sprintf("%04d",ss), "_",
+        spAphId, "_",
+        gsub(" ", "-", specname),
+        ".tif"
+      )
+    ),
+    overwrite=TRUE
+  )
   #
-  #plotting
-  par(bg="lightblue")
-  yor<-brewer.pal(7,"YlOrRd")
-  plot(0, 0, type="n", ann=FALSE, axes=FALSE)
-  par(new=TRUE)
-  plot(r1,breaks=c(-0.01,0,0.2,0.4,0.6,0.8,1),
-       col=yor,
-       main=paste(specname,"all targeting datasets"),
-       legend=FALSE)
-  plot(rs,add=T,col=lcol,legend=FALSE)
-  legend("bottomright",col=yor[1:6],pch=15,
-         legend=c("0",">0-0.2",">0.2-0.4",">0.4-0.6",">0.6-0.8",">0.8-1"),
-         bg=lcol)
+  # Transform raster to vector
+  grid <- sf::st_as_sf(raster::rasterToPolygons(r1))
+  grid_bbox <- sf::st_bbox(sf::st_transform(grid, 3035))
+  
+  # Plot the grid
+  plot_grid <- ggplot() +
+    geom_sf(data = world, 
+            fill = emodnetColor$darkgrey, 
+            color = emodnetColor$lightgrey, 
+            size = 0.1) +
+    geom_sf(data = grid, aes(fill = layer), size = 0.05) +
+    coord_sf(crs = 3035, xlim = c(grid_bbox$xmin, grid_bbox$xmax), ylim = c(grid_bbox$ymin, grid_bbox$ymax)) +
+    scale_fill_viridis_c(alpha = 1, begin = 1, end = 0, direction = -1) +
+    ggtitle(specname,
+            subtitle = paste0('AphiaID ', spAphId)) +
+    theme(
+      panel.background = element_rect(fill = emodnetColor$lightgrey),
+      plot.title = element_text(color= emodnetColor$darkgrey, size = 14, face="bold.italic", hjust = 0.5),
+      plot.subtitle = element_text(color= emodnetColor$darkgrey, face="bold", size=10, hjust = 0.5)
+    )
+  
+  # Inspect plot
+  plot_grid
+  
+  # Save plot
+  filnam<-file.path(plotsDir, 
+                    paste0(sprintf("%04d",ss), "_",spAphId, "_",gsub(" ", "-", specname),".png"))
+  ggsave(filename = filnam,width = 198.4375, height = 121.70833333, dpi = 300, units = "mm")
+  
+  # Add emodnet logo
+  plot <- image_read(filnam)
+  final_plot <- image_composite(plot, logo, gravity = "northeast", offset = "+680+220")
+  image_write(final_plot, filnam)
 }
-par(bg="white")
-dev.off()
+
 evs<-tibble(eventNummer=allspe$eventNummer)
 evs<- evs %>% left_join(events,by='eventNummer')
 spe<- cbind(evs,allspe[,2:ncol(allspe)])
 save(spe,file=file.path(mapsDir,"spe.Rdata"))
 write_delim(spfr,path=file.path(mapsDir,"specieslist.csv"),delim=",")
+
+for(i in 5:ncol(spe)) spe[,i]<-as.numeric(spe[,i])
+write_delim(spe,path=file.path(mapsDir,"spe.csv"),delim=",")
