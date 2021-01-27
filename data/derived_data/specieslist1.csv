@@ -1,4 +1,2 @@
 AphiaID,scientificnameaccepted,phylum,class,order,family,genus,subgenus,benthos,endobenthos,macrobenthos,epibenthos,meiobenthos,phytobenthos,plankton,nekton,Pisces,Algae,Aves_tax,Pisces_tax,Algae_tax,Plants_tax,meio_tax,micro_tax,misc_tax
-127261,Chelidonichthys lastoviza,Chordata,Actinopterygii,Scorpaeniformes,Triglidae,Chelidonichthys,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-1042828,Chelon aurata,Chordata,Actinopterygii,Perciformes,Mugilidae,Chelon,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
-127219,Liparis liparis,Chordata,Actinopterygii,Scorpaeniformes,Liparidae,Liparis,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+1042828,Chelon aurata,Chordata,Actinopterygii,Mugiliformes,Mugilidae,Chelon,NA,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
