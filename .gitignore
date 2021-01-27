@@ -9,17 +9,6 @@
 .Rproj.user/
 *.Rproj
 
-# Rendered reports
-product/*.html
-analysis/*.docx
-analysis/*.pdf
-docs/*.html
-docs/*.docx
-docs/*.pdf
-
-# output files
-output/
-
 # knitr and R markdown default cache directories
 /analysis/cache/
 /analysis/figures/
@@ -31,10 +20,31 @@ output/
 # RStudio
 .Rproj.user
 
-#asides files
-asides/*
+#all products, because too big
+product/maps/*.csv
+product/maps/*.Rdata
+product/species_rasters/*.tif
+product/species_plots/*.png
 
-#all data, products and docs, because too big
-data/*
-product/*
-docs/*
+#all raw data, because really too big
+data/raw_data/byTraits/*.csv
+data/raw_data/byDataset/*.csv
+
+#some derived data
+data/derived_data/all2Data.csv
+data/derived_data/allDatasets.csv
+data/derived_data/nsp*.*
+data/derived_data/sp2use.csv
+data/derived_data/specieslist1.csv
+data/derived_data/specieslist2.csv
+data/derived_data/specieslist3.csv
+data/derived_data/specieslist4.csv
+data/derived_data/specieslist5.csv
+data/derived_data/specieslist6.csv
+data/derived_data/specieslist7.csv
+data/derived_data/specieslist8.csv
+data/derived_data/splst.csv
+data/derived_data/regionsOfInterest.png
+
+
+
