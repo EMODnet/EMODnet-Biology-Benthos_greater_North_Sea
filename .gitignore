@@ -27,7 +27,7 @@ product/species_rasters/*.tif
 product/species_plots/*.png
 
 #all raw data, because really too big
-data/raw_data/byTraits/*.csv
+data/raw_data/byTrait/*.csv
 data/raw_data/byDataset/*.csv
 
 #some derived data
