@@ -1,4 +1,4 @@
-﻿# Benthos_greater_North_Sea
+# Benthos_greater_North_Sea
 
 ## Introduction
 
@@ -21,16 +21,20 @@ Benthos_greater_North_Sea/
 ├── data/
 │   ├── derived_data/
 │   └── raw_data/
+│         ├── byDataset/
+│         └── byTrait/
 ├── docs/
-├── product/
-└── scripts/
+└── product/
+    ├── maps/ 
+    ├── species_plots/ 
+    └── species_rasters/
+
 ```
 
-* **analysis** - Markdown notebook with the general workflow used in this product
+* **analysis** - Markdown notebook with the general workflow used in this product, All R code used during the analysis is incorporated into the Markdown notebook. For consistency reasons, the code is not replicated as independent scripts. If needed, code chunks can easily be extracted from the notebook.
 * **data** - Raw and derived data. Note that due to the data size, these directories do not contain the actual mass of data of the project. The directories are made to store data when the project is running. There are a few ancillary files in derived_data, needed for running the download and producing maps
 * **docs** - Rendered report of the Markdown document
-* **product** - Output product files. A pdf file with maps of the species distributions, and a binary Rdata file with the species presences by event, as well as the characteristics of the events (date and place).
-* **scripts** - The code used for the project. The Markdown document sources these scripts, without actually reproducing them
+* **product** - Output product files. The subdirectory maps contains general files with the results of the analysis for all species found 200 times or more (note that for the rarer species no output is produced, although this can easily be done using the provided code). There are three files. spe.csv is a very large csv file recording for each species and each sampling event whether the species was present (1), absent (0) or not looked for (NA). This information is also stored in the binary file spe.Rdata that can only be read from R. The names and some attributes of the species in spe.csv are stored in specieslist.csv. For each species, a raster is made with fraction presences, and stored as a geotiff file in the subdirectory species_rasters. The rasters are plotted and stored per species in the subdirectory species_plots.
 
 ## Data series
 
@@ -44,11 +48,10 @@ The wfs calls can also be found in the code.
 Per species the presence or absence in each of the sampling events is recorded as a Boolean variable. Output is restricted to species that have been found more than 200 times in the entire dataset, but this can be changed in the code. This file is to be used as a basis for the production of interpolation maps, but can also be used as a basis for clustering and descriptive analyses. The file is saved as an R binary file and as a .csv file.
 
 Per species, the presence/absence data are also rasterized in a relatively fine raster. For each raster cell, the proportion of observations with presence of the species is calculated. The map shows these proportions (between 0 and 1). 
-Currently, there are maps available for a total of 1370 taxa. These encompass all taxa that have been observed more than 200 times in the total dataset of over 90,000 samples. There are approximately 73,000 samples in ‘complete’ datasets, targeting the whole community. The remainder are ‘incomplete’ datasets that only recorded the presence of a limited number of species.
+Currently, there are maps available for a total of 1095 taxa. These encompass all taxa that have been observed more than 200 times in the total dataset of over 90,000 samples. There are approximately 73,000 samples in ‘complete’ datasets, targeting the whole community. The remainder are ‘incomplete’ datasets that only recorded the presence of a limited number of species.
 Distinction between ‘complete’ and ‘incomplete’ datasets was made based on the description of the datasets in the meta-information, and checked using the relation between sampling effort and number of species found. The latter showed a good overall correspondence for the ‘complete’ datasets, although some datasets focusing on estuarine areas had a relatively modest number of taxa found for a relatively large sampling effort.
-From the large number (approximately 6500) of taxa found in these datasets, most are classified in WoRMS as ‘benthos’. However, over 1000 species were not, even though they were all found in datasets targeting benthos. This is partly explained because benthos datasets also find small fish, occasional zooplankton and other animals that are not typically benthic but that are often reported in the results. Another reason is by the fact that it concerns high-level taxa that count both benthic and non-benthic species in the taxon. Lastly, however, it is due to the fact that the species databases are incomplete. The list of non-benthic taxa found in benthic datasets was transferred to the WoRMS editors, in order to help with updating the traits database. This operation was not at all automatic, as it was clear that the list contained a large number of taxa that could not be termed ‘benthic’.
-## Comparison with numerical abundance estimation
-In previous workshops, a data product with compiled macrobenthos abundance data from a selected number of (large) datasets that share methodological characteristics (only box cores) and that provide numerical density, not just presence of species, was prepared. This dataset has many samples in common with the presence/absence dataset prepared here, and for some species the resulting maps are virtually identical. For some other species there are notable differences, e.g. shellfish species for which much additional material was available in the Dutch coastal zone and German waters. For some species the extra information on the central and eastern parts of the North Sea is an addition, e.g. Nephtys hombergii. In general, the correspondence between the fraction presences shown in the rasterisation of presence/absence information, and the numerical abundance (on log scale) is very striking. Significant deviations between both colour schemes are mostly found in areas that are very poorly sampled - any presence there will almost automatically be 100% of the samples in the raster cell, as most cells have only one observation. However, many areas of the North Sea are better sampled than that and the fraction presence is a very good proxy for density.
+From the large number (approximately 6500) of taxa found in these datasets, most are classified in WoRMS as ‘Benthos’. However, over 1000 species were not, even though they were all found in datasets targeting benthos. This is partly explained because benthos datasets also find small fish, occasional zooplankton and other animals that are not typically benthic but that are often reported in the results. Another reason is that it concerns high-level taxa that count both benthic and non-benthic species in the taxon. Lastly, however, it is due to the fact that the species databases are incomplete. The list of non-benthic taxa found in benthic datasets was transferred to the WoRMS editors, in order to help with updating the traits database. This operation was not at all automatic, as it was clear that the list contained a large number of taxa that could not be termed ‘benthic’.
+
 
 ## More information:
 
