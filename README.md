@@ -64,7 +64,7 @@ Herman, P.M.J., Stolte, W., van der Heijden, L. 2020. Summary presence/absence m
 
 Available to download in:
 
-{{link_download}}
+https://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6617
 
 ### Authors
 
