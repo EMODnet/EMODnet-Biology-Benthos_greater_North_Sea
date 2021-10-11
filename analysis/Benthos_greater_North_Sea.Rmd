@@ -1,4 +1,3 @@
----
 title: "Benthos_greater_North_Sea"
 author: "Peter M.J. Herman, Willem Stolte, Luuk van der Heijden"
 date: "26-1-2021"
@@ -12,7 +11,7 @@ output: pdf_document
 
 The large databases of EMODNET Biology only store confirmed presences of species. However, when mapping species distribution, it is also important where the species did not occur: there is at least as much information in absences as in presences. Inferring absences from presence-only databases is difficult and always involves some guesswork. In this product we have used as much meta-information as possible to guide us in inferring absences. There is important meta-information at two different levels: the level of the data set, and the level of the species. Datasets can contain implicit information on absences when they have uniformly searched for the same species over a number of sample locations. Normally, if the species would have been present there, it would have been recorded. Other datasets, however, are not informative at all about absences. Typical examples are museum collections. The fact that a specimen is found at a particular place confirms that it lived there, but does not give information on any other species being present or absent in the same spot. A difficulty is that some datasets have searched for a restricted part of the total community, e.g. only sampled shellfish but no worms. In this case, absence of a shellfish species is relevant, but absence of a worm is not. The dataset can only be used to infer absence for the species it has targeted. Here we implicitly assume that a dataset inventoring the endomacrobenthos, is targeting all species belonging to this functional group. Usually, the distinction can be made on the basis of the metadata. It is also helpful to plot the total number of species versus the total number of samples. Incomplete datasets have far less species than expected for their size, compared to 'complete' datasets. At the species level, taxonomic databases such as WoRMS give information on the functional group the species belongs to. This information is present for many species, but it is incomplete. However, we can use it in a step to select the most useful datasets. We could use it to restrict the species to be used in mapping, but since the data are incomplete that would cause some loss of interesting information.
 
-```{r setup, eval=FALSE}
+```{r setup, EVAL=FALSE}
 options(tinytex.verbose = TRUE)
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_knit$set(root.dir = rprojroot::find_rstudio_root_file())
@@ -250,7 +249,7 @@ write_delim(all2Data, file.path(dataDir, "all2Data.csv"), delim = ",")
 The selection of data in the first step makes use of the traits stored in WoRMS, the World Register of Marine Species. For many species in this database, the functional group to which the species belongs is recorded. However, this is not yet complete. We can help the development of these traits databases from the compilation of data performed here. Since we selected benthic data sets, we can assume that most species in our database will be benthic, although it appears this is not absolutely the case everywhere. Here we try to use as much information as possible, either from the traits database or from the taxonomic position of the taxa, to derive what functional group they belong to. That is used to narrow down the list of taxa to the benthic species we are targeting, but also to report back to WoRMS with suggestions to improve the traits database. For example, one of the results of the present exercise was that it appeared not a single Amphipod is called 'benthos' in WoRMS. This has been flagged as a potential problem to the taxonomic editors of WoRMS.
  
 The checks are illustrated in the script "select_species_4_maps.R". Note that the actual downloading of the trait information of over 6000 species is commented out. Results have been written to a file after performing this step once.
-```{r select_species_4_maps, echo=TRUE,eval=FALSE}
+```{r download_species_attributes, echo=TRUE,eval=FALSE}
 # we build the species list, keeping the taxonomic information we have in the total data set
 # we foresee logical columns in the species list to group the species by in the rest of this script
 bns<-read_delim(file.path(dataDir,"all2Data.csv"),
@@ -283,8 +282,23 @@ nsp_attr <- nsp_attr %>%
                   mutate(AphiaID=as.numeric(AphiaID)) %>%
                   left_join(splst,by="AphiaID")
 write_delim(nsp_attr,file.path(dataDir,"nsp_attr.Rdata"),delim=",")
-#
-#nsp_attr <- read_delim(file.path(dataDir,"nsp_attr.csv"),delim=",")
+```
+
+```{r select_species_for_maps, echo=TRUE,EVAL=FALSE}
+
+bns<-read_delim(file.path(dataDir,"all2Data.csv"),
+                col_types = "ccccccccTnnncccccccccccccccn",
+                delim=",")
+splst <- bns %>% 
+         select(AphiaID,scientificnameaccepted,phylum,class,order,family,genus,subgenus) %>% 
+         distinct() %>%
+         mutate(benthos=FALSE,endobenthos=FALSE,macrobenthos=FALSE,epibenthos=FALSE,
+                meiobenthos=FALSE,phytobenthos=FALSE,
+                plankton=FALSE,nekton=FALSE,Pisces=FALSE,Algae=FALSE,
+                Aves_tax=FALSE,Pisces_tax=FALSE,Algae_tax=FALSE,Plants_tax=FALSE,
+                meio_tax=FALSE,micro_tax=FALSE,misc_tax=FALSE)
+
+nsp_attr <- read_delim(file.path(dataDir,"nsp_attr.csv"),delim=",")
 #
 # what Functional groups are there?
 fg <- nsp_attr %>% filter(measurementType=="Functional group") %>% 
@@ -317,6 +331,15 @@ splst<-set_attr("Algae")
 splst<-set_attr("plankton")
 splst<-set_attr("nekton")
 # fill in attributes columns based on taxonomic information
+splst <- splst %>%
+  mutate(Pisces_tax=FALSE) %>%
+  mutate(Aves_tax=FALSE) %>%
+  mutate(Algae_tax=FALSE) %>%
+  mutate(Plants_tax=FALSE) %>%
+  mutate(micro_tax=FALSE) %>%
+  mutate(meio_tax=FALSE) %>%
+  mutate(misc_tax=FALSE)
+
 splst$Pisces_tax <- splst$Pisces_tax | splst$class  == "Actinopterygii" 
 splst$Pisces_tax <- splst$Pisces_tax | splst$class  == "Elasmobranchii"
 splst$Aves_tax   <- splst$Aves_tax   | splst$class  == "Aves"
@@ -347,8 +370,20 @@ splst$misc_tax   <- splst$misc_tax  | splst$class  == "Diplopoda"
 splst$misc_tax   <- splst$misc_tax  | splst$class  == "Collembola"
 splst$misc_tax   <- splst$misc_tax  | splst$class  == "Chilopoda"
 splst$misc_tax   <- splst$misc_tax  | splst$class  == "Clitellata"
+
+splst <- splst %>%
+  mutate(Pisces_tax=ifelse(is.na(Pisces_tax),FALSE,Pisces_tax)) %>%
+  mutate(Aves_tax=ifelse(is.na(Aves_tax),FALSE,Aves_tax)) %>%
+  mutate(Algae_tax=ifelse(is.na(Algae_tax),FALSE,Algae_tax)) %>%
+  mutate(Plants_tax=ifelse(is.na(Plants_tax),FALSE,Plants_tax)) %>%
+  mutate(micro_tax=ifelse(is.na(micro_tax),FALSE,micro_tax)) %>%
+  mutate(meio_tax=ifelse(is.na(meio_tax),FALSE,meio_tax)) %>%
+  mutate(misc_tax=ifelse(is.na(misc_tax),FALSE,misc_tax)) 
+
 # write splst to output
 write_delim(splst,file.path(dataDir,"splst.csv"),delim=",")
+#
+#
 # lists to be produced for WoRMS people
 # list of fish species that do not have Paraphyletic group == Pisces
 prob1 <- splst %>% filter (Pisces_tax & !Pisces)
@@ -401,7 +436,7 @@ write_delim(sp2use,file.path(dataDir,"sp2use.csv"),delim=",")
 
 For the production of maps, we define 'sampling events' as the ensembles of records that share time and place. We consider such events as one sample. For the incomplete datasets, we inventory what species they have targeted. Finally, for every species we determine whether or not it was present in all sampling events of all relevant datasets. This presence/absence information is written to the output file, together with the spatial location and the sampling date. The intention is to use this information to produce interpolated maps covering also the non-sampled space. As a first step in visualisation, we rasterize this information and show it in a map per species. In the following code block, the rasters are calculated and stored in one file per species (for all species that were found more than 200 times - this could easily be extended to all species).
 
-```{r calculate_rasters, echo=TRUE, eval=FALSE}
+```{r calculate_rasters, echo=TRUE, EVAL=FALSE}
 ##########################################################
 #### load data
 ##########################################################
@@ -545,7 +580,7 @@ write_delim(spe,path=file.path(mapsDir,"spe.csv"),delim=",")
 ##Production of maps of the rasters
 We use the EMODnet mapping package EMODnetBiologyMaps to produce maps of the rasters.
 
-```{r produce_plots_with_emodnet_package, eval=FALSE}
+```{r produce_plots_with_emodnet_package, EVAL=FALSE}
 
 ### correct the EMODnetBiologyMaps package by running a slightly modified version
 emodnet_map_plot_2<-function (data, fill = NULL, title = NULL, subtitle = NULL, 
