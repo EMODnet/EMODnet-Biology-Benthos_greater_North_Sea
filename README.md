@@ -5,7 +5,7 @@
 The large databases of EMODNET Biology only store confirmed presences of species. However, when mapping species distribution, it is also important where the species did not occur: there is at least as much information in absences as in presences. Inferring absences from presence-only databases is difficult and always involves some guesswork.
 In this product we have used as much meta-information as possible to guide us in inferring absences. There is important meta-information at two different levels: the level of the data set, and the level of the species. 
 Datasets can contain implicit information on absences when they have uniformly searched for the same species over a number of sample locations. Normally, if the species would have been present there, it would have been recorded. Other datasets, however, are not informative at all about absences. Typical examples are museum collections. The fact that a specimen is found at a particular place confirms that it lived there, but does not give information on any other species being present or absent in the same spot. A difficulty is that some datasets have searched for a restricted part of the total community, e.g. only sampled shellfish but no worms. In this case, absence of a shellfish species is relevant, but absence of a worm is not. The dataset can only be used to infer absence for the species it has targeted. Here we implicitly assume that a dataset inventoring the endomacrobenthos, is targeting all species belonging to this functional group. Usually, the distinction can be made on the basis of the metadata. It is also helpful to plot the total number of species versus the total number of samples. Incomplete datasets have far less species than expected for their size, compared to 'complete' datasets.
-At the species level, taxonomic registers such as WoRMS give information on the functional group the species belongs to. This information is present for many species, but it is most likely incomplete. The size of the register excludes any easy test of completeness of the traits. However, even if incomplete, the register trait data can be used to select the most useful datasets. If one were to use an incomplete register directly to restrict the species to be used in mapping, that would cause loss of interesting information. Therefore the present workflow contains additional steps using the identified promising datasets rather than the species list based on the register’s traits.
+At the species level, taxonomic registers such as WoRMS (WoRMS Editorial Board, 2021) give information on the functional group the species belongs to. This information is present for many species, but it is most likely incomplete. The size of the register excludes any easy test of completeness of the traits. However, even if incomplete, the register trait data can be used to select the most useful datasets. If one were to use an incomplete register directly to restrict the species to be used in mapping, that would cause loss of interesting information. Therefore the present workflow contains additional steps using the identified promising datasets rather than the species list based on the register’s traits.
 
 ## General procedure in preparing the data product
 
@@ -52,9 +52,15 @@ Currently, there are maps available for a total of 1095 taxa. These encompass al
 Distinction between ‘complete’ and ‘incomplete’ datasets was made based on the description of the datasets in the meta-information, and checked using the relation between sampling effort and number of species found. The latter showed a good overall correspondence for the ‘complete’ datasets, although some datasets focusing on estuarine areas had a relatively modest number of taxa found for a relatively large sampling effort.
 From the large number (approximately 6500) of taxa found in these datasets, most are classified in WoRMS as ‘Benthos’. However, over 1000 species were not, even though they were all found in datasets targeting benthos. This is partly explained because benthos datasets also find small fish, occasional zooplankton and other animals that are not typically benthic but that are often reported in the results. Another reason is that it concerns high-level taxa that count both benthic and non-benthic species in the taxon. Lastly, however, it is due to the fact that the species databases are incomplete. The list of non-benthic taxa found in benthic datasets was transferred to the WoRMS editors, in order to help with updating the traits database. This operation was not at all automatic, as it was clear that the list contained a large number of taxa that could not be termed ‘benthic’.
 
+The maps were created using the [EMODnetBiologyMaps](https://github.com/EMODnet/EMODnetBiologyMaps) R package.
 
 ## More information:
 
+### References
+
+Salvador Fernández-Bejarano, Lennert Schepers (2020). EMODnetBiologyMaps: Creates ggplot maps with the style of EMODnet. R package version 0.0.1.0. Integrated data products created under the European Marine Observation Data Network (EMODnet) Biology project (EASME/EMFF/2017/1.3.1.2/02/SI2.789013), funded by the by the European Union under Regulation (EU) No 508/2014 of the European Parliament and of the Council of 15 May 2014 on the European Maritime and Fisheries Fund, https://github.com/EMODnet/EMODnetBiologyMaps
+
+WoRMS Editorial Board (2021). World Register of Marine Species. Available from https://www.marinespecies.org at VLIZ. Accessed 2021-04-09. doi:10.14284/170
 
 ### Citation and download link
 
@@ -64,7 +70,7 @@ Herman, P.M.J., Stolte, W., van der Heijden, L. 2020. Summary presence/absence m
 
 Available to download in:
 
-{{link_download}}
+https://www.emodnet-biology.eu/data-catalog?module=dataset&dasid=6617
 
 ### Authors
 
